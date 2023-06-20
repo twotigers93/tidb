@@ -33,10 +33,10 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	tmysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	tmysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/model"
 	"go.uber.org/zap"
 )
 

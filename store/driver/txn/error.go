@@ -25,15 +25,15 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	derr "github.com/pingcap/tidb/store/driver/error"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/logutil"
 	tikverr "github.com/tikv/client-go/v2/error"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	derr "github.com/twotigers93/tidb/store/driver/error"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

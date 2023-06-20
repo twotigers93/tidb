@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pingcap/tidb/parser/ast"
-	driver "github.com/pingcap/tidb/types/parser_driver"
-	"github.com/pingcap/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/parser/ast"
+	driver "github.com/twotigers93/tidb/types/parser_driver"
+	"github.com/twotigers93/tidb/util/stringutil"
 )
 
 var (

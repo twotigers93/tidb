@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/parser/terror"
 	"github.com/shirou/gopsutil/v3/mem"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 // MemTotal returns the total amount of RAM on this system

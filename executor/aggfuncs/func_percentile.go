@@ -19,10 +19,10 @@ import (
 	"sort"
 	"unsafe"
 
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/selection"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/selection"
 )
 
 const (

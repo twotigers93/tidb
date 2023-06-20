@@ -19,12 +19,12 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/mockstore/unistore"
 	"github.com/tikv/client-go/v2/testutils"
 	"github.com/tikv/client-go/v2/tikv"
 	pd "github.com/tikv/pd/client"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/mockstore/unistore"
 )
 
 // MockTiKVDriver is in memory mock TiKV driver.

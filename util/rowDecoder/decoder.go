@@ -18,16 +18,16 @@ import (
 	"sort"
 	"time"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/rowcodec"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/rowcodec"
 )
 
 // Column contains the info and generated expr of column.

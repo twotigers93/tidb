@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 
 	"github.com/gorilla/mux"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/domain/infosync"
 )
 
 // OptimizeTraceHandler serve http

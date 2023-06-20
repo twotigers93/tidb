@@ -32,8 +32,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 )
 
 // record is a flag used for generate test result.

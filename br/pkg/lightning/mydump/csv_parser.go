@@ -20,10 +20,10 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/worker"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 var (

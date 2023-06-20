@@ -17,8 +17,8 @@ package testkit
 import (
 	"crypto/tls"
 
-	"github.com/pingcap/tidb/session/txninfo"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/session/txninfo"
+	"github.com/twotigers93/tidb/util"
 )
 
 // MockSessionManager is a mocked session manager which is used for test.

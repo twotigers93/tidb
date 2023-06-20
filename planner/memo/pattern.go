@@ -15,7 +15,7 @@
 package memo
 
 import (
-	plannercore "github.com/pingcap/tidb/planner/core"
+	plannercore "github.com/twotigers93/tidb/planner/core"
 )
 
 // Operand is the node of a pattern tree, it represents a logical expression operator.

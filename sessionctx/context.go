@@ -20,16 +20,16 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/kvcache"
-	"github.com/pingcap/tidb/util/sli"
-	"github.com/pingcap/tidb/util/topsql/stmtstats"
 	"github.com/pingcap/tipb/go-binlog"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/kvcache"
+	"github.com/twotigers93/tidb/util/sli"
+	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 )
 
 // InfoschemaMetaVersion is a workaround. Due to circular dependency,

@@ -20,7 +20,7 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	pb "github.com/pingcap/tidb/tidb-binlog/proto/go-binlog"
+	pb "github.com/twotigers93/tidb/tidb-binlog/proto/go-binlog"
 	"go.uber.org/zap"
 )
 

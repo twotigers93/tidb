@@ -16,8 +16,8 @@ package types
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/opcode"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/parser/opcode"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 // ComputePlus computes the result of a+b.

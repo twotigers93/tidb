@@ -29,11 +29,11 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/mock"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/mock"
 	"go.uber.org/zap"
 )
 

@@ -15,7 +15,7 @@
 package checkpoints
 
 import (
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 type TidbDBInfo struct {

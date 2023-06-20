@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/mockstore"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/oracle"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/store/mockstore"
 )
 
 // CreateMockStore return a new mock kv.Storage.

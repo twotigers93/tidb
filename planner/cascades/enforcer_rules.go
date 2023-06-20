@@ -17,11 +17,11 @@ package cascades
 import (
 	"math"
 
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/planner/implementation"
-	"github.com/pingcap/tidb/planner/memo"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/planner/util"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/planner/implementation"
+	"github.com/twotigers93/tidb/planner/memo"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/planner/util"
 )
 
 // Enforcer defines the interface for enforcer rules.

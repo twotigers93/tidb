@@ -18,7 +18,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/pingcap/tidb/metrics"
+	"github.com/twotigers93/tidb/metrics"
 )
 
 var (

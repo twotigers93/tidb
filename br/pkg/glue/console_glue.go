@@ -12,7 +12,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/br/pkg/logutil"
+	"github.com/twotigers93/tidb/br/pkg/logutil"
 	"go.uber.org/zap"
 	"golang.org/x/term"
 )

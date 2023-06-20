@@ -27,8 +27,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/util/hack"
 )
 
 /*

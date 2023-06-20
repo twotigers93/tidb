@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	tmysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/terror"
+	tmysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/terror"
 	"go.uber.org/multierr"
 )
 

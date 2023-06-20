@@ -16,12 +16,12 @@ package core
 
 import (
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/planner/util"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/expression/aggregation"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/planner/util"
+	"github.com/twotigers93/tidb/sessionctx"
 )
 
 // InjectExtraProjection is used to extract the expressions of specific

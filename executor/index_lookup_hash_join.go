@@ -26,14 +26,14 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/expression"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/memory"
-	"github.com/pingcap/tidb/util/ranger"
+	"github.com/twotigers93/tidb/expression"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/ranger"
 )
 
 // numResChkHold indicates the number of resource chunks that an inner worker

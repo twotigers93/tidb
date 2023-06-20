@@ -18,7 +18,7 @@ import (
 	"strconv"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 var _ AutoIDAccessor = &autoIDAccessor{}

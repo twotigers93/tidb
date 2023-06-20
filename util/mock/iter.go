@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
 	"github.com/stretchr/testify/assert"
+	"github.com/twotigers93/tidb/kv"
 )
 
 // SliceIter is used to iterate slice

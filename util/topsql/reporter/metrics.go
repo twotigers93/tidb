@@ -14,7 +14,7 @@
 
 package reporter
 
-import "github.com/pingcap/tidb/metrics"
+import "github.com/twotigers93/tidb/metrics"
 
 var (
 	ignoreExceedSQLCounter              = metrics.TopSQLIgnoredCounter.WithLabelValues("ignore_exceed_sql")

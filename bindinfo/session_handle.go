@@ -18,12 +18,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

@@ -20,14 +20,14 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/sqlexec"
 	"go.uber.org/zap"
 )
 

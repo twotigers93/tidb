@@ -18,7 +18,7 @@ import (
 	"encoding/binary"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 // KeyAdapter is used to encode and decode keys.

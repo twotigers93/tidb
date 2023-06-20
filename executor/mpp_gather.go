@@ -19,14 +19,14 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/distsql"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/kv"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/distsql"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/kv"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

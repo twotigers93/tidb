@@ -21,9 +21,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/util/logutil"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/concurrency"
 	"go.uber.org/zap"

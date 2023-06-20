@@ -22,8 +22,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/metrics"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/metrics"
 	atomicutil "go.uber.org/atomic"
 )
 

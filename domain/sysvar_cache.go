@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/sqlexec"
 	pd "github.com/tikv/pd/client"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/sqlexec"
 	"go.uber.org/zap"
 	"golang.org/x/exp/maps"
 )

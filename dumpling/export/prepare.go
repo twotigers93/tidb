@@ -11,7 +11,7 @@ import (
 
 	"github.com/pingcap/errors"
 
-	tcontext "github.com/pingcap/tidb/dumpling/context"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

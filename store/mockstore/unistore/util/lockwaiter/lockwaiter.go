@@ -21,7 +21,7 @@ import (
 
 	"github.com/pingcap/kvproto/pkg/deadlock"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/store/mockstore/unistore/config"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/config"
 	"go.uber.org/zap"
 )
 

@@ -14,7 +14,7 @@
 
 package collate
 
-import "github.com/pingcap/tidb/util/stringutil"
+import "github.com/twotigers93/tidb/util/stringutil"
 
 type gbkChineseCICollator struct {
 }

@@ -18,7 +18,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/pingcap/tidb/expression"
+	"github.com/twotigers93/tidb/expression"
 )
 
 type joinReorderGreedySolver struct {

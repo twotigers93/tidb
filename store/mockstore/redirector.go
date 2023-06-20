@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/config"
 	"github.com/tikv/client-go/v2/tikv"
 	"github.com/tikv/client-go/v2/tikvrpc"
+	"github.com/twotigers93/tidb/config"
 )
 
 type clientRedirector struct {

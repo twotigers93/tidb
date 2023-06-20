@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/execdetails"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/kvcache"
-	"github.com/pingcap/tidb/util/plancodec"
 	"github.com/tikv/client-go/v2/util"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/execdetails"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/kvcache"
+	"github.com/twotigers93/tidb/util/plancodec"
 	atomic2 "go.uber.org/atomic"
 )
 

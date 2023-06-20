@@ -15,8 +15,8 @@
 package core
 
 import (
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/planner/util"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/planner/util"
 )
 
 // preparePossibleProperties traverses the plan tree by a post-order method,

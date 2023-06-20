@@ -18,15 +18,15 @@ import (
 	"context"
 	"errors"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/infoschema"
-	m "github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/sqlexec"
 	"github.com/tikv/client-go/v2/metrics"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/infoschema"
+	m "github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/sqlexec"
 )
 
 // emptyClusterIndexUsage is empty ClusterIndexUsage, deprecated.

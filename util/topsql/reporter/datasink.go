@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	topsqlstate "github.com/pingcap/tidb/util/topsql/state"
 	"github.com/pingcap/tipb/go-tipb"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
 )
 
 // DataSink collects and sends data to a target.

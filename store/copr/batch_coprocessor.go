@@ -32,13 +32,13 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/mpp"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/driver/backoff"
-	derr "github.com/pingcap/tidb/store/driver/error"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/tikv/client-go/v2/metrics"
 	"github.com/tikv/client-go/v2/tikv"
 	"github.com/tikv/client-go/v2/tikvrpc"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/driver/backoff"
+	derr "github.com/twotigers93/tidb/store/driver/error"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

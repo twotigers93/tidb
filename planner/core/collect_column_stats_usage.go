@@ -15,8 +15,8 @@
 package core
 
 import (
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 const (

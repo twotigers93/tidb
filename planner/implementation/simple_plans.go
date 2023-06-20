@@ -15,8 +15,8 @@
 package implementation
 
 import (
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/planner/memo"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/planner/memo"
 )
 
 // ProjectionImpl is the implementation of PhysicalProjection.

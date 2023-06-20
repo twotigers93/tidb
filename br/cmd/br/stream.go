@@ -16,11 +16,11 @@ package main
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/task"
-	"github.com/pingcap/tidb/br/pkg/trace"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/br/pkg/version/build"
 	"github.com/spf13/cobra"
+	"github.com/twotigers93/tidb/br/pkg/task"
+	"github.com/twotigers93/tidb/br/pkg/trace"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/br/pkg/version/build"
 	"sourcegraph.com/sourcegraph/appdash"
 )
 

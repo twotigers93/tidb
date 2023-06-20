@@ -19,12 +19,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 // GetTableByName gets table by name for test.

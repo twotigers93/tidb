@@ -18,12 +18,12 @@ import (
 	"container/heap"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/collate"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/collate"
 )
 
 type sortRow struct {

@@ -19,10 +19,10 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/tidb-binlog/node"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/tidb-binlog/node"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // ChangeExec represents a change executor.

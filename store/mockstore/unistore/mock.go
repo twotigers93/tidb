@@ -18,9 +18,9 @@ import (
 	"os"
 
 	"github.com/pingcap/errors"
-	usconf "github.com/pingcap/tidb/store/mockstore/unistore/config"
-	ussvr "github.com/pingcap/tidb/store/mockstore/unistore/server"
 	pd "github.com/tikv/pd/client"
+	usconf "github.com/twotigers93/tidb/store/mockstore/unistore/config"
+	ussvr "github.com/twotigers93/tidb/store/mockstore/unistore/server"
 )
 
 // New creates an embed unistore client, pd client and cluster handler.

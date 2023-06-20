@@ -21,9 +21,9 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/format"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/opcode"
+	"github.com/twotigers93/tidb/parser/format"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/opcode"
 )
 
 var (

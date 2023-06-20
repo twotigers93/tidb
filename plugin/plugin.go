@@ -23,9 +23,9 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/logutil"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.uber.org/zap"
 )

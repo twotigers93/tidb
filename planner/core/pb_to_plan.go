@@ -19,16 +19,16 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/coprocessor"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/planner/util"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/expression/aggregation"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/planner/util"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types"
 )
 
 // PBPlanBuilder uses to build physical plan from dag protocol buffers.

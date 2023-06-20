@@ -23,12 +23,12 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/execdetails"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/execdetails"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/memory"
 	"go.uber.org/zap"
 )
 

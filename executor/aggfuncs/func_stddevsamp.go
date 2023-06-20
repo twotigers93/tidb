@@ -17,8 +17,8 @@ package aggfuncs
 import (
 	"math"
 
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 type stddevSamp4Float64 struct {

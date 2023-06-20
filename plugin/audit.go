@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/sessionctx/variable"
 )
 
 // GeneralEvent presents TiDB generate event.

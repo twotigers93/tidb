@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/disk"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/disk"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/memory"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

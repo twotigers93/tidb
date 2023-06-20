@@ -31,13 +31,13 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/kvproto/pkg/pdpb"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/mockstore/unistore/cophandler"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/dbreader"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/mvcc"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
 	pdclient "github.com/tikv/pd/client"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/cophandler"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/dbreader"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/mvcc"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 // MPPTaskHandlerMap is a map of *cophandler.MPPTaskHandler.

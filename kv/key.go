@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 // Key represents high-level Key type.

@@ -18,15 +18,15 @@ import (
 	"fmt"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 // columnGenerationInDDL is a struct for validating generated columns in DDL.

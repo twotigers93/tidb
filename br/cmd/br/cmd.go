@@ -13,16 +13,16 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/br/pkg/gluetidb"
-	"github.com/pingcap/tidb/br/pkg/redact"
-	"github.com/pingcap/tidb/br/pkg/summary"
-	"github.com/pingcap/tidb/br/pkg/task"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/br/pkg/version/build"
-	"github.com/pingcap/tidb/config"
-	tidbutils "github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/spf13/cobra"
+	"github.com/twotigers93/tidb/br/pkg/gluetidb"
+	"github.com/twotigers93/tidb/br/pkg/redact"
+	"github.com/twotigers93/tidb/br/pkg/summary"
+	"github.com/twotigers93/tidb/br/pkg/task"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/br/pkg/version/build"
+	"github.com/twotigers93/tidb/config"
+	tidbutils "github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/logutil"
 )
 
 var (

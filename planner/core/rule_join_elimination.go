@@ -19,9 +19,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/util/set"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/util/set"
 )
 
 type outerJoinEliminator struct {

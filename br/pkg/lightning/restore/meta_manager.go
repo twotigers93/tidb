@@ -11,14 +11,14 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/tidb"
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	verify "github.com/pingcap/tidb/br/pkg/lightning/verification"
-	"github.com/pingcap/tidb/br/pkg/pdutil"
-	"github.com/pingcap/tidb/br/pkg/redact"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/tidb"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	verify "github.com/twotigers93/tidb/br/pkg/lightning/verification"
+	"github.com/twotigers93/tidb/br/pkg/pdutil"
+	"github.com/twotigers93/tidb/br/pkg/redact"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
 	"go.uber.org/zap"
 )
 

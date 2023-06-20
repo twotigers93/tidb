@@ -15,8 +15,8 @@
 package server
 
 import (
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 const maxColumnNameSize = 256

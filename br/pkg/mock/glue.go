@@ -10,12 +10,12 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	checkpoints "github.com/pingcap/tidb/br/pkg/lightning/checkpoints"
-	config "github.com/pingcap/tidb/br/pkg/lightning/config"
-	glue "github.com/pingcap/tidb/br/pkg/lightning/glue"
-	log "github.com/pingcap/tidb/br/pkg/lightning/log"
-	parser "github.com/pingcap/tidb/parser"
-	model "github.com/pingcap/tidb/parser/model"
+	checkpoints "github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
+	config "github.com/twotigers93/tidb/br/pkg/lightning/config"
+	glue "github.com/twotigers93/tidb/br/pkg/lightning/glue"
+	log "github.com/twotigers93/tidb/br/pkg/lightning/log"
+	parser "github.com/twotigers93/tidb/parser"
+	model "github.com/twotigers93/tidb/parser/model"
 )
 
 // MockGlue is a mock of Glue interface

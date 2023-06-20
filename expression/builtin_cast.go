@@ -28,16 +28,16 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/chunk"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/types/json"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 var (

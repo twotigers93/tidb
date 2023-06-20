@@ -19,11 +19,11 @@ package testutil
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/collate"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/collate"
 )
 
 // DatumEqual verifies that the actual value is equal to the expected value. For string datum, they are compared by the binary collation.

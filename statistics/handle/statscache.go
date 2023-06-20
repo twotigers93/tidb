@@ -15,9 +15,9 @@
 package handle
 
 import (
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/statistics"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/statistics"
 )
 
 // statsCacheInner is the interface to manage the statsCache, it can be implemented by map, lru cache or other structures.

@@ -31,12 +31,12 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/ddl/placement"
-	"github.com/pingcap/tidb/store/helper"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/pdapi"
+	"github.com/twotigers93/tidb/ddl/placement"
+	"github.com/twotigers93/tidb/store/helper"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/pdapi"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.uber.org/zap"
 )

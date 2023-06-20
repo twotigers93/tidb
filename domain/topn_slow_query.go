@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/util/execdetails"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/util/execdetails"
 )
 
 type slowQueryHeap struct {

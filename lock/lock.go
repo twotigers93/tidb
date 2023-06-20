@@ -17,12 +17,12 @@ package lock
 import (
 	"errors"
 
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/util"
 )
 
 // Checker uses to check tables lock.

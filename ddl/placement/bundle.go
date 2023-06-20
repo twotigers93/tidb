@@ -25,9 +25,9 @@ import (
 	"strings"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 // Refer to https://github.com/tikv/pd/issues/2701 .

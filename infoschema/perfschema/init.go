@@ -18,15 +18,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/util"
 )
 
 var once sync.Once

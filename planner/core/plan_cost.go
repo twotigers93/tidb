@@ -18,12 +18,12 @@ import (
 	"math"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/util/paging"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/util/paging"
 )
 
 const (

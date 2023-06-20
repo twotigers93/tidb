@@ -16,10 +16,10 @@ package stream
 
 import (
 	"github.com/pingcap/errors"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 // RawMetaKey specified a transaction meta key.

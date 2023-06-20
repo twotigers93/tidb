@@ -15,11 +15,11 @@
 package expression
 
 import (
-	mysql "github.com/pingcap/tidb/errno"
-	pmysql "github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/dbterror"
+	mysql "github.com/twotigers93/tidb/errno"
+	pmysql "github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 // Error instances.

@@ -9,10 +9,10 @@ import (
 	"github.com/pingcap/kvproto/pkg/import_sstpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/log"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
-	"github.com/pingcap/tidb/br/pkg/logutil"
-	"github.com/pingcap/tidb/br/pkg/rtree"
-	"github.com/pingcap/tidb/tablecodec"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
+	"github.com/twotigers93/tidb/br/pkg/logutil"
+	"github.com/twotigers93/tidb/br/pkg/rtree"
+	"github.com/twotigers93/tidb/tablecodec"
 	"go.uber.org/zap"
 )
 

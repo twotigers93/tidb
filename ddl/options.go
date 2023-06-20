@@ -17,8 +17,8 @@ package ddl
 import (
 	"time"
 
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/kv"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/kv"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

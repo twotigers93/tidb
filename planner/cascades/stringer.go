@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pingcap/tidb/planner/memo"
+	"github.com/twotigers93/tidb/planner/memo"
 )
 
 // ToString stringifies a Group Tree.

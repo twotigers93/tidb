@@ -20,13 +20,13 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/tidb/br/pkg/version"
-	dbconfig "github.com/pingcap/tidb/config"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
-	"github.com/pingcap/tidb/dumpling/log"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/store/helper"
+	"github.com/twotigers93/tidb/br/pkg/version"
+	dbconfig "github.com/twotigers93/tidb/config"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/dumpling/log"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/store/helper"
 )
 
 const (

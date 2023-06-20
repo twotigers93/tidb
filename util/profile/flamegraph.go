@@ -20,8 +20,8 @@ import (
 	"sort"
 
 	"github.com/google/pprof/profile"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/texttree"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/texttree"
 )
 
 type flamegraphNode struct {

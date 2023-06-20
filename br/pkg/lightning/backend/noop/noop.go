@@ -19,14 +19,14 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/kv"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/lightning/verification"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/verification"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/types"
 )
 
 func NewNoopBackend() backend.Backend {

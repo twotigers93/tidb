@@ -20,11 +20,11 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/mathutil"
-	"github.com/pingcap/tidb/util/sqlexec"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/util/sqlexec"
 	"go.uber.org/zap"
 )
 

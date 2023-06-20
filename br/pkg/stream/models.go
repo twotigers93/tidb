@@ -10,9 +10,9 @@ import (
 
 	"github.com/pingcap/errors"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
-	"github.com/pingcap/tidb/br/pkg/logutil"
-	"github.com/pingcap/tidb/kv"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
+	"github.com/twotigers93/tidb/br/pkg/logutil"
+	"github.com/twotigers93/tidb/kv"
 	"go.uber.org/zap"
 )
 

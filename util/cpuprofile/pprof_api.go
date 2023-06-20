@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/google/pprof/profile"
-	goutil "github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/logutil"
+	goutil "github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

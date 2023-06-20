@@ -20,8 +20,8 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/types"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/types"
 )
 
 // CodecVer is the constant number that represent the new row format.

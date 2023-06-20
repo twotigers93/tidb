@@ -18,7 +18,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/tidb-binlog/driver/reader"
+	"github.com/twotigers93/tidb/tidb-binlog/driver/reader"
 	"go.uber.org/zap"
 )
 

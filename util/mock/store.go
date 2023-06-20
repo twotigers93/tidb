@@ -18,9 +18,9 @@ import (
 	"context"
 
 	deadlockpb "github.com/pingcap/kvproto/pkg/deadlock"
-	"github.com/pingcap/tidb/kv"
 	"github.com/tikv/client-go/v2/oracle"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/kv"
 )
 
 // Store implements kv.Storage interface.

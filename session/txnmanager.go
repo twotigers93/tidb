@@ -18,13 +18,13 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/sessiontxn/legacy"
-	"github.com/pingcap/tidb/sessiontxn/staleread"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/sessiontxn/legacy"
+	"github.com/twotigers93/tidb/sessiontxn/staleread"
 )
 
 func init() {

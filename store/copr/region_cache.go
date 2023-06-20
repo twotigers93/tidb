@@ -19,12 +19,12 @@ import (
 	"strconv"
 
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/kv"
-	derr "github.com/pingcap/tidb/store/driver/error"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/mathutil"
 	"github.com/tikv/client-go/v2/metrics"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/kv"
+	derr "github.com/twotigers93/tidb/store/driver/error"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/mathutil"
 	"go.uber.org/zap"
 )
 

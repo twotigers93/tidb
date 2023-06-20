@@ -17,7 +17,7 @@ package session
 import (
 	"context"
 
-	"github.com/pingcap/tidb/parser/terror"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 // Advisory Locks are the locks in GET_LOCK() and RELEASE_LOCK().

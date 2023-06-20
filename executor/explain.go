@@ -18,9 +18,9 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 // ExplainExec represents an explain executor.

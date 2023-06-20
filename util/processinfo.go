@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/session/txninfo"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/execdetails"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/session/txninfo"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/execdetails"
 )
 
 // ProcessInfo is a struct used for show processlist statement.

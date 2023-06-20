@@ -19,13 +19,13 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/gcutil"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/gcutil"
 )
 
 // StatsHandler is the handler for dumping statistics.

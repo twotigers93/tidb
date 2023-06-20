@@ -15,8 +15,8 @@
 package aggfuncs
 
 import (
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 type varSamp4Float64 struct {

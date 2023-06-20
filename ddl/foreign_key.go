@@ -16,10 +16,10 @@ package ddl
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 func onCreateForeignKey(d *ddlCtx, t *meta.Meta, job *model.Job) (ver int64, _ error) {

@@ -19,9 +19,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

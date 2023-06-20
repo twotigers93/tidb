@@ -21,11 +21,11 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/ddl/util"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/ddl/util"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

@@ -13,11 +13,11 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 	uuid "github.com/google/uuid"
-	backend "github.com/pingcap/tidb/br/pkg/lightning/backend"
-	kv "github.com/pingcap/tidb/br/pkg/lightning/backend/kv"
-	config "github.com/pingcap/tidb/br/pkg/lightning/config"
-	model "github.com/pingcap/tidb/parser/model"
-	table "github.com/pingcap/tidb/table"
+	backend "github.com/twotigers93/tidb/br/pkg/lightning/backend"
+	kv "github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
+	config "github.com/twotigers93/tidb/br/pkg/lightning/config"
+	model "github.com/twotigers93/tidb/parser/model"
+	table "github.com/twotigers93/tidb/table"
 )
 
 // MockBackend is a mock of AbstractBackend interface.

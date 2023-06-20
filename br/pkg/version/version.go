@@ -14,11 +14,11 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/log"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
-	"github.com/pingcap/tidb/br/pkg/logutil"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/br/pkg/version/build"
 	pd "github.com/tikv/pd/client"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
+	"github.com/twotigers93/tidb/br/pkg/logutil"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/br/pkg/version/build"
 	"go.uber.org/zap"
 )
 

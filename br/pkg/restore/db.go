@@ -10,13 +10,13 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/br/pkg/glue"
-	"github.com/pingcap/tidb/br/pkg/metautil"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/br/pkg/glue"
+	"github.com/twotigers93/tidb/br/pkg/metautil"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx/variable"
 	"go.uber.org/zap"
 )
 

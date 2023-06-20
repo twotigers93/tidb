@@ -9,9 +9,9 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	ast "github.com/pingcap/tidb/parser/ast"
-	types "github.com/pingcap/tidb/types"
-	sqlexec "github.com/pingcap/tidb/util/sqlexec"
+	ast "github.com/twotigers93/tidb/parser/ast"
+	types "github.com/twotigers93/tidb/types"
+	sqlexec "github.com/twotigers93/tidb/util/sqlexec"
 )
 
 // MockSession is a mock of Session interface

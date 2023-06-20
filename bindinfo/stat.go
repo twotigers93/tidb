@@ -15,7 +15,7 @@
 package bindinfo
 
 import (
-	"github.com/pingcap/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/sessionctx/variable"
 )
 
 var (

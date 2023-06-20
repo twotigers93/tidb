@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	selector "github.com/pingcap/tidb/util/table-rule-selector"
+	selector "github.com/twotigers93/tidb/util/table-rule-selector"
 )
 
 // TableRule is a rule to route schema/table to target schema/table

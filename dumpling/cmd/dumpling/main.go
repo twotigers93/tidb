@@ -22,8 +22,8 @@ import (
 	"github.com/spf13/pflag"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/tidb/dumpling/cli"
-	"github.com/pingcap/tidb/dumpling/export"
+	"github.com/twotigers93/tidb/dumpling/cli"
+	"github.com/twotigers93/tidb/dumpling/export"
 )
 
 func main() {

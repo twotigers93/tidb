@@ -24,10 +24,10 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/types/json"
+	"github.com/twotigers93/tidb/util/hack"
 )
 
 func truncateStr(str string, flen int) string {

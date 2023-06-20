@@ -15,8 +15,8 @@
 package temptable
 
 import (
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/sessionctx"
 )
 
 // AttachLocalTemporaryTableInfoSchema attach local temporary table information schema to is

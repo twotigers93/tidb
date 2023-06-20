@@ -7,12 +7,12 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/filter"
-	"github.com/pingcap/tidb/util/slice"
+	"github.com/twotigers93/tidb/util/filter"
+	"github.com/twotigers93/tidb/util/slice"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
 )
 
 type SourceType int

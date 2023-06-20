@@ -15,13 +15,13 @@
 package core
 
 import (
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	driver "github.com/pingcap/tidb/types/parser_driver"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	driver "github.com/twotigers93/tidb/types/parser_driver"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

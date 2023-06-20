@@ -21,11 +21,11 @@ import (
 	_ "runtime" // import link package
 	_ "unsafe"  // required by go:linkname
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/util/israce"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/versioninfo"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/util/israce"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/versioninfo"
 	"go.uber.org/zap"
 )
 

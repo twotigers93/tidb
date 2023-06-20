@@ -17,9 +17,9 @@ package chunk
 import (
 	"strconv"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/json"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/types/json"
 )
 
 // Row represents a row of data, can be used to access values.

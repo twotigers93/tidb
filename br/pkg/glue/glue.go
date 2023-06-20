@@ -5,10 +5,10 @@ package glue
 import (
 	"context"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
 	pd "github.com/tikv/pd/client"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 // Glue is an abstraction of TiDB function calls used in BR.

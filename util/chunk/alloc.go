@@ -15,8 +15,8 @@
 package chunk
 
 import (
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 // Allocator is an interface defined to reduce object allocation.

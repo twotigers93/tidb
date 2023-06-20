@@ -17,8 +17,8 @@ package core
 import (
 	"math/bits"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/ast"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/ast"
 )
 
 type joinReorderDPSolver struct {

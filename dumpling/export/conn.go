@@ -8,8 +8,8 @@ import (
 	"github.com/pingcap/errors"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/tidb/br/pkg/utils"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
 )
 
 // BaseConn wraps connection instance.

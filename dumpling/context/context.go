@@ -6,7 +6,7 @@ package context
 import (
 	gcontext "context"
 
-	"github.com/pingcap/tidb/dumpling/log"
+	"github.com/twotigers93/tidb/dumpling/log"
 )
 
 // Context is used to in dm to record some context field like

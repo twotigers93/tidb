@@ -19,7 +19,7 @@ import (
 
 	"github.com/pingcap/badger"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/store/mockstore/unistore/lockstore"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/lockstore"
 )
 
 // DBWriter is the interface to persistent data.

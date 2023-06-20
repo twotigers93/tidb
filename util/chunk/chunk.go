@@ -18,9 +18,9 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/types/json"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 var msgErrSelNotNil = "The selection vector of Chunk is not nil. Please file a bug to the TiDB Team"

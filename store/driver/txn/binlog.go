@@ -19,10 +19,10 @@ import (
 	"sync"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/sessionctx/binloginfo"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/pingcap/tipb/go-binlog"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/sessionctx/binloginfo"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

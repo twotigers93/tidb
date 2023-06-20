@@ -17,7 +17,7 @@ package collate
 import (
 	"strings"
 
-	"github.com/pingcap/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/util/stringutil"
 )
 
 type binCollator struct {

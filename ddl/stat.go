@@ -18,8 +18,8 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/sessionctx/variable"
 )
 
 var (

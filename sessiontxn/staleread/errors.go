@@ -15,8 +15,8 @@
 package staleread
 
 import (
-	mysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/util/dbterror"
+	mysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 var (

@@ -15,11 +15,11 @@
 package core
 
 import (
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/types"
 )
 
 // PartitionPruning finds all used partitions according to query conditions, it will

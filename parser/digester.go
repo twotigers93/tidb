@@ -23,7 +23,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/pingcap/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/charset"
 )
 
 type Digest struct {

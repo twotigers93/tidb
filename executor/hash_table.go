@@ -23,15 +23,15 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/disk"
-	"github.com/pingcap/tidb/util/execdetails"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/disk"
+	"github.com/twotigers93/tidb/util/execdetails"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 // hashContext keeps the needed hash context of a db table in hash join.

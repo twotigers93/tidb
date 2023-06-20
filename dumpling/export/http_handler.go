@@ -13,8 +13,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/soheilhy/cmux"
 
-	tcontext "github.com/pingcap/tidb/dumpling/context"
-	"github.com/pingcap/tidb/dumpling/log"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/dumpling/log"
 )
 
 var cmuxReadTimeout = 10 * time.Second

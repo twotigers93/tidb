@@ -21,11 +21,11 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/chunk"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types/json"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 func vecJSONModify(ctx sessionctx.Context, args []Expression, bufAllocator columnBufferAllocator, input *chunk.Chunk, result *chunk.Column, mt json.ModifyType) error {

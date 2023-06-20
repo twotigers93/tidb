@@ -21,13 +21,13 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/util/arena"
-	"github.com/pingcap/tidb/util/chunk"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/util/arena"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // MockConn is a mock connection.

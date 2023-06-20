@@ -24,8 +24,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/stringutil"
 )
 
 // Type returns type of BinaryJSON as string.

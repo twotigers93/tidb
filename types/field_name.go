@@ -17,8 +17,8 @@ package types
 import (
 	"strings"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 // FieldName records the names used for mysql protocol.

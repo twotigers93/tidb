@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/pdapi"
+	"github.com/twotigers93/tidb/util/pdapi"
 )
 
 // PlacementScheduleState is the returned third-valued state from GetReplicationState(). For convenience, the string of PD is deserialized into an enum first.

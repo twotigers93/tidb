@@ -25,12 +25,12 @@ import (
 	"unicode"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/mathutil"
-	"github.com/pingcap/tidb/util/parser"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/util/parser"
 )
 
 // Time format without fractional seconds precision.

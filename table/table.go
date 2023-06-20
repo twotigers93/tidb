@@ -23,14 +23,14 @@ import (
 	"time"
 
 	"github.com/opentracing/opentracing-go"
-	mysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/dbterror"
-	"github.com/pingcap/tidb/util/sqlexec"
+	mysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/util/sqlexec"
 )
 
 // Type is used to distinguish between different tables that store data in different ways.

@@ -21,8 +21,8 @@ import (
 	"sync"
 
 	"github.com/pingcap/kvproto/pkg/pdpb"
-	us "github.com/pingcap/tidb/store/mockstore/unistore/tikv"
 	pd "github.com/tikv/pd/client"
+	us "github.com/twotigers93/tidb/store/mockstore/unistore/tikv"
 )
 
 var _ pd.Client = new(pdClient)

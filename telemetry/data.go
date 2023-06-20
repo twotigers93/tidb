@@ -17,7 +17,7 @@ package telemetry
 import (
 	"time"
 
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx"
 )
 
 type telemetryData struct {

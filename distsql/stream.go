@@ -19,16 +19,16 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/dbterror"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 // streamResult implements the SelectResult interface.

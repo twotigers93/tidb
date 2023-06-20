@@ -21,7 +21,7 @@ import (
 	"sync"
 
 	"github.com/pingcap/errors"
-	selector "github.com/pingcap/tidb/util/table-rule-selector"
+	selector "github.com/twotigers93/tidb/util/table-rule-selector"
 )
 
 var (

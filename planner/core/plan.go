@@ -20,17 +20,17 @@ import (
 	"strconv"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/kv"
-	fd "github.com/pingcap/tidb/planner/funcdep"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/planner/util"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mathutil"
-	"github.com/pingcap/tidb/util/stringutil"
-	"github.com/pingcap/tidb/util/tracing"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/kv"
+	fd "github.com/twotigers93/tidb/planner/funcdep"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/planner/util"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/util/tracing"
 )
 
 // Plan is the description of an execution flow.

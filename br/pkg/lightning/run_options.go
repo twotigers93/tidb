@@ -15,8 +15,8 @@
 package lightning
 
 import (
-	"github.com/pingcap/tidb/br/pkg/lightning/glue"
-	"github.com/pingcap/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/br/pkg/lightning/glue"
+	"github.com/twotigers93/tidb/br/pkg/storage"
 )
 
 type options struct {

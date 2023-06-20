@@ -20,9 +20,9 @@ import (
 	"sync"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

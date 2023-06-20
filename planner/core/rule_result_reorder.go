@@ -17,8 +17,8 @@ package core
 import (
 	"context"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/planner/util"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/planner/util"
 )
 
 /*

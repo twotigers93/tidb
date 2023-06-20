@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	. "github.com/pingcap/tidb/expression/generator/helper"
+	. "github.com/twotigers93/tidb/expression/generator/helper"
 )
 
 const header = `// Copyright 2021 PingCAP, Inc.

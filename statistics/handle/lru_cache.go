@@ -19,8 +19,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/statistics"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/statistics"
 )
 
 var (

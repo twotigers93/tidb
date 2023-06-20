@@ -34,7 +34,7 @@ import (
 
 	deadlockpb "github.com/pingcap/kvproto/pkg/deadlock"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/kverrors"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/kverrors"
 	"go.uber.org/zap"
 )
 

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/sqlexec"
 )
 
 func checkRangeCntByTableIDs(physicalTableIDs []int64, cnt int64) {

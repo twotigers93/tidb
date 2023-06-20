@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

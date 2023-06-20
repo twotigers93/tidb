@@ -19,16 +19,16 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/checkpoints"
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/sqlexec"
 )
 
 type Glue interface {

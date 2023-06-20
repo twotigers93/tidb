@@ -10,10 +10,10 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	kv "github.com/pingcap/tidb/br/pkg/lightning/backend/kv"
-	log "github.com/pingcap/tidb/br/pkg/lightning/log"
-	verification "github.com/pingcap/tidb/br/pkg/lightning/verification"
-	types "github.com/pingcap/tidb/types"
+	kv "github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
+	log "github.com/twotigers93/tidb/br/pkg/lightning/log"
+	verification "github.com/twotigers93/tidb/br/pkg/lightning/verification"
+	types "github.com/twotigers93/tidb/types"
 )
 
 // MockEncoder is a mock of Encoder interface.

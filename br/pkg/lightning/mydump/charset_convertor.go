@@ -22,7 +22,7 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/simplifiedchinese"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 )
 
 // CharsetConvertor is used to convert a character set to utf8mb4 encoding.

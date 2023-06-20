@@ -19,11 +19,11 @@ import (
 	"fmt"
 
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/collate"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/collate"
 )
 
 // wholeTaskTypes records all possible kinds of task that a plan can return. For Agg, TopN and Limit, we will try to get

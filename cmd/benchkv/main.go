@@ -28,11 +28,11 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/store/driver"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/store/driver"
 	"go.uber.org/zap"
 )
 

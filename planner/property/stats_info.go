@@ -17,7 +17,7 @@ package property
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/statistics"
+	"github.com/twotigers93/tidb/statistics"
 )
 
 // GroupNDV stores the NDV of a group of columns.

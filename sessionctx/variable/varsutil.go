@@ -23,13 +23,13 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/timeutil"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/timeutil"
 )
 
 // secondsPerYear represents seconds in a normal year. Leap year is not considered here.

@@ -19,15 +19,15 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/planner"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/sessiontxn/staleread"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/planner"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/sessiontxn/staleread"
 )
 
 var (

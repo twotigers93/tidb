@@ -17,7 +17,7 @@ package set
 import (
 	"unsafe"
 
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/hack"
 )
 
 const (

@@ -19,8 +19,8 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/stringutil"
 )
 
 var zeroSet = Set{Name: "", Value: 0}

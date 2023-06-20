@@ -3,9 +3,9 @@
 package kv
 
 import (
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/lightning/verification"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/verification"
+	"github.com/twotigers93/tidb/types"
 )
 
 // Encoder encodes a row of SQL values into some opaque type which can be

@@ -17,8 +17,8 @@ package dbterror
 import (
 	"fmt"
 
-	mysql "github.com/pingcap/tidb/errno"
-	parser_mysql "github.com/pingcap/tidb/parser/mysql"
+	mysql "github.com/twotigers93/tidb/errno"
+	parser_mysql "github.com/twotigers93/tidb/parser/mysql"
 )
 
 var (
