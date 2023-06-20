@@ -26,13 +26,13 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta"
 	"github.com/twotigers93/tidb/meta/autoid"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 )
 
 func TestSignedAutoid(t *testing.T) {

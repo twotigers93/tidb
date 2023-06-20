@@ -24,12 +24,12 @@ import (
 	"time"
 
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessiontxn"
 	"github.com/twotigers93/tidb/table"
 	"github.com/twotigers93/tidb/table/tables"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

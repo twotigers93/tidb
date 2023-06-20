@@ -16,10 +16,10 @@ package importer
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/twotigers93/tidb/br/pkg/lightning/importer/mock"
 	"github.com/twotigers93/tidb/br/pkg/lightning/precheck"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPrecheckBuilderBasic(t *testing.T) {

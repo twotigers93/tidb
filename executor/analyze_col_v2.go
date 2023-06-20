@@ -23,6 +23,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/expression"
@@ -44,7 +45,6 @@ import (
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/ranger"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

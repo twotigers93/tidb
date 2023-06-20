@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/resourcemanager/pool"
 	"github.com/twotigers93/tidb/resourcemanager/util"
-	"github.com/stretchr/testify/require"
 )
 
 func demoFunc() {

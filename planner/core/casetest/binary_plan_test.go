@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/golang/snappy"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/stretchr/testify/require"
 )
 
 func simplifyAndCheckBinaryOperator(t *testing.T, pb *tipb.ExplainOperator, withRuntimeStats bool) {

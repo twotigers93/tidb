@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/twotigers93/tidb/util/promutil"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/promutil"
 )
 
 type simpleRowReceiver struct {

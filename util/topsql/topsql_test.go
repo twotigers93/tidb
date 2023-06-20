@@ -19,6 +19,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/util"
@@ -29,8 +31,6 @@ import (
 	"github.com/twotigers93/tidb/util/topsql/reporter"
 	mockServer "github.com/twotigers93/tidb/util/topsql/reporter/mock"
 	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/keepalive"

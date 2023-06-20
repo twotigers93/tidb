@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTiDBOptOn(t *testing.T) {

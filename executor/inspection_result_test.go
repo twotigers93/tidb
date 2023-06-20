@@ -25,13 +25,13 @@ import (
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/diagnosticspb"
 	"github.com/pingcap/sysutil"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )
 

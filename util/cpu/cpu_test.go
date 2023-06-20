@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/resourcemanager/scheduler"
 	"github.com/twotigers93/tidb/resourcemanager/util"
 	"github.com/twotigers93/tidb/util/cpu"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCPUValue(t *testing.T) {

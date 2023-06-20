@@ -19,10 +19,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func skipPostOptimizedProjection(plan [][]interface{}) int {

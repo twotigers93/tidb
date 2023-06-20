@@ -18,13 +18,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/tikv/client-go/v2/oracle"
+	"github.com/tikv/client-go/v2/txnkv/transaction"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/tikv/client-go/v2/oracle"
-	"github.com/tikv/client-go/v2/txnkv/transaction"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 )

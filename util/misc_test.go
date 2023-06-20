@@ -22,6 +22,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -30,7 +31,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/fastrand"
 	"github.com/twotigers93/tidb/util/memory"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestRunWithRetry(t *testing.T) {

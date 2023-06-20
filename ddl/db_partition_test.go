@@ -26,6 +26,8 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
@@ -51,8 +53,6 @@ import (
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

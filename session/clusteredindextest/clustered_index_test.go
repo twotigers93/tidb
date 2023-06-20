@@ -20,6 +20,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/stretchr/testify/require"
 )
 
 func createTestKit(t *testing.T, store kv.Storage) *testkit.TestKit {

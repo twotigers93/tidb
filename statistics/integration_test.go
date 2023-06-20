@@ -23,6 +23,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
 )
 
 func TestChangeVerTo2Behavior(t *testing.T) {

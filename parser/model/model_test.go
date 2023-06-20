@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/types"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/types"
 )
 
 func TestT(t *testing.T) {

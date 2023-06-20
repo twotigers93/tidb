@@ -20,6 +20,7 @@ import (
 	"math"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/printer"
-	"github.com/stretchr/testify/require"
 )
 
 func TestInferType(t *testing.T) {

@@ -18,6 +18,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/parser/auth"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/sem"
-	"github.com/stretchr/testify/require"
 )
 
 func checkTableCacheStatus(t *testing.T, tk *testkit.TestKit, dbName, tableName string, status model.TableCacheStatusType) {

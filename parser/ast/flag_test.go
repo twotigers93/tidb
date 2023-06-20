@@ -16,9 +16,9 @@ package ast_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
 )
 
 func TestHasAggFlag(t *testing.T) {

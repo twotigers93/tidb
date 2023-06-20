@@ -18,13 +18,13 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/testkit/testenv"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 	atomicutil "go.uber.org/atomic"
 )
 

@@ -19,13 +19,13 @@ import (
 	"testing"
 
 	"github.com/pingcap/kvproto/pkg/coprocessor"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/store/driver/backoff"
 	"github.com/twotigers93/tidb/util/paging"
 	"github.com/twotigers93/tidb/util/trxevents"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 func buildTestCopTasks(bo *Backoffer, cache *RegionCache, ranges *KeyRanges, req *kv.Request, eventCb trxevents.EventCallback) ([]*copTask, error) {

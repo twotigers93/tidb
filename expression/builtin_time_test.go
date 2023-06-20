@@ -25,6 +25,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -36,8 +38,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 func TestDate(t *testing.T) {

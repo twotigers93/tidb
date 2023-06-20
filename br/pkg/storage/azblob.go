@@ -19,8 +19,8 @@ import (
 	"github.com/pingcap/errors"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/log"
-	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/spf13/pflag"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"go.uber.org/zap"
 )
 

@@ -18,11 +18,11 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
-	"github.com/stretchr/testify/require"
 )
 
 func init() {

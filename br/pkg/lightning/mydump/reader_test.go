@@ -23,10 +23,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	. "github.com/twotigers93/tidb/br/pkg/lightning/mydump"
+	"github.com/stretchr/testify/require"
 	mockstorage "github.com/twotigers93/tidb/br/pkg/mock/storage"
 	"github.com/twotigers93/tidb/br/pkg/storage"
-	"github.com/stretchr/testify/require"
 )
 
 func TestExportStatementNoTrailingNewLine(t *testing.T) {

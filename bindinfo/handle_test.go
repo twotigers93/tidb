@@ -19,6 +19,8 @@ import (
 	"fmt"
 	"testing"
 
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/bindinfo"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
@@ -26,8 +28,6 @@ import (
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/testkit"
 	utilparser "github.com/twotigers93/tidb/util/parser"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
 )
 
 func utilCleanBindingEnv(tk *testkit.TestKit, dom *domain.Domain) {

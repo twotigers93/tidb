@@ -23,6 +23,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/twotigers93/tidb/br/pkg/lightning/log"
@@ -30,8 +32,6 @@ import (
 	"github.com/twotigers93/tidb/br/pkg/storage"
 	filter "github.com/twotigers93/tidb/util/table-filter"
 	router "github.com/twotigers93/tidb/util/table-router"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 )
 
 type testMydumpLoaderSuite struct {

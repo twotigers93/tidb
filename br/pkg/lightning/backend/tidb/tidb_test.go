@@ -22,6 +22,7 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
@@ -37,7 +38,6 @@ import (
 	"github.com/twotigers93/tidb/table"
 	"github.com/twotigers93/tidb/table/tables"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 )
 

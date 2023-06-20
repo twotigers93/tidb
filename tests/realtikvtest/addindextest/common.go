@@ -22,10 +22,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

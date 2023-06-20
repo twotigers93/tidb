@@ -10,12 +10,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/google/uuid"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
 	"github.com/twotigers93/tidb/br/pkg/mock"
 	"github.com/twotigers93/tidb/parser/mysql"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 type backendSuite struct {

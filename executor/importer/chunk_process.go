@@ -21,6 +21,7 @@ import (
 
 	"github.com/docker/go-units"
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
@@ -30,7 +31,6 @@ import (
 	verify "github.com/twotigers93/tidb/br/pkg/lightning/verification"
 	"github.com/twotigers93/tidb/executor/asyncloaddata"
 	"github.com/twotigers93/tidb/tablecodec"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/zap"
 )
 

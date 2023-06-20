@@ -19,10 +19,10 @@ import (
 	"errors"
 	"time"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/logutil"
 	reporter_metrics "github.com/twotigers93/tidb/util/topsql/reporter/metrics"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

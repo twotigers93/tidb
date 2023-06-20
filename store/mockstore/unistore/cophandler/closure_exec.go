@@ -23,6 +23,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/kv"
@@ -41,7 +42,6 @@ import (
 	mockpkg "github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/rowcodec"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 const chunkMaxRows = 1024

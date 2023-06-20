@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/config"
-	"github.com/twotigers93/tidb/util/topsql/reporter/mock"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/stretchr/testify/assert"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/util/topsql/reporter/mock"
 )
 
 type mockSingleTargetDataSinkRegisterer struct{}

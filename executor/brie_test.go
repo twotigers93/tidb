@@ -21,6 +21,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -30,7 +31,6 @@ import (
 	"github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGlueGetVersion(t *testing.T) {

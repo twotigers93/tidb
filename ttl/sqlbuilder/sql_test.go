@@ -21,6 +21,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -33,7 +34,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 )
 
 func TestEscape(t *testing.T) {

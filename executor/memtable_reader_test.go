@@ -29,11 +29,11 @@ import (
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/fn"
 	"github.com/pingcap/sysutil"
+	pmodel "github.com/prometheus/common/model"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/pdapi"
-	pmodel "github.com/prometheus/common/model"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )
 

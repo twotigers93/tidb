@@ -20,13 +20,13 @@ import (
 	"encoding/binary"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 func TestParseExecArgs(t *testing.T) {

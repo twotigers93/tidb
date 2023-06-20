@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	"github.com/fsouza/fake-gcs-server/fakestorage"
+	"github.com/stretchr/testify/suite"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/suite"
 )
 
 type mockGCSSuite struct {

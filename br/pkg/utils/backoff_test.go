@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/utils"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/multierr"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

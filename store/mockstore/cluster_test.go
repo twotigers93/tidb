@@ -23,15 +23,15 @@ import (
 	"time"
 
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 func TestClusterSplit(t *testing.T) {

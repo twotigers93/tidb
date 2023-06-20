@@ -19,6 +19,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/hack"
-	"github.com/stretchr/testify/require"
 )
 
 func TestBitCount(t *testing.T) {

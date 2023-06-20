@@ -18,13 +18,13 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/oracle"
+	"github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/tikv/client-go/v2/oracle"
-	"github.com/tikv/client-go/v2/util"
 )
 
 const (

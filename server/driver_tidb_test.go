@@ -17,12 +17,12 @@ package server
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 func createColumnByTypeAndLen(tp byte, cl uint32) *ColumnInfo {

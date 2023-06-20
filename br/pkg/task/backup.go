@@ -18,6 +18,8 @@ import (
 	"github.com/pingcap/failpoint"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/log"
+	"github.com/spf13/pflag"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/br/pkg/backup"
 	"github.com/twotigers93/tidb/br/pkg/checkpoint"
 	"github.com/twotigers93/tidb/br/pkg/checksum"
@@ -36,8 +38,6 @@ import (
 	"github.com/twotigers93/tidb/statistics/handle"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/mathutil"
-	"github.com/spf13/pflag"
-	"github.com/tikv/client-go/v2/oracle"
 	"go.uber.org/zap"
 )
 

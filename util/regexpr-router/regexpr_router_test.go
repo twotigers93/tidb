@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/util/filter"
 	router "github.com/twotigers93/tidb/util/table-router"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCreateRouter(t *testing.T) {

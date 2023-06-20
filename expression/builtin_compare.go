@@ -18,6 +18,8 @@ import (
 	"math"
 	"strings"
 
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/pkg/errors"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/opcode"
@@ -27,8 +29,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/pkg/errors"
 )
 
 var (

@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain/infosync"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func TestShowStatsMeta(t *testing.T) {

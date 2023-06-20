@@ -33,8 +33,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util"
 )
 
 func TestInvalidTLS(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
 )
 
 func TestNormalize(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/br/pkg/utils/iter"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/utils/iter"
 )
 
 func TestParTrans(t *testing.T) {

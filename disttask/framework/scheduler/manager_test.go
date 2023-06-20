@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/mock"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/disttask/framework/proto"
 	"github.com/twotigers93/tidb/resourcemanager/pool/spool"
 	"github.com/twotigers93/tidb/resourcemanager/util"
-	"github.com/stretchr/testify/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestManageTask(t *testing.T) {

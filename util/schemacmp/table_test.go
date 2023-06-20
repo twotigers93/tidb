@@ -19,6 +19,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/schemacmp"
-	"github.com/stretchr/testify/require"
 )
 
 func toTableInfo(parser *parser.Parser, sctx sessionctx.Context, createTableStmt string) (*model.TableInfo, error) {

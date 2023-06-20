@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/util/logutil"
 	reporter_metrics "github.com/twotigers93/tidb/util/topsql/reporter/metrics"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

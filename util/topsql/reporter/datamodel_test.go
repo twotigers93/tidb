@@ -20,10 +20,10 @@ import (
 	"sync"
 	"testing"
 
-	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
-	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/stretchr/testify/require"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
+	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 )
 
 func Test_tsItem_toProto(t *testing.T) {

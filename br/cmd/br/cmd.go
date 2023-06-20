@@ -13,6 +13,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
+	"github.com/spf13/cobra"
 	"github.com/twotigers93/tidb/br/pkg/gluetidb"
 	"github.com/twotigers93/tidb/br/pkg/redact"
 	"github.com/twotigers93/tidb/br/pkg/summary"
@@ -22,7 +23,6 @@ import (
 	"github.com/twotigers93/tidb/config"
 	tidbutils "github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/spf13/cobra"
 )
 
 var (

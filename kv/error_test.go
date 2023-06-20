@@ -17,9 +17,9 @@ package kv
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestError(t *testing.T) {

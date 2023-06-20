@@ -21,6 +21,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/bindinfo"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/statistics"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/telemetry"
-	"github.com/stretchr/testify/require"
 )
 
 // This test file have many problem.

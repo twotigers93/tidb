@@ -23,12 +23,12 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 )
 

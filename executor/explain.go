@@ -27,6 +27,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	clientutil "github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/util/chunk"
@@ -34,7 +35,6 @@ import (
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/memory"
-	clientutil "github.com/tikv/client-go/v2/util"
 	"go.uber.org/zap"
 )
 

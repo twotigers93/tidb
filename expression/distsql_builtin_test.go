@@ -18,6 +18,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
@@ -25,8 +27,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPBToExpr(t *testing.T) {

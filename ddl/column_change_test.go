@@ -22,6 +22,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	"github.com/twotigers93/tidb/kv"
@@ -36,7 +37,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestColumnAdd(t *testing.T) {

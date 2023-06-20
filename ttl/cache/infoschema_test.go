@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/server"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/ttl/cache"
 	"github.com/twotigers93/tidb/ttl/session"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestInfoSchemaCache(t *testing.T) {

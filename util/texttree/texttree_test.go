@@ -17,8 +17,8 @@ package texttree_test
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/util/texttree"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/texttree"
 )
 
 func TestPrettyIdentifier(t *testing.T) {

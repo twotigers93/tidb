@@ -23,6 +23,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/infoschema"
@@ -35,7 +36,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTraceCE(t *testing.T) {

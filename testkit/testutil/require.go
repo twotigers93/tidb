@@ -20,11 +20,11 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/stretchr/testify/require"
 )
 
 // DatumEqual verifies that the actual value is equal to the expected value. For string datum, they are compared by the binary collation.

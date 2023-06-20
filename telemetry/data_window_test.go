@@ -19,14 +19,14 @@ import (
 	"testing"
 
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/store/mockstore/unistore"
 	"github.com/twotigers93/tidb/telemetry"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
 )
 
 func TestBuiltinFunctionsUsage(t *testing.T) {

@@ -20,6 +20,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	tikverr "github.com/tikv/client-go/v2/error"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/terror"
@@ -29,8 +31,6 @@ import (
 	"github.com/twotigers93/tidb/sessiontxn"
 	isolation_metrics "github.com/twotigers93/tidb/sessiontxn/isolation/metrics"
 	"github.com/twotigers93/tidb/util/logutil"
-	tikverr "github.com/tikv/client-go/v2/error"
-	"github.com/tikv/client-go/v2/oracle"
 	"go.uber.org/zap"
 )
 

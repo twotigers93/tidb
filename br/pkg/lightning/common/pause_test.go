@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 )
 
 func assertUnblocksBetween(t *testing.T, wg *sync.WaitGroup, min, max time.Duration) {

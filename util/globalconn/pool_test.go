@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/cznic/mathutil"
-	"github.com/twotigers93/tidb/util/globalconn"
 	"github.com/stretchr/testify/assert"
+	"github.com/twotigers93/tidb/util/globalconn"
 )
 
 func TestAutoIncPool(t *testing.T) {

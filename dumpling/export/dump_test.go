@@ -13,11 +13,11 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/version"
 	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/util/promutil"
-	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 )
 

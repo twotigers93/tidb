@@ -18,6 +18,7 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
+	tikverr "github.com/tikv/client-go/v2/error"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta/autoid"
 	"github.com/twotigers93/tidb/parser/model"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/logutil"
-	tikverr "github.com/tikv/client-go/v2/error"
 	"go.uber.org/zap"
 )
 

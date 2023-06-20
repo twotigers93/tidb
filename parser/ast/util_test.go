@@ -18,12 +18,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	. "github.com/pingcap/tidb/parser/ast"
-	. "github.com/pingcap/tidb/parser/format"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/test_driver"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/test_driver"
 )
 
 func TestCacheable(t *testing.T) {

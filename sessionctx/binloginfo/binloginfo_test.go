@@ -26,6 +26,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-binlog"
+	"github.com/stretchr/testify/require"
 	_ "github.com/twotigers93/tidb/autoid_service"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/domain"
@@ -42,8 +44,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/pingcap/tipb/go-binlog"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

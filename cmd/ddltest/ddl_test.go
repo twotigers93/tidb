@@ -33,6 +33,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
@@ -48,7 +49,6 @@ import (
 	"github.com/twotigers93/tidb/table/tables"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

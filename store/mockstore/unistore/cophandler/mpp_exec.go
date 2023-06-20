@@ -28,6 +28,8 @@ import (
 	"github.com/pingcap/kvproto/pkg/coprocessor"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/mpp"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/kv"
@@ -41,8 +43,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/tikv/client-go/v2/tikvrpc"
 )
 
 var (

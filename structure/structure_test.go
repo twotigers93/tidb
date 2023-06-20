@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/structure"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func TestString(t *testing.T) {

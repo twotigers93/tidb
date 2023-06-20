@@ -22,6 +22,8 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/planner"
@@ -30,8 +32,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPointGetPlanCache(t *testing.T) {

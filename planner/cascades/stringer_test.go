@@ -18,6 +18,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser"
@@ -25,7 +26,6 @@ import (
 	plannercore "github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/planner/memo"
 	"github.com/twotigers93/tidb/testkit/testdata"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGroupStringer(t *testing.T) {

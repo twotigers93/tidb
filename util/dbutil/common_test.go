@@ -22,11 +22,11 @@ import (
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
 	"github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/model"
 	pmysql "github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 func TestReplacePlaceholder(t *testing.T) {

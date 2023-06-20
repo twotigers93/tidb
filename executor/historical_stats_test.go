@@ -22,12 +22,12 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/statistics/handle"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 func TestRecordHistoryStatsAfterAnalyze(t *testing.T) {

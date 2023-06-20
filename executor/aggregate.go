@@ -24,6 +24,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/twmb/murmur3"
 	"github.com/twotigers93/tidb/executor/aggfuncs"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -42,7 +43,6 @@ import (
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/set"
-	"github.com/twmb/murmur3"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 )

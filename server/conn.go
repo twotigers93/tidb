@@ -56,6 +56,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/prometheus/client_golang/prometheus"
+	"github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain/infosync"
 	"github.com/twotigers93/tidb/errno"
@@ -93,8 +95,6 @@ import (
 	tlsutil "github.com/twotigers93/tidb/util/tls"
 	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tikv/client-go/v2/util"
 	"go.uber.org/zap"
 )
 

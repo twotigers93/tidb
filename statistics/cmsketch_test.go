@@ -21,11 +21,11 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
 )
 
 func (c *CMSketch) insert(val *types.Datum) error {

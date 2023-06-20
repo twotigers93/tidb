@@ -21,6 +21,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/coprocessor"
 	"github.com/pingcap/kvproto/pkg/tikvpb"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/auth"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // CoprocessorDAGHandler uses to handle cop dag request.

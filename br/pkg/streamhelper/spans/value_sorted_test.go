@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/twotigers93/tidb/br/pkg/streamhelper/spans"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/streamhelper/spans"
 )
 
 func TestSortedBasic(t *testing.T) {

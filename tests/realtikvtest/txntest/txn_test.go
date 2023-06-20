@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
-	"github.com/stretchr/testify/require"
 )
 
 func TestInTxnPSProtoPointGet(t *testing.T) {

@@ -19,6 +19,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/model"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/statistics"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/tikv/client-go/v2/oracle"
 	"golang.org/x/exp/slices"
 )
 

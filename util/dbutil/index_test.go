@@ -17,8 +17,8 @@ package dbutil
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/parser"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
 )
 
 func TestIndex(t *testing.T) {

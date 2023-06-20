@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 // extractSampleItemsDatums is for test purpose only to extract Datum slice

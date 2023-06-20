@@ -18,9 +18,9 @@ import (
 	"context"
 	"unsafe"
 
-	"github.com/twotigers93/tidb/kv"
 	tikverr "github.com/tikv/client-go/v2/error"
 	"github.com/tikv/client-go/v2/txnkv/transaction"
+	"github.com/twotigers93/tidb/kv"
 )
 
 // tikvBatchGetter is the BatchGetter struct for tikv

@@ -23,9 +23,8 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
-	"github.com/twotigers93/tidb/br/pkg/mock"
-	. "github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/mock"
 )
 
 const bucketRegionHeader = "X-Amz-Bucket-Region"

@@ -17,8 +17,8 @@ package executor
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/testkit/testsetup"
 	"github.com/tikv/client-go/v2/config"
+	"github.com/twotigers93/tidb/testkit/testsetup"
 	"go.uber.org/goleak"
 )
 

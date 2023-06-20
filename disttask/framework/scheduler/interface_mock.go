@@ -17,8 +17,8 @@ package scheduler
 import (
 	"context"
 
-	"github.com/twotigers93/tidb/disttask/framework/proto"
 	"github.com/stretchr/testify/mock"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
 )
 
 // MockTaskTable is a mock of TaskTable.

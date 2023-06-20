@@ -18,6 +18,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/extension"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -25,7 +26,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/sem"
-	"github.com/stretchr/testify/require"
 )
 
 func TestSetupExtensions(t *testing.T) {

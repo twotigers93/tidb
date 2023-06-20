@@ -22,6 +22,9 @@ import (
 	"testing"
 	"time"
 
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -35,9 +38,6 @@ import (
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/ranger"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 func TestSingleSessionInsert(t *testing.T) {

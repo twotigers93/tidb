@@ -17,14 +17,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/mysql"
 	// import parser_driver
-	_ "github.com/pingcap/tidb/parser/test_driver"
-	. "github.com/pingcap/tidb/parser/types"
 	"github.com/stretchr/testify/require"
+	_ "github.com/twotigers93/tidb/parser/test_driver"
 )
 
 func TestFieldType(t *testing.T) {

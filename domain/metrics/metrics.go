@@ -15,8 +15,8 @@
 package metrics
 
 import (
-	"github.com/twotigers93/tidb/metrics"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/twotigers93/tidb/metrics"
 )
 
 // domain metrics vars

@@ -20,6 +20,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	storeerr "github.com/twotigers93/tidb/store/driver/error"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/ttl/metrics"
 	"github.com/twotigers93/tidb/ttl/session"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 )

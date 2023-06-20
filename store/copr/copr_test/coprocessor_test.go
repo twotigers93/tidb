@@ -18,11 +18,11 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/store/copr"
 	"github.com/twotigers93/tidb/store/mockstore"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
 )
 
 func TestBuildCopIteratorWithRowCountHint(t *testing.T) {

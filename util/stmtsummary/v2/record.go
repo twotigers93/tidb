@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/util/execdetails"
 	"github.com/twotigers93/tidb/util/plancodec"
 	"github.com/twotigers93/tidb/util/stmtsummary"
-	"github.com/tikv/client-go/v2/util"
 )
 
 // MaxEncodedPlanSizeInBytes is the upper limit of the size of the plan and the binary plan in the stmt summary.

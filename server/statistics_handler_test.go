@@ -25,11 +25,11 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/statistics/handle"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func TestDumpStatsAPI(t *testing.T) {

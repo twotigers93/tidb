@@ -17,13 +17,13 @@ package util_test
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/planner/util"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/ranger"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCompareCol2Len(t *testing.T) {

@@ -21,6 +21,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser"
@@ -36,8 +38,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/execdetails"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/util"
 )
 
 func TestSetSystemVariable(t *testing.T) {

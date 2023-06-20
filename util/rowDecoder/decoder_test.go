@@ -18,6 +18,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/util/mock"
 	decoder "github.com/twotigers93/tidb/util/rowDecoder"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )
 

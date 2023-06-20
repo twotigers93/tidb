@@ -23,6 +23,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	"github.com/twotigers93/tidb/ddl/placement"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/store/gcworker"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/external"
-	"github.com/stretchr/testify/require"
 )
 
 type bundleCheck struct {

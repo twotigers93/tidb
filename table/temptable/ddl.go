@@ -19,6 +19,7 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta"
@@ -30,7 +31,6 @@ import (
 	"github.com/twotigers93/tidb/table"
 	"github.com/twotigers93/tidb/table/tables"
 	"github.com/twotigers93/tidb/tablecodec"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 // TemporaryTableDDL is an interface providing ddl operations for temporary table

@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/util/mathutil"
-	"github.com/stretchr/testify/require"
 )
 
 func TestSetLabel(t *testing.T) {

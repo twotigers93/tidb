@@ -20,6 +20,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/model"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	driver "github.com/twotigers93/tidb/types/parser_driver"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGetTimeValue(t *testing.T) {

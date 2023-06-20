@@ -15,9 +15,9 @@
 package metrics
 
 import (
+	"github.com/prometheus/client_golang/prometheus"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/parser/mysql"
-	"github.com/prometheus/client_golang/prometheus"
 )
 
 // server metrics vars

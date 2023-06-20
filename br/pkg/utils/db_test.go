@@ -8,6 +8,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/utils"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/model"
@@ -15,7 +16,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 )
 
 type mockRestrictedSQLExecutor struct {

@@ -24,8 +24,6 @@ import (
 	"os"
 	"path/filepath"
 	"text/template"
-
-	. "github.com/twotigers93/tidb/expression/generator/helper"
 )
 
 const header = `// Copyright 2019 PingCAP, Inc.
@@ -50,7 +48,7 @@ package expression
 const newLine = "\n"
 
 const builtinOtherImports = `import (
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/pingcap/tidb/types"
 	"github.com/pingcap/tidb/util/chunk"
 	"github.com/pingcap/tidb/util/collate"
@@ -282,8 +280,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/pingcap/tidb/types"
 )
 

@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

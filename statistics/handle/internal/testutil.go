@@ -17,8 +17,8 @@ package internal
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/statistics"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/statistics"
 )
 
 // AssertTableEqual is to assert whether two table is equal

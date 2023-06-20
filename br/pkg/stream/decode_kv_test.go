@@ -5,8 +5,8 @@ package stream_test
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/br/pkg/stream"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/stream"
 )
 
 func TestDecodeKVEntry(t *testing.T) {

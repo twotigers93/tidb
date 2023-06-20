@@ -20,6 +20,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/kv"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/plancodec"
 	"github.com/twotigers93/tidb/util/stringutil"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

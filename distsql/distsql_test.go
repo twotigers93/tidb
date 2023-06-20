@@ -20,6 +20,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/stretchr/testify/require"
+	tikvstore "github.com/tikv/client-go/v2/kv"
+	"github.com/tikv/client-go/v2/tikv"
+	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -35,11 +40,6 @@ import (
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/stretchr/testify/require"
-	tikvstore "github.com/tikv/client-go/v2/kv"
-	"github.com/tikv/client-go/v2/tikv"
-	"github.com/tikv/client-go/v2/tikvrpc"
 )
 
 func TestSelectNormal(t *testing.T) {

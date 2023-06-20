@@ -21,8 +21,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestPBMemoryLeak(t *testing.T) {

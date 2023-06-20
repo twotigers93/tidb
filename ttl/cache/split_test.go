@@ -22,6 +22,9 @@ import (
 	"testing"
 
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/tikv"
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
@@ -31,9 +34,6 @@ import (
 	"github.com/twotigers93/tidb/ttl/cache"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/tikv"
-	pd "github.com/tikv/pd/client"
 )
 
 func newMockRegion(regionID uint64, startKey []byte, endKey []byte) *pd.Region {

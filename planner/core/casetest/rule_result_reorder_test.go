@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testdata"
-	"github.com/stretchr/testify/require"
 )
 
 func runTestData(t *testing.T, tk *testkit.TestKit, name string) {

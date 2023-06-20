@@ -24,6 +24,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta"
@@ -35,7 +36,6 @@ import (
 	tidb_util "github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 	atomicutil "go.uber.org/atomic"
 )
 

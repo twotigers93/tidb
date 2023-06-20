@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/google/pprof/profile"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit/testsetup"
 	"github.com/twotigers93/tidb/util/cpuprofile/testutil"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 )
 

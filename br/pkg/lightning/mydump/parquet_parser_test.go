@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/br/pkg/storage"
-	"github.com/twotigers93/tidb/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/types"
 	"github.com/xitongsys/parquet-go-source/local"
 	writer2 "github.com/xitongsys/parquet-go/writer"
 )

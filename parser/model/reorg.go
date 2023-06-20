@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/terror"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 // DDLReorgMeta is meta info of DDL reorganization.

@@ -21,6 +21,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -33,7 +34,6 @@ import (
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/ranger"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 )
 
 type testStatisticsSamples struct {

@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"github.com/docker/go-units"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/util/syncutil"
-	"github.com/stretchr/testify/require"
 )
 
 func TestMemoryLeak(t *testing.T) {

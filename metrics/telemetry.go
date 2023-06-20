@@ -15,9 +15,9 @@
 package metrics
 
 import (
-	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 // Metrics

@@ -21,6 +21,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/errno"
@@ -35,8 +37,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 func TestPointGet(t *testing.T) {

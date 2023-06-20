@@ -27,6 +27,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/fn"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
@@ -37,7 +38,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/pdapi"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )
 

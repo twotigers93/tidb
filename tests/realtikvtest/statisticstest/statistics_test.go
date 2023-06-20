@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/statistics/handle"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
-	"github.com/stretchr/testify/require"
 )
 
 func TestNewCollationStatsWithPrefixIndex(t *testing.T) {

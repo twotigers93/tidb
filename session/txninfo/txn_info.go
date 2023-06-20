@@ -20,12 +20,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/prometheus/client_golang/prometheus"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tikv/client-go/v2/oracle"
 	"go.uber.org/zap"
 )
 

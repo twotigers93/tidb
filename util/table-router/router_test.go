@@ -17,8 +17,8 @@ package router
 import (
 	"testing"
 
-	selector "github.com/twotigers93/tidb/util/table-rule-selector"
 	"github.com/stretchr/testify/require"
+	selector "github.com/twotigers93/tidb/util/table-rule-selector"
 )
 
 func TestRoute(t *testing.T) {

@@ -19,6 +19,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
@@ -32,8 +34,6 @@ import (
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 func TestEnterNewTxn(t *testing.T) {

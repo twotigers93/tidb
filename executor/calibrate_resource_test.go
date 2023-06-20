@@ -21,13 +21,13 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	pd "github.com/tikv/pd/client"
+	rmclient "github.com/tikv/pd/client/resource_group/controller"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
-	pd "github.com/tikv/pd/client"
-	rmclient "github.com/tikv/pd/client/resource_group/controller"
 )
 
 func TestCalibrateResource(t *testing.T) {

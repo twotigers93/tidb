@@ -24,8 +24,6 @@ import (
 	"os"
 	"path/filepath"
 	"text/template"
-
-	. "github.com/twotigers93/tidb/expression/generator/helper"
 )
 
 const header = `// Copyright 2019 PingCAP, Inc.
@@ -495,7 +493,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/pingcap/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/pingcap/tidb/types"
 )
 

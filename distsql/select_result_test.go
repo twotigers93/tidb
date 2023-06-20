@@ -18,13 +18,13 @@ import (
 	"context"
 	"testing"
 
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/store/copr"
 	"github.com/twotigers93/tidb/util/execdetails"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/stretchr/testify/require"
 )
 
 func TestUpdateCopRuntimeStats(t *testing.T) {

@@ -13,13 +13,13 @@ import (
 	"unicode/utf8"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/twotigers93/tidb/br/pkg/lightning/log"
 	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
 	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

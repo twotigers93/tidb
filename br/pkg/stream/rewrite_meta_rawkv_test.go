@@ -7,13 +7,13 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/meta"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/types"
 	filter "github.com/twotigers93/tidb/util/table-filter"
-	"github.com/stretchr/testify/require"
 )
 
 var increaseID int64 = 100

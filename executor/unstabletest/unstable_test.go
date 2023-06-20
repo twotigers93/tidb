@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/memory"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCartesianJoinPanic(t *testing.T) {

@@ -17,9 +17,9 @@ package ingest_test
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl/ingest"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGenLightningDataDir(t *testing.T) {

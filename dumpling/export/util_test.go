@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/twotigers93/tidb/br/pkg/version"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/version"
 )
 
 func TestRepeatableRead(t *testing.T) {

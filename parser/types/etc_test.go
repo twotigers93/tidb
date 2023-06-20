@@ -16,8 +16,8 @@ package types
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser/mysql"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 func TestStrToType(t *testing.T) {

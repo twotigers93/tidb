@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/twotigers93/tidb/domain/infosync"
-	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/prometheus/client_golang/api"
 	promv1 "github.com/prometheus/client_golang/api/prometheus/v1"
 	pmodel "github.com/prometheus/common/model"
+	"github.com/twotigers93/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

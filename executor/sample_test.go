@@ -19,12 +19,12 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func createSampleTestkit(t *testing.T, store kv.Storage) *testkit.TestKit {

@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/parser/model"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 func TestColumn(t *testing.T) {

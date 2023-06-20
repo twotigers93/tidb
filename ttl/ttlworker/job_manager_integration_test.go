@@ -26,6 +26,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/pingcap/failpoint"
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -39,8 +41,6 @@ import (
 	"github.com/twotigers93/tidb/ttl/session"
 	"github.com/twotigers93/tidb/ttl/ttlworker"
 	"github.com/twotigers93/tidb/util/logutil"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

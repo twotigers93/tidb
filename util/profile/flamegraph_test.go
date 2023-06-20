@@ -19,10 +19,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/twotigers93/tidb/types"
-	"github.com/twotigers93/tidb/util/collate"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/collate"
 	"go.opencensus.io/stats/view"
 )
 

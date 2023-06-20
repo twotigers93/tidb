@@ -19,13 +19,13 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/set"
-	"github.com/stretchr/testify/require"
 )
 
 func TestValidInspectionSummaryRules(t *testing.T) {

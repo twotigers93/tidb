@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 func TestFaultInjectionBasic(t *testing.T) {

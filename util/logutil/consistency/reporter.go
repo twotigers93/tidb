@@ -24,6 +24,7 @@ import (
 	"time"
 
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
@@ -33,7 +34,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/zap"
 )
 

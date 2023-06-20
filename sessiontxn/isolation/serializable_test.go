@@ -22,6 +22,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/stretchr/testify/require"
+	tikverr "github.com/tikv/client-go/v2/error"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/infoschema"
@@ -33,8 +35,6 @@ import (
 	"github.com/twotigers93/tidb/sessiontxn/isolation"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testfork"
-	"github.com/stretchr/testify/require"
-	tikverr "github.com/tikv/client-go/v2/error"
 )
 
 func TestPessimisticSerializableTxnProviderTS(t *testing.T) {

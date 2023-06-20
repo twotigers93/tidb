@@ -31,6 +31,9 @@ import (
 
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
+	tikverr "github.com/tikv/client-go/v2/error"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/extension"
@@ -46,9 +49,6 @@ import (
 	"github.com/twotigers93/tidb/util/arena"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
-	"github.com/stretchr/testify/require"
-	tikverr "github.com/tikv/client-go/v2/error"
-	"github.com/tikv/client-go/v2/testutils"
 )
 
 type Issue33699CheckType struct {

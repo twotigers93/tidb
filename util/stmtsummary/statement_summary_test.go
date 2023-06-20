@@ -22,6 +22,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -30,8 +32,6 @@ import (
 	tidbutil "github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/execdetails"
 	"github.com/twotigers93/tidb/util/plancodec"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/util"
 )
 
 func emptyPlanGenerator() (string, string) {

@@ -22,6 +22,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/extension"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/auth"
@@ -33,7 +34,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 type stmtEventRecord struct {

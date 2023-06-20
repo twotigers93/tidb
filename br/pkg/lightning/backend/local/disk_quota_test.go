@@ -19,9 +19,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/google/uuid"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"github.com/twotigers93/tidb/br/pkg/mock/mocklocal"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCheckDiskQuota(t *testing.T) {

@@ -20,15 +20,15 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/prometheus/client_golang/prometheus"
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/external"
-	"github.com/prometheus/client_golang/prometheus"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
 )
 
 func TestInitMetaTable(t *testing.T) {

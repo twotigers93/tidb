@@ -24,6 +24,8 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/ddl/schematracker"
 	"github.com/twotigers93/tidb/ddl/testutil"
@@ -36,8 +38,6 @@ import (
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
 	"go.opencensus.io/stats/view"
 )
 

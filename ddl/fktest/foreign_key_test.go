@@ -22,6 +22,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/meta"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/sessiontxn"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/dbterror"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCreateTableWithForeignKeyMetaInfo(t *testing.T) {

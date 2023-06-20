@@ -19,12 +19,12 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/ingest"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/sessionctx/variable"
-	"github.com/stretchr/testify/require"
 )
 
 func TestDoneTaskKeeper(t *testing.T) {

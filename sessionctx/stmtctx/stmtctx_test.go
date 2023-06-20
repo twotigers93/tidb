@@ -22,13 +22,13 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/execdetails"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/util"
 	"go.uber.org/atomic"
 )
 

@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/twotigers93/tidb/util/memory"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 type mockCacheKey struct {

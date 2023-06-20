@@ -20,10 +20,10 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/coreos/go-semver/semver"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/local"
 	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCheckRequirementsTiFlash(t *testing.T) {

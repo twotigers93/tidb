@@ -35,13 +35,13 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
 	tmysql "github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testenv"
 	"github.com/twotigers93/tidb/util/versioninfo"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

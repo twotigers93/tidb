@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/replayer"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPlanReplayerHandleCollectTask(t *testing.T) {

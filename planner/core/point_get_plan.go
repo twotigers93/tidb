@@ -22,6 +22,8 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
+	tikvstore "github.com/tikv/client-go/v2/kv"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/infoschema"
@@ -52,8 +54,6 @@ import (
 	"github.com/twotigers93/tidb/util/size"
 	"github.com/twotigers93/tidb/util/stringutil"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/pingcap/tipb/go-tipb"
-	tikvstore "github.com/tikv/client-go/v2/kv"
 	"go.uber.org/zap"
 )
 

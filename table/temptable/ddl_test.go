@@ -18,6 +18,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func createTestSuite(t *testing.T) (sessionctx.Context, *temporaryTableDDL) {

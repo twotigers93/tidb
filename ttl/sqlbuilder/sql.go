@@ -22,6 +22,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/pkg/errors"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/format"
 	"github.com/twotigers93/tidb/parser/model"
@@ -29,7 +30,6 @@ import (
 	"github.com/twotigers93/tidb/ttl/cache"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/pkg/errors"
 )
 
 func writeHex(in io.Writer, d types.Datum) error {

@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/sessionctx/variable"
 )
 
 func TestLoadPluginSuccess(t *testing.T) {

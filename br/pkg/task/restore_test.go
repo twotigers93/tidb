@@ -12,6 +12,8 @@ import (
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/kvproto/pkg/encryptionpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/br/pkg/conn"
 	"github.com/twotigers93/tidb/br/pkg/metautil"
 	"github.com/twotigers93/tidb/br/pkg/restore"
@@ -20,8 +22,6 @@ import (
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/statistics/handle"
 	"github.com/twotigers93/tidb/tablecodec"
-	"github.com/stretchr/testify/require"
-	pd "github.com/tikv/pd/client"
 	"google.golang.org/grpc/keepalive"
 )
 

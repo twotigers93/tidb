@@ -7,9 +7,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	pd "github.com/tikv/pd/client"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/util/engine"
-	pd "github.com/tikv/pd/client"
 )
 
 // StoreBehavior is the action to do in GetAllTiKVStores when a non-TiKV

@@ -301,12 +301,12 @@ func (a Byte) Join(other Lattice) (Lattice, error) {
 }
 
 // fieldTp is a mysql column field type implementing lattice.
-// It is used for the column field type (`github.com/pingcap/tidb/parser/types.FieldType.Tp`).
+// It is used for the column field type (`github.com/twotigers93/tidb/parser/types.FieldType.Tp`).
 type fieldTp struct {
 	value byte
 }
 
-// FieldTp is used for the column field type (`github.com/pingcap/tidb/parser/types.FieldType.Tp`).
+// FieldTp is used for the column field type (`github.com/twotigers93/tidb/parser/types.FieldType.Tp`).
 func FieldTp(value byte) Lattice {
 	return fieldTp{value: value}
 }

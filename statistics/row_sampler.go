@@ -20,6 +20,7 @@ import (
 	"math/rand"
 	"unsafe"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/tablecodec"
@@ -29,7 +30,6 @@ import (
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // RowSampleCollector implements the needed interface for a row-based sample collector.

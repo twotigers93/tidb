@@ -21,6 +21,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx/variable"
@@ -28,8 +30,6 @@ import (
 	"github.com/twotigers93/tidb/ttl/session"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/chunk"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 )
 
 func newTTLTableStatusRows(status ...*cache.TableStatus) []chunk.Row {

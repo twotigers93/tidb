@@ -24,6 +24,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	testddlutil "github.com/twotigers93/tidb/ddl/testutil"
 	"github.com/twotigers93/tidb/domain"
@@ -40,7 +41,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 const columnModifyLease = 600 * time.Millisecond

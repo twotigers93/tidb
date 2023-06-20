@@ -29,6 +29,9 @@ import (
 
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/ddl/placement"
 	ddlutil "github.com/twotigers93/tidb/ddl/util"
@@ -44,9 +47,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
-	"github.com/tikv/client-go/v2/testutils"
 	"go.uber.org/zap"
 )
 

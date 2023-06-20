@@ -18,9 +18,9 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/assert"
 )
 
 func r(key, value string) *kv.Entry {

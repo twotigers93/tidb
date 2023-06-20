@@ -22,6 +22,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
+	tikvutil "github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/ddl"
 	ddlutil "github.com/twotigers93/tidb/ddl/util"
 	"github.com/twotigers93/tidb/domain"
@@ -30,10 +34,6 @@ import (
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
-	tikvutil "github.com/tikv/client-go/v2/util"
 )
 
 // MockGC is used to make GC work in the test environment.

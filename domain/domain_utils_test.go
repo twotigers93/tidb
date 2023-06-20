@@ -17,9 +17,9 @@ package domain
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/parser/terror"
-	"github.com/stretchr/testify/require"
 )
 
 func TestErrorCode(t *testing.T) {

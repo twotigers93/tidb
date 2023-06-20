@@ -38,6 +38,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/parser"
@@ -47,7 +48,6 @@ import (
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/logutil"
 	tlsutil "github.com/twotigers93/tidb/util/tls"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

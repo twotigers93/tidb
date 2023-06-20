@@ -19,6 +19,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/bindinfo"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	utilparser "github.com/twotigers93/tidb/util/parser"
 	"github.com/twotigers93/tidb/util/stmtsummary"
-	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )
 

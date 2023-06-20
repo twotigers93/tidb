@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/disttask/framework/proto"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
 )
 
 func TestSchedulerRun(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 
 	deadlockpb "github.com/pingcap/kvproto/pkg/deadlock"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/twotigers93/tidb/parser/model"
 	"github.com/tikv/client-go/v2/oracle"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 // mockTxn is a txn that returns a retryAble error when called Commit.

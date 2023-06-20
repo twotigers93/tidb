@@ -19,8 +19,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/twotigers93/tidb/util/intest"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/intest"
 )
 
 func TestShardPoolMap(t *testing.T) {

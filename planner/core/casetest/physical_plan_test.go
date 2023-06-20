@@ -21,6 +21,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/executor"
@@ -39,7 +40,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/util/hint"
-	"github.com/stretchr/testify/require"
 )
 
 func assertSameHints(t *testing.T, expected, actual []*ast.TableOptimizerHint) {

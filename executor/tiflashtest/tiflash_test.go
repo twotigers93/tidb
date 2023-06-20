@@ -27,6 +27,8 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
@@ -40,8 +42,6 @@ import (
 	"github.com/twotigers93/tidb/util/israce"
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/tiflashcompute"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
 )
 
 // withMockTiFlash sets the mockStore to have N TiFlash stores (naming as tiflash0, tiflash1, ...).

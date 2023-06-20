@@ -25,6 +25,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	gmysql "github.com/go-sql-driver/mysql"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	tmock "github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 const passed precheck.CheckType = "pass"

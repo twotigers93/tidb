@@ -23,6 +23,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/expression"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/sem"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGrammar(t *testing.T) {

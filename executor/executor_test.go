@@ -31,6 +31,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/domain"
@@ -70,10 +74,6 @@ import (
 	"github.com/twotigers93/tidb/util/rowcodec"
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
-	"github.com/tikv/client-go/v2/testutils"
 )
 
 func checkFileName(s string) bool {

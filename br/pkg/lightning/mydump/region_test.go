@@ -20,12 +20,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/twotigers93/tidb/br/pkg/lightning/config"
-	. "github.com/twotigers93/tidb/br/pkg/lightning/mydump"
-	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
-	"github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
+	"github.com/twotigers93/tidb/br/pkg/storage"
 )
 
 // var expectedTuplesCount = map[string]int64{

@@ -19,6 +19,7 @@ import (
 	"math"
 	"strconv"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/kv"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/planner/util"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/util/paging"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // GetPlanCost returns the cost of this plan.

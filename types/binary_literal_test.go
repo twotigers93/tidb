@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 )
 
 func TestBinaryLiteral(t *testing.T) {

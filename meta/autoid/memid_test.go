@@ -19,13 +19,13 @@ import (
 	"math"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/meta/autoid"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 func TestInMemoryAlloc(t *testing.T) {

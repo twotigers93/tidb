@@ -20,12 +20,12 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/log"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/size"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // wholeTaskTypes records all possible kinds of task that a plan can return. For Agg, TopN and Limit, we will try to get

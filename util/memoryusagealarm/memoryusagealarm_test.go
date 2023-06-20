@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/memory"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestIfNeedDoRecord(t *testing.T) {

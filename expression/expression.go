@@ -25,6 +25,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/charset"
@@ -39,7 +40,6 @@ import (
 	"github.com/twotigers93/tidb/util/generatedexpr"
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/size"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

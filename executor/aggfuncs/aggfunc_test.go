@@ -23,6 +23,7 @@ import (
 
 	"github.com/dgryski/go-farm"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor/aggfuncs"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
@@ -37,7 +38,6 @@ import (
 	"github.com/twotigers93/tidb/util/hack"
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/set"
-	"github.com/stretchr/testify/require"
 )
 
 const (

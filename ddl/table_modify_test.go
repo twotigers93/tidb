@@ -19,6 +19,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	"github.com/twotigers93/tidb/domain"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/sessiontxn"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 )
 
 const tableModifyLease = 600 * time.Millisecond

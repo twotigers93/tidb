@@ -22,6 +22,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/model"
@@ -34,7 +35,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/mathutil"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 func getTableKeyColumns(tbl *model.TableInfo) ([]*model.ColumnInfo, []*types.FieldType, error) {

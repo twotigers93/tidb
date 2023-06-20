@@ -17,8 +17,8 @@ package types
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 func TestSet(t *testing.T) {

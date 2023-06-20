@@ -24,6 +24,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser"
@@ -38,7 +39,6 @@ import (
 	driver "github.com/twotigers93/tidb/types/parser_driver"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/size"
-	"github.com/stretchr/testify/require"
 )
 
 func TestInitLRUWithSystemVar(t *testing.T) {

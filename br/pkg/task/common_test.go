@@ -9,9 +9,9 @@ import (
 
 	backup "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/kvproto/pkg/encryptionpb"
-	"github.com/twotigers93/tidb/config"
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
 )
 
 type fakeValue string

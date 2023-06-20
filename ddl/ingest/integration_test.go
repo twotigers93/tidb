@@ -20,13 +20,13 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/ingest"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
-	"github.com/stretchr/testify/require"
 )
 
 func injectMockBackendMgr(t *testing.T, store kv.Storage) (restore func()) {

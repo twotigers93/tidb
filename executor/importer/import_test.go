@@ -21,6 +21,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/twotigers93/tidb/expression"
@@ -29,7 +30,6 @@ import (
 	plannercore "github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestInitDefaultOptions(t *testing.T) {

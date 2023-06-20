@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 func BenchmarkPacketIOWrite(b *testing.B) {

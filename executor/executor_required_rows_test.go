@@ -22,6 +22,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
@@ -37,7 +38,6 @@ import (
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 type requiredRowsDataSource struct {

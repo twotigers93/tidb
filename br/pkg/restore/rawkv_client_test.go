@@ -9,12 +9,12 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/rawkv"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/restore"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/rawkv"
 )
 
 // fakeRawkvClient is a mock for rawkv.client

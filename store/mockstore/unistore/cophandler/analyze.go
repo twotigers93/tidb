@@ -25,6 +25,8 @@ import (
 	"github.com/pingcap/badger/y"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/coprocessor"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twmb/murmur3"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/charset"
@@ -38,8 +40,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/twmb/murmur3"
 	"golang.org/x/exp/slices"
 )
 

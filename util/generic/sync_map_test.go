@@ -18,8 +18,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/twotigers93/tidb/util/generic"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/generic"
 )
 
 func TestSyncMap(t *testing.T) {

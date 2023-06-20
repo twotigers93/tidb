@@ -21,6 +21,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/pingcap/tipb/go-binlog"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/extension"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/metrics"
@@ -32,8 +34,6 @@ import (
 	utilpc "github.com/twotigers93/tidb/util/plancache"
 	"github.com/twotigers93/tidb/util/sli"
 	"github.com/twotigers93/tidb/util/topsql/stmtstats"
-	"github.com/pingcap/tipb/go-binlog"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 // InfoschemaMetaVersion is a workaround. Due to circular dependency,

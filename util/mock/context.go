@@ -22,6 +22,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/pingcap/tipb/go-binlog"
+	"github.com/tikv/client-go/v2/oracle"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/extension"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -36,9 +39,6 @@ import (
 	"github.com/twotigers93/tidb/util/sli"
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/topsql/stmtstats"
-	"github.com/pingcap/tipb/go-binlog"
-	"github.com/tikv/client-go/v2/oracle"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 var (

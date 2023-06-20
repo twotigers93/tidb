@@ -27,6 +27,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/prometheus/client_golang/prometheus"
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/metrics"
@@ -39,10 +43,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/paging"
-	"github.com/prometheus/client_golang/prometheus"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
 )
 
 // checkGoroutineExists

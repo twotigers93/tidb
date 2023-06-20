@@ -21,6 +21,8 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twmb/murmur3"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -32,8 +34,6 @@ import (
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/fastrand"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/twmb/murmur3"
 )
 
 // SampleItem is an item of sampled column value.

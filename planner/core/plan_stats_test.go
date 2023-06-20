@@ -21,6 +21,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/executor"
@@ -33,7 +34,6 @@ import (
 	"github.com/twotigers93/tidb/statistics"
 	"github.com/twotigers93/tidb/statistics/handle"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPlanStatsLoad(t *testing.T) {

@@ -17,10 +17,10 @@ package cascades
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/planner/memo"
 	"github.com/twotigers93/tidb/planner/property"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGetEnforcerRules(t *testing.T) {

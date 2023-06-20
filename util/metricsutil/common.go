@@ -21,6 +21,8 @@ import (
 	"time"
 
 	"github.com/pingcap/kvproto/pkg/keyspacepb"
+	tikvconfig "github.com/tikv/client-go/v2/config"
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/config"
 	domain_metrics "github.com/twotigers93/tidb/domain/metrics"
 	executor_metrics "github.com/twotigers93/tidb/executor/metrics"
@@ -39,8 +41,6 @@ import (
 	ttlmetrics "github.com/twotigers93/tidb/ttl/metrics"
 	"github.com/twotigers93/tidb/util"
 	topsqlreporter_metrics "github.com/twotigers93/tidb/util/topsql/reporter/metrics"
-	tikvconfig "github.com/tikv/client-go/v2/config"
-	pd "github.com/tikv/pd/client"
 )
 
 // RegisterMetrics register metrics with const label 'keyspace_id' if keyspaceName set.

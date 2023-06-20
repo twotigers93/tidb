@@ -23,6 +23,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/expression"
@@ -35,7 +36,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/hint"
 	"github.com/twotigers93/tidb/util/set"
-	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 )
 

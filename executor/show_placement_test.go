@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
-	"github.com/stretchr/testify/require"
 )
 
 func TestShowPlacement(t *testing.T) {

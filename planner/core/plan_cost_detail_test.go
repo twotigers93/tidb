@@ -18,6 +18,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser"
 	plannercore "github.com/twotigers93/tidb/planner/core"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/util/hint"
 	"github.com/twotigers93/tidb/util/plancodec"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPlanCostDetail(t *testing.T) {

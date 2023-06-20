@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/table/tables"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 // initRow add a new record into the cached table meta lock table.

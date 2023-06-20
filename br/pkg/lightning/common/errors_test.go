@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/stretchr/testify/require"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 )
 
 func TestNormalizeError(t *testing.T) {

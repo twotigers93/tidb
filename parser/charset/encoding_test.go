@@ -18,8 +18,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/pingcap/tidb/parser/charset"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/charset"
 	"golang.org/x/text/transform"
 )
 

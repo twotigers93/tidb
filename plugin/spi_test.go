@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/plugin"
 	"github.com/twotigers93/tidb/sessionctx/variable"
-	"github.com/stretchr/testify/require"
 )
 
 func TestExportManifest(t *testing.T) {

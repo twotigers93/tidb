@@ -18,8 +18,8 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/pingcap/tidb/parser/mysql"
 	requires "github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 func TestTokenID(t *testing.T) {

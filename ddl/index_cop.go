@@ -21,6 +21,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/ddl/ingest"
 	sess "github.com/twotigers93/tidb/ddl/internal/session"
 	"github.com/twotigers93/tidb/distsql"
@@ -44,7 +45,6 @@ import (
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

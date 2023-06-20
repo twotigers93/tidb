@@ -29,6 +29,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -39,7 +40,6 @@ import (
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/hack"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

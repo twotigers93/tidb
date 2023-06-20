@@ -5,9 +5,9 @@ package export
 import (
 	"math"
 
-	"github.com/twotigers93/tidb/util/promutil"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
+	"github.com/twotigers93/tidb/util/promutil"
 	"go.uber.org/atomic"
 )
 

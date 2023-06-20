@@ -21,6 +21,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/schematracker"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
@@ -29,7 +30,6 @@ import (
 	"github.com/twotigers93/tidb/store/driver"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/util/gctuner"
-	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )
 

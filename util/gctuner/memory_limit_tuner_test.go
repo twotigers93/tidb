@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/twotigers93/tidb/util/memory"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 type mockAllocator struct {

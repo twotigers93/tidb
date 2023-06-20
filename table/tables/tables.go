@@ -30,6 +30,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-binlog"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta"
 	"github.com/twotigers93/tidb/meta/autoid"
@@ -52,8 +54,6 @@ import (
 	"github.com/twotigers93/tidb/util/stringutil"
 	"github.com/twotigers93/tidb/util/tableutil"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/pingcap/tipb/go-binlog"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

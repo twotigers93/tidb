@@ -17,8 +17,8 @@ package domain
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/util/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/mock"
 )
 
 func TestDomainCtx(t *testing.T) {

@@ -17,6 +17,7 @@ package keydecoder
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/model"
 	_ "github.com/twotigers93/tidb/planner/core"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/testutil"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/assert"
 	"go.opencensus.io/stats/view"
 )
 

@@ -26,6 +26,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/ddl/ingest"
 	sess "github.com/twotigers93/tidb/ddl/internal/session"
 	"github.com/twotigers93/tidb/distsql"
@@ -49,7 +50,6 @@ import (
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/ranger"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/pingcap/tipb/go-tipb"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	atomicutil "go.uber.org/atomic"
 	"go.uber.org/zap"

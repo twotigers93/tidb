@@ -18,6 +18,7 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/local"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
@@ -25,7 +26,6 @@ import (
 	"github.com/twotigers93/tidb/br/pkg/lightning/metric"
 	"github.com/twotigers93/tidb/br/pkg/pdutil"
 	"github.com/twotigers93/tidb/kv"
-	pd "github.com/tikv/pd/client"
 	"go.uber.org/zap"
 )
 

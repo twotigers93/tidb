@@ -23,12 +23,12 @@ import (
 
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/kvproto/pkg/encryptionpb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/br/pkg/checkpoint"
 	"github.com/twotigers93/tidb/br/pkg/pdutil"
 	"github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/twotigers93/tidb/parser/model"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 func TestCheckpointMeta(t *testing.T) {

@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/testkit/testmain"
 	"github.com/twotigers93/tidb/testkit/testsetup"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/goleak"
 )
 

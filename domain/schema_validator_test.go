@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/sessionctx/variable"
-	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/oracle"
 	"github.com/tikv/client-go/v2/txnkv/transaction"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util"
 )
 
 func TestSchemaValidator(t *testing.T) {

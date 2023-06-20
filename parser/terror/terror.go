@@ -23,7 +23,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/mysql"
 	"go.uber.org/zap"
 )
 

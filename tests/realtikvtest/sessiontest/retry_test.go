@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta/autoid"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 )
 
 func TestRetryShow(t *testing.T) {

@@ -16,12 +16,12 @@ package main
 
 import (
 	"github.com/pingcap/errors"
+	"github.com/spf13/cobra"
 	advancercfg "github.com/twotigers93/tidb/br/pkg/streamhelper/config"
 	"github.com/twotigers93/tidb/br/pkg/task"
 	"github.com/twotigers93/tidb/br/pkg/trace"
 	"github.com/twotigers93/tidb/br/pkg/utils"
 	"github.com/twotigers93/tidb/br/pkg/version/build"
-	"github.com/spf13/cobra"
 	"sourcegraph.com/sourcegraph/appdash"
 )
 

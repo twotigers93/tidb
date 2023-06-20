@@ -24,6 +24,8 @@ import (
 	"github.com/ngaut/pools"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/util"
 	"github.com/twotigers93/tidb/disttask/framework/dispatcher"
 	"github.com/twotigers93/tidb/disttask/framework/proto"
 	"github.com/twotigers93/tidb/disttask/framework/storage"
@@ -31,8 +33,6 @@ import (
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/util"
 )
 
 func MockDispatcher(t *testing.T, pool *pools.ResourcePool) (dispatcher.Dispatch, *storage.TaskManager) {

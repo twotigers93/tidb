@@ -17,8 +17,8 @@ package parser_test
 import (
 	"testing"
 
-	utilparser "github.com/twotigers93/tidb/util/parser"
 	"github.com/stretchr/testify/require"
+	utilparser "github.com/twotigers93/tidb/util/parser"
 )
 
 func TestSpace(t *testing.T) {

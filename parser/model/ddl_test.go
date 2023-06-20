@@ -17,9 +17,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/terror"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 func TestJobClone(t *testing.T) {

@@ -21,11 +21,11 @@ import (
 
 	"github.com/pingcap/kvproto/pkg/coprocessor"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/twotigers93/tidb/parser"
-	"github.com/twotigers93/tidb/util/hack"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/tikvrpc"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/util/hack"
 )
 
 func TestResourceGroupTagEncoding(t *testing.T) {

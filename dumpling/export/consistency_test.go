@@ -10,11 +10,11 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/go-sql-driver/mysql"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/version"
 	dbconfig "github.com/twotigers93/tidb/config"
 	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"github.com/twotigers93/tidb/errno"
-	"github.com/stretchr/testify/require"
 )
 
 func TestConsistencyController(t *testing.T) {

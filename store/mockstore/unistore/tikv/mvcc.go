@@ -31,6 +31,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/log"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/store/mockstore/unistore/config"
 	"github.com/twotigers93/tidb/store/mockstore/unistore/lockstore"
@@ -42,7 +43,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/tikv/client-go/v2/oracle"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 )

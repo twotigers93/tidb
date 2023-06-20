@@ -18,10 +18,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/twotigers93/tidb/parser/terror"
-	"github.com/twotigers93/tidb/testkit/testsetup"
 	"github.com/stretchr/testify/assert"
 	tikverr "github.com/tikv/client-go/v2/error"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/testkit/testsetup"
 	"go.uber.org/goleak"
 )
 

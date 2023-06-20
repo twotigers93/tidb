@@ -22,10 +22,10 @@ import (
 	"net/http/httptest"
 
 	"github.com/pingcap/errors"
-	"github.com/twotigers93/tidb/br/pkg/httputil"
-	"github.com/twotigers93/tidb/util"
 	"github.com/tikv/client-go/v2/config"
 	pd "github.com/tikv/pd/client"
+	"github.com/twotigers93/tidb/br/pkg/httputil"
+	"github.com/twotigers93/tidb/util"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"

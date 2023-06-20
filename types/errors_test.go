@@ -17,8 +17,8 @@ package types
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 func TestError(t *testing.T) {

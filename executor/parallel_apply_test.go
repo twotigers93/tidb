@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/stretchr/testify/require"
 )
 
 func checkApplyPlan(t *testing.T, tk *testkit.TestKit, sql string, parallel int) {

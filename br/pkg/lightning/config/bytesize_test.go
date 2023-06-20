@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/BurntSushi/toml"
-	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 )
 
 func TestByteSizeTOMLDecode(t *testing.T) {

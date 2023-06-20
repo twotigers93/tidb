@@ -19,11 +19,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/table"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // A plan is dataAccesser means it can access underlying data.

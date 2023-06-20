@@ -22,11 +22,11 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
-	"github.com/stretchr/testify/require"
 )
 
 type invalidMockType struct {

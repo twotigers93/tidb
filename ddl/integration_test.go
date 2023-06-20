@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func TestDefaultValueIsBinaryString(t *testing.T) {

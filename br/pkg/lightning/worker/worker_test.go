@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
 )
 
 func TestApplyRecycle(t *testing.T) {

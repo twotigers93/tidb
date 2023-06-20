@@ -5,6 +5,7 @@ package gluetikv
 import (
 	"context"
 
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/br/pkg/glue"
 	"github.com/twotigers93/tidb/br/pkg/summary"
 	"github.com/twotigers93/tidb/br/pkg/utils"
@@ -13,7 +14,6 @@ import (
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/store/driver"
-	pd "github.com/tikv/pd/client"
 )
 
 // Asserting Glue implements glue.ConsoleGlue and glue.Glue at compile time.

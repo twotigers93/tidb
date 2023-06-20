@@ -19,10 +19,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/twotigers93/tidb/infoschema"
-	"github.com/twotigers93/tidb/util/set"
 	"github.com/prometheus/prometheus/promql"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/util/set"
 )
 
 func mockGenPromQL(promQL string) string {

@@ -24,6 +24,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/charset"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/rowcodec"
 	"github.com/twotigers93/tidb/util/stringutil"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 var (

@@ -15,8 +15,8 @@
 package bodyclose
 
 import (
-	"github.com/twotigers93/tidb/build/linter/util"
 	"github.com/timakin/bodyclose/passes/bodyclose"
+	"github.com/twotigers93/tidb/build/linter/util"
 )
 
 // Analyzer is the analyzer struct of bodyclose.

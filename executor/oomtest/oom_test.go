@@ -23,11 +23,11 @@ import (
 
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testsetup"
 	"github.com/twotigers93/tidb/util/set"
 	"github.com/twotigers93/tidb/util/syncutil"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

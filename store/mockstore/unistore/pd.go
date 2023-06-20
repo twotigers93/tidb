@@ -26,9 +26,9 @@ import (
 	"github.com/pingcap/kvproto/pkg/meta_storagepb"
 	"github.com/pingcap/kvproto/pkg/pdpb"
 	rmpb "github.com/pingcap/kvproto/pkg/resource_manager"
-	us "github.com/twotigers93/tidb/store/mockstore/unistore/tikv"
 	"github.com/tikv/client-go/v2/oracle"
 	pd "github.com/tikv/pd/client"
+	us "github.com/twotigers93/tidb/store/mockstore/unistore/tikv"
 )
 
 var _ pd.Client = new(pdClient)

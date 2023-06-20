@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/store/gcworker"
 	"github.com/twotigers93/tidb/table"
-	"github.com/stretchr/testify/require"
 )
 
 func getIndex(t table.Table, name string) table.Index {

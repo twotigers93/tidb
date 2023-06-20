@@ -8,6 +8,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/backup"
 	"github.com/twotigers93/tidb/br/pkg/checksum"
 	"github.com/twotigers93/tidb/br/pkg/metautil"
@@ -16,7 +17,6 @@ import (
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func getTableInfo(t *testing.T, mock *mock.Cluster, db, table string) *model.TableInfo {

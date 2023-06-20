@@ -29,12 +29,12 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/twotigers93/tidb/br/pkg/lightning/log"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/util/dbutil"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 )
 
 func TestDirNotExist(t *testing.T) {

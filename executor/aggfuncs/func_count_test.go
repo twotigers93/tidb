@@ -20,6 +20,7 @@ import (
 	"testing"
 
 	"github.com/dgryski/go-farm"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor/aggfuncs"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/hack"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func genApproxDistinctMergePartialResult(begin, end uint64) string {

@@ -27,13 +27,13 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/store/helper"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/util/pdapi"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
 	"go.opencensus.io/stats/view"
 	"go.uber.org/zap"
 )

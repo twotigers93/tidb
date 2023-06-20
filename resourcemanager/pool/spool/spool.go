@@ -19,6 +19,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/prometheus/client_golang/prometheus"
+	"github.com/sasha-s/go-deadlock"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/resourcemanager"
 	"github.com/twotigers93/tidb/resourcemanager/pool"
@@ -26,8 +28,6 @@ import (
 	"github.com/twotigers93/tidb/resourcemanager/util"
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/mathutil"
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/sasha-s/go-deadlock"
 	"go.uber.org/zap"
 )
 

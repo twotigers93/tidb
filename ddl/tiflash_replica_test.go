@@ -25,6 +25,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	"github.com/twotigers93/tidb/domain"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )
 

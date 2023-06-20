@@ -17,9 +17,9 @@ package sem
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx/variable"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestInvisibleSchema(t *testing.T) {

@@ -20,6 +20,7 @@ import (
 	"math"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
@@ -35,7 +36,6 @@ import (
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/external"
-	"github.com/stretchr/testify/require"
 )
 
 func TestAnalyzeBuildSucc(t *testing.T) {

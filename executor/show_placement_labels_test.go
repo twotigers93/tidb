@@ -18,9 +18,9 @@ import (
 	gjson "encoding/json"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/store/helper"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 func TestShowPlacementLabelsBuilder(t *testing.T) {

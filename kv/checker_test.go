@@ -17,8 +17,8 @@ package kv_test
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/kv"
 	"github.com/stretchr/testify/assert"
+	"github.com/twotigers93/tidb/kv"
 )
 
 func TestIsRequestTypeSupported(t *testing.T) {

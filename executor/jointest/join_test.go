@@ -23,6 +23,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	plannercore "github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/session"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 	"github.com/twotigers93/tidb/util/memory"
-	"github.com/stretchr/testify/require"
 )
 
 func TestJoinPanic2(t *testing.T) {

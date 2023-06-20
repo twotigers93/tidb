@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/twotigers93/tidb/br/pkg/utils"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/br/pkg/utils"
 )
 
 func TestRetryAdapter(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/util/hack"
-	"github.com/stretchr/testify/require"
 )
 
 func TestBindCache(t *testing.T) {

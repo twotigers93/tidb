@@ -20,6 +20,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/model"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/util/domainutil"
-	"github.com/stretchr/testify/require"
 )
 
 const repairTableLease = 600 * time.Millisecond

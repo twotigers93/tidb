@@ -22,6 +22,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/sessionctx"
@@ -29,7 +30,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/tikv/client-go/v2/tikvrpc"
 	"go.etcd.io/etcd/client/v3"
 	atomicutil "go.uber.org/atomic"
 	"go.uber.org/zap"

@@ -22,6 +22,8 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
@@ -30,8 +32,6 @@ import (
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 // TestTableCodec  tests some functions in package tablecodec

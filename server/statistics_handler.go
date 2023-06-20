@@ -21,13 +21,13 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/types"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 // StatsHandler is the handler for dumping statistics.

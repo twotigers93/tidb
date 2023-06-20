@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/twotigers93/tidb/util/checksum"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/checksum"
 )
 
 type readAtTestCase struct {

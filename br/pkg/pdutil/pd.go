@@ -23,12 +23,12 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/log"
+	pd "github.com/tikv/pd/client"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/httputil"
 	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/twotigers93/tidb/store/pdtypes"
 	"github.com/twotigers93/tidb/util/codec"
-	pd "github.com/tikv/pd/client"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

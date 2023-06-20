@@ -19,9 +19,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/coprocessor"
-	"github.com/twotigers93/tidb/kv"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/tikv/client-go/v2/testutils"
+	"github.com/twotigers93/tidb/kv"
 )
 
 type coprHandler struct {

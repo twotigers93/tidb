@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 func TestMetrics(_ *testing.T) {

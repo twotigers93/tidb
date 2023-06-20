@@ -21,11 +21,11 @@ import (
 
 	"github.com/ngaut/pools"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/disttask/framework/proto"
 	"github.com/twotigers93/tidb/disttask/framework/storage"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testsetup"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 )
 

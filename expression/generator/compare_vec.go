@@ -296,7 +296,7 @@ func (b *builtin{{ .compare.CompareName }}{{ .type.TypeName }}Sig) vectorized() 
 const builtinCompareVecTestHeader = `import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/pingcap/tidb/types"
 )
 

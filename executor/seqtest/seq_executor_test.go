@@ -32,6 +32,10 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/testutils"
+	"github.com/tikv/client-go/v2/tikv"
+	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/twotigers93/tidb/config"
 	ddltestutil "github.com/twotigers93/tidb/ddl/testutil"
 	"github.com/twotigers93/tidb/ddl/util"
@@ -51,10 +55,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testutil"
 	"github.com/twotigers93/tidb/util/gcutil"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/testutils"
-	"github.com/tikv/client-go/v2/tikv"
-	"github.com/tikv/client-go/v2/tikvrpc"
 )
 
 func TestEarlyClose(t *testing.T) {

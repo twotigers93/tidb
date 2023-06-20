@@ -20,6 +20,7 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/domain/infosync"
 	"github.com/twotigers93/tidb/errno"
@@ -36,7 +37,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/util/benchdaily"
 	"github.com/twotigers93/tidb/util/dbterror"
-	"github.com/stretchr/testify/require"
 )
 
 func TestSplitTableRegion(t *testing.T) {

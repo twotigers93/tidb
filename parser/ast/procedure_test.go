@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
 )
 
 func TestProcedureVisitorCover(t *testing.T) {

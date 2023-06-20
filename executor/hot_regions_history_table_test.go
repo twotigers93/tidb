@@ -29,6 +29,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/pingcap/fn"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/util/pdapi"
-	"github.com/stretchr/testify/require"
 )
 
 type mockStoreWithMultiPD struct {

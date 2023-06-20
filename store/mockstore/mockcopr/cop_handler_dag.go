@@ -25,6 +25,8 @@ import (
 	"github.com/pingcap/kvproto/pkg/coprocessor"
 	"github.com/pingcap/kvproto/pkg/errorpb"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/tikv/client-go/v2/testutils"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/kv"
@@ -40,8 +42,6 @@ import (
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/rowcodec"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/tikv/client-go/v2/testutils"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

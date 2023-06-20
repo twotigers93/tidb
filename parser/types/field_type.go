@@ -21,9 +21,9 @@ import (
 	"unsafe"
 
 	"github.com/cznic/mathutil"
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/format"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/format"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 // UnspecifiedLength is unspecified length.

@@ -24,6 +24,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/parser/auth"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 func TestExplainPrivileges(t *testing.T) {

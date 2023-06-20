@@ -19,9 +19,9 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/resourcemanager/util"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

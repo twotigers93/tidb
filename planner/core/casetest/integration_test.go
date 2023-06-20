@@ -20,6 +20,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/terror"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPushLimitDownIndexLookUpReader(t *testing.T) {

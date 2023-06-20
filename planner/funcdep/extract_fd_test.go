@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/sessiontxn"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/hint"
-	"github.com/stretchr/testify/require"
 )
 
 func testGetIS(t *testing.T, ctx sessionctx.Context) infoschema.InfoSchema {

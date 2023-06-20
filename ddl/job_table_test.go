@@ -23,13 +23,13 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
 	"github.com/twotigers93/tidb/ddl/syncer"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 )
 

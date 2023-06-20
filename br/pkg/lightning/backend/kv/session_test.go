@@ -17,11 +17,11 @@ package kv_test
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
 	"github.com/twotigers93/tidb/br/pkg/lightning/log"
 	"github.com/twotigers93/tidb/parser/mysql"
-	"github.com/stretchr/testify/require"
 )
 
 func TestSession(t *testing.T) {

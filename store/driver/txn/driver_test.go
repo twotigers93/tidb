@@ -18,8 +18,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/twotigers93/tidb/kv"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
 )
 
 func TestLockNotFoundPrint(t *testing.T) {

@@ -9,6 +9,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/br/pkg/glue"
 	"github.com/twotigers93/tidb/br/pkg/gluetikv"
 	"github.com/twotigers93/tidb/br/pkg/logutil"
@@ -22,7 +23,6 @@ import (
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/sessionctx"
-	pd "github.com/tikv/pd/client"
 	"go.uber.org/zap"
 )
 

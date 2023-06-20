@@ -18,12 +18,12 @@ import (
 	stderrs "errors"
 
 	"github.com/pingcap/errors"
+	tikverr "github.com/tikv/client-go/v2/error"
+	pderr "github.com/tikv/pd/client/errs"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/util/dbterror"
-	tikverr "github.com/tikv/client-go/v2/error"
-	pderr "github.com/tikv/pd/client/errs"
 )
 
 // tikv error instance

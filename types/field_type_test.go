@@ -17,9 +17,9 @@ package types
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
-	"github.com/stretchr/testify/require"
 )
 
 func TestFieldType(t *testing.T) {

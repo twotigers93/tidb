@@ -18,13 +18,13 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 )
 

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/twotigers93/tidb/br/pkg/utils"
 	"github.com/stretchr/testify/require"
 	pd "github.com/tikv/pd/client"
+	"github.com/twotigers93/tidb/br/pkg/utils"
 )
 
 func TestCheckGCSafepoint(t *testing.T) {

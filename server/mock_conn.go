@@ -21,6 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/extension"
 	"github.com/twotigers93/tidb/kv"
@@ -29,7 +30,6 @@ import (
 	"github.com/twotigers93/tidb/util/arena"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/intest"
-	"github.com/stretchr/testify/require"
 )
 
 // MockConn is a mock connection.

@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/ttl/session"
-	"github.com/stretchr/testify/require"
 )
 
 func TestSessionRunInTxn(t *testing.T) {

@@ -20,6 +20,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/distsql"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/infoschema"
@@ -39,7 +40,6 @@ import (
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/ranger"
 	"github.com/twotigers93/tidb/util/timeutil"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

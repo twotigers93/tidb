@@ -27,6 +27,7 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/distsql"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
@@ -54,7 +55,6 @@ import (
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/ranger"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 )

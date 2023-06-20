@@ -29,6 +29,7 @@ import (
 	"github.com/pingcap/kvproto/pkg/mpp"
 	"github.com/pingcap/kvproto/pkg/tikvpb"
 	"github.com/pingcap/log"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/store/mockstore/unistore/client"
 	"github.com/twotigers93/tidb/store/mockstore/unistore/cophandler"
@@ -36,7 +37,6 @@ import (
 	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/kverrors"
 	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/pberror"
 	"github.com/twotigers93/tidb/store/mockstore/unistore/util/lockwaiter"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

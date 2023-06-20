@@ -5,6 +5,7 @@ package main
 import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
+	"github.com/spf13/cobra"
 	"github.com/twotigers93/tidb/br/pkg/gluetikv"
 	"github.com/twotigers93/tidb/br/pkg/summary"
 	"github.com/twotigers93/tidb/br/pkg/task"
@@ -14,7 +15,6 @@ import (
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/util/metricsutil"
-	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 	"sourcegraph.com/sourcegraph/appdash"
 )

@@ -27,6 +27,7 @@ import (
 
 	"github.com/ngaut/pools"
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/config"
 	ddlUtil "github.com/twotigers93/tidb/ddl/util"
 	"github.com/twotigers93/tidb/infoschema"
@@ -48,7 +49,6 @@ import (
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/syncutil"
-	"github.com/tikv/client-go/v2/oracle"
 	atomic2 "go.uber.org/atomic"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"

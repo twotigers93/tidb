@@ -18,6 +18,7 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	decoder "github.com/twotigers93/tidb/util/rowDecoder"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/tikv/client-go/v2/tikv"
 	"golang.org/x/exp/slices"
 )
 

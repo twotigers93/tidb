@@ -20,14 +20,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 func TestTableSplit(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"github.com/stretchr/testify/require"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
 )
 
 func TestPrepareDumpingDatabases(t *testing.T) {

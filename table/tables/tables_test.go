@@ -26,6 +26,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-binlog"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta/autoid"
@@ -44,9 +47,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/pingcap/tipb/go-binlog"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )
 

@@ -19,8 +19,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/twotigers93/tidb/config"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
 )
 
 func TestRemoveDir(t *testing.T) {

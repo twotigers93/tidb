@@ -23,6 +23,8 @@ import (
 
 	"github.com/docker/go-units"
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/oracle"
+	rmclient "github.com/tikv/pd/client/resource_group/controller"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -32,8 +34,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/tikv/client-go/v2/oracle"
-	rmclient "github.com/tikv/pd/client/resource_group/controller"
 )
 
 var (

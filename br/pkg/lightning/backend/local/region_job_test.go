@@ -23,8 +23,8 @@ import (
 	"github.com/pingcap/kvproto/pkg/errorpb"
 	sst "github.com/pingcap/kvproto/pkg/import_sstpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/twotigers93/tidb/br/pkg/restore/split"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/restore/split"
 )
 
 func TestIsIngestRetryable(t *testing.T) {

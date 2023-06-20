@@ -21,6 +21,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx"
@@ -30,7 +31,6 @@ import (
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // PbTypeToFieldType converts tipb.FieldType to FieldType

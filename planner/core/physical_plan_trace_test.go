@@ -19,6 +19,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/planner/core"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/hint"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPhysicalOptimizeWithTraceEnabled(t *testing.T) {
