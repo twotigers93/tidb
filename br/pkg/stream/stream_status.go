@@ -24,6 +24,7 @@ import (
 	"github.com/twotigers93/tidb/br/pkg/httputil"
 	"github.com/twotigers93/tidb/br/pkg/logutil"
 	"github.com/twotigers93/tidb/br/pkg/storage"
+	. "github.com/twotigers93/tidb/br/pkg/streamhelper"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 )

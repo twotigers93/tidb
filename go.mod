@@ -9,7 +9,6 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v0.2.0
 	github.com/BurntSushi/toml v1.2.1
 	github.com/DATA-DOG/go-sqlmock v1.5.0
-	github.com/Jeffail/gabs/v2 v2.5.1
 	github.com/Masterminds/semver v1.5.0
 	github.com/Shopify/sarama v1.29.0
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1581
@@ -28,6 +27,8 @@ require (
 	github.com/coocood/freecache v1.2.1
 	github.com/coreos/go-semver v0.3.0
 	github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548
+	github.com/cznic/sortutil v0.0.0-20181122101858-f5f958428db8
+	github.com/cznic/strutil v0.0.0-20181122101858-275e90344537
 	github.com/daixiang0/gci v0.10.1
 	github.com/danjacques/gofslock v0.0.0-20191023191349-0a45f885bc37
 	github.com/dgraph-io/ristretto v0.1.1
@@ -93,7 +94,8 @@ require (
 	github.com/stretchr/testify v1.8.2
 	github.com/tdakkota/asciicheck v0.2.0
 	github.com/tiancaiamao/appdash v0.0.0-20181126055449-889f96f722a2
-	github.com/tikv/client-go/v2 v2.0.7
+	github.com/tikv/client-go/v2 v2.0.8-0.20230524032653-1b2876693630
+	github.com/tikv/pd/client v0.0.0-20230419105719-9e7b8e8c95fd
 	github.com/timakin/bodyclose v0.0.0-20221125081123-e39cf3fc478e
 	github.com/twmb/murmur3 v1.1.6
 	github.com/uber/jaeger-client-go v2.22.1+incompatible
@@ -104,13 +106,11 @@ require (
 	go.etcd.io/etcd/api/v3 v3.5.2
 	go.etcd.io/etcd/client/pkg/v3 v3.5.2
 	go.etcd.io/etcd/client/v3 v3.5.2
-	go.etcd.io/etcd/server/v3 v3.5.2
-	go.etcd.io/etcd/tests/v3 v3.5.2
 	go.opencensus.io v0.24.0
 	go.uber.org/atomic v1.11.0
 	go.uber.org/automaxprocs v1.4.0
 	go.uber.org/goleak v1.2.1
-	go.uber.org/multierr v1.9.0
+	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.24.0
 	golang.org/x/exp v0.0.0-20221023144134-a1e5550cf13e
 	golang.org/x/net v0.9.0
@@ -126,6 +126,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	honnef.co/go/tools v0.4.3
 	k8s.io/api v0.27.2
+	modernc.org/parser v1.0.7
+	modernc.org/y v1.0.9
 	sourcegraph.com/sourcegraph/appdash v0.0.0-20190731080439-ebfcffb1b5c0
 	sourcegraph.com/sourcegraph/appdash-data v0.0.0-20151005221446-73f23eafcf67
 )
@@ -168,7 +170,6 @@ require (
 	github.com/elastic/gosigar v0.14.2 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/felixge/httpsnoop v1.0.2 // indirect
-	github.com/form3tech-oss/jwt-go v3.2.5+incompatible // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.4 // indirect
 	github.com/go-kit/kit v0.9.0 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
@@ -184,11 +185,8 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
 	github.com/googleapis/gax-go/v2 v2.7.1 // indirect
 	github.com/gorilla/handlers v1.5.1 // indirect
-	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/gostaticanalysis/analysisutil v0.7.1 // indirect
 	github.com/gostaticanalysis/comment v1.4.2 // indirect
-	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
-	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/hashicorp/go-uuid v1.0.2 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/huandu/xstrings v1.3.1 // indirect
@@ -200,7 +198,6 @@ require (
 	github.com/jcmturner/gokrb5/v8 v8.4.2 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid v1.3.1 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
@@ -249,24 +246,8 @@ require (
 	github.com/tiancaiamao/gp v0.0.0-20221230034425-4025bc8a4d4a // indirect
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
 	github.com/tklauser/numcpus v0.6.0 // indirect
-	github.com/tmc/grpc-websocket-proxy v0.0.0-20201229170055-e5319fda7802 // indirect
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
-	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
-	go.etcd.io/bbolt v1.3.6 // indirect
-	go.etcd.io/etcd/client/v2 v2.305.2 // indirect
-	go.etcd.io/etcd/pkg/v3 v3.5.2 // indirect
-	go.etcd.io/etcd/raft/v3 v3.5.2 // indirect
-	go.opentelemetry.io/contrib v0.20.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.20.0 // indirect
-	go.opentelemetry.io/otel v0.20.0 // indirect
-	go.opentelemetry.io/otel/exporters/otlp v0.20.0 // indirect
-	go.opentelemetry.io/otel/metric v0.20.0 // indirect
-	go.opentelemetry.io/otel/sdk v0.20.0 // indirect
-	go.opentelemetry.io/otel/sdk/export/metric v0.20.0 // indirect
-	go.opentelemetry.io/otel/sdk/metric v0.20.0 // indirect
-	go.opentelemetry.io/otel/trace v0.20.0 // indirect
-	go.opentelemetry.io/proto/otlp v0.7.0 // indirect
 	golang.org/x/crypto v0.8.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20230224173230-c95f2b4c22f2 // indirect
 	golang.org/x/mod v0.10.0 // indirect
@@ -280,9 +261,12 @@ require (
 	k8s.io/apimachinery v0.27.2 // indirect
 	k8s.io/klog/v2 v2.90.1 // indirect
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491 // indirect
+	modernc.org/golex v1.0.5 // indirect
+	modernc.org/mathutil v1.5.0 // indirect
+	modernc.org/sortutil v1.1.1 // indirect
+	modernc.org/strutil v1.1.3 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
-	sigs.k8s.io/yaml v1.3.0 // indirect
 	stathat.com/c/consistent v1.0.0 // indirect
 )
 
