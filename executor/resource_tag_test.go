@@ -20,6 +20,9 @@ import (
 
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/parser"
 	plannercore "github.com/twotigers93/tidb/planner/core"
@@ -28,9 +31,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/external"
 	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/tikvrpc"
 )
 
 func TestResourceGroupTag(t *testing.T) {

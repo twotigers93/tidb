@@ -10,12 +10,12 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
 	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
 	"github.com/twotigers93/tidb/br/pkg/lightning/verification"
 	"github.com/twotigers93/tidb/br/pkg/version/build"
 	"github.com/twotigers93/tidb/parser/model"
-	"github.com/stretchr/testify/require"
 )
 
 type cpSQLSuite struct {

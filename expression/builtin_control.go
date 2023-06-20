@@ -15,12 +15,12 @@
 package expression
 
 import (
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/mathutil"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 var (

@@ -20,6 +20,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/sessiontxn/staleread"
 	"github.com/twotigers93/tidb/table/temptable"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 // baseTxnContextProvider is a base class for the transaction context providers that implement `TxnContextProvider` in different isolation.

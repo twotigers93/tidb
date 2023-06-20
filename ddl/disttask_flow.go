@@ -21,6 +21,7 @@ import (
 	"sort"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/disttask/framework/dispatcher"
 	"github.com/twotigers93/tidb/disttask/framework/proto"
 	"github.com/twotigers93/tidb/kv"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/store/helper"
 	"github.com/twotigers93/tidb/table"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 type litBackfillFlowHandle struct {

@@ -20,6 +20,7 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/kv"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/util/size"
 	"github.com/twotigers93/tidb/util/stringutil"
 	"github.com/twotigers93/tidb/util/tracing"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 var (

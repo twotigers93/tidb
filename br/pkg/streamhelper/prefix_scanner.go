@@ -5,9 +5,9 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
+	kvutil "github.com/tikv/client-go/v2/kv"
 	"github.com/twotigers93/tidb/br/pkg/redact"
 	"github.com/twotigers93/tidb/kv"
-	kvutil "github.com/tikv/client-go/v2/kv"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

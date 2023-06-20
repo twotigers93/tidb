@@ -4,11 +4,11 @@ package main
 
 import (
 	"github.com/pingcap/errors"
+	"github.com/spf13/cobra"
 	"github.com/twotigers93/tidb/br/pkg/task"
 	"github.com/twotigers93/tidb/br/pkg/task/operator"
 	"github.com/twotigers93/tidb/br/pkg/utils"
 	"github.com/twotigers93/tidb/br/pkg/version/build"
-	"github.com/spf13/cobra"
 )
 
 func newOpeartorCommand() *cobra.Command {

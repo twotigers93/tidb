@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testdata"
-	"github.com/stretchr/testify/require"
 )
 
 func TestListPartitionPushDown(t *testing.T) {

@@ -17,8 +17,8 @@ package storage_test
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/util/sys/storage"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/sys/storage"
 )
 
 func TestGetTargetDirectoryCapacity(t *testing.T) {

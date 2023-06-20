@@ -17,8 +17,8 @@ package copr
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/kv"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
 )
 
 func TestCopRanges(t *testing.T) {

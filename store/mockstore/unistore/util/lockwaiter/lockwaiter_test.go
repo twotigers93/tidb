@@ -21,8 +21,8 @@ import (
 
 	deadlockPb "github.com/pingcap/kvproto/pkg/deadlock"
 	"github.com/pingcap/log"
-	"github.com/twotigers93/tidb/store/mockstore/unistore/config"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/config"
 )
 
 func TestLockwaiterBasic(t *testing.T) {

@@ -22,6 +22,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	_ "github.com/twotigers93/tidb/autoid_service"
 	ddltestutil "github.com/twotigers93/tidb/ddl/testutil"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -29,7 +30,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testutil"
-	"github.com/stretchr/testify/require"
 )
 
 // Test filter different kind of allocators.

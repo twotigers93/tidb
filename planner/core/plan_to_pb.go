@@ -16,6 +16,7 @@ package core
 
 import (
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/kv"
@@ -25,7 +26,6 @@ import (
 	"github.com/twotigers93/tidb/telemetry"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/ranger"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // ToPB implements PhysicalPlan ToPB interface.

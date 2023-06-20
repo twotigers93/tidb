@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/twotigers93/tidb/util/replayer"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/replayer"
 )
 
 func TestPlanReplayerDifferentGC(t *testing.T) {

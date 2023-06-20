@@ -25,12 +25,12 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
 	stmtsummaryv2 "github.com/twotigers93/tidb/util/stmtsummary/v2"
-	"github.com/stretchr/testify/require"
 )
 
 func TestExtractHandler(t *testing.T) {

@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util"
 )
 
 func TestOriginError(t *testing.T) {

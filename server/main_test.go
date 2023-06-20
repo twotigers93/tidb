@@ -20,6 +20,7 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/metrics"
 	"github.com/twotigers93/tidb/session"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/testmain"
 	"github.com/twotigers93/tidb/testkit/testsetup"
 	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/goleak"
 )
 

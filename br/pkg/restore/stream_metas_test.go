@@ -16,10 +16,10 @@ import (
 	"github.com/pingcap/errors"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/restore"
 	"github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/twotigers93/tidb/br/pkg/stream"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/twotigers93/tidb/errno"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/errno"
 )
 
 func genErrMsg(pattern string, a ...interface{}) string {

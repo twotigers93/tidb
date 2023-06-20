@@ -23,6 +23,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	_ "github.com/twotigers93/tidb/autoid_service"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl"
@@ -30,7 +31,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/twotigers93/tidb/telemetry"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTxnUsageInfo(t *testing.T) {

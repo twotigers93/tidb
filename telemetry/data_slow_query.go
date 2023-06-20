@@ -23,10 +23,10 @@ import (
 	"time"
 
 	pingcapErrors "github.com/pingcap/errors"
+	pmodel "github.com/prometheus/common/model"
 	"github.com/twotigers93/tidb/domain/infosync"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/util/logutil"
-	pmodel "github.com/prometheus/common/model"
 	"go.uber.org/zap"
 )
 

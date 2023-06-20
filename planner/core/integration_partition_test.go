@@ -23,12 +23,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/benchdaily"
-	"github.com/stretchr/testify/require"
 )
 
 func TestListPartitionOrderLimit(t *testing.T) {

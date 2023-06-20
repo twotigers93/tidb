@@ -28,6 +28,7 @@ import (
 
 	"github.com/ngaut/pools"
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/distsql"
 	"github.com/twotigers93/tidb/domain"
@@ -60,7 +61,6 @@ import (
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/timeutil"
 	"github.com/twotigers93/tidb/util/tls"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

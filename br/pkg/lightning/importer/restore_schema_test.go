@@ -23,6 +23,8 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/golang/mock/gomock"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
+	"github.com/stretchr/testify/suite"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
@@ -36,8 +38,6 @@ import (
 	"github.com/twotigers93/tidb/parser/mysql"
 	tmock "github.com/twotigers93/tidb/util/mock"
 	filter "github.com/twotigers93/tidb/util/table-filter"
-	"github.com/stretchr/testify/require"
-	"github.com/stretchr/testify/suite"
 )
 
 type restoreSchemaSuite struct {

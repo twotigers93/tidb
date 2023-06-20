@@ -25,6 +25,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/domain/infosync"
 	"github.com/twotigers93/tidb/infoschema"
@@ -42,7 +43,6 @@ import (
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

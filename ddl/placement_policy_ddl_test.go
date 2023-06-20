@@ -17,6 +17,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
@@ -25,7 +26,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/dbterror"
-	"github.com/stretchr/testify/require"
 )
 
 func testPlacementPolicyInfo(t *testing.T, store kv.Storage, name string, settings *model.PlacementSettings) *model.PolicyInfo {

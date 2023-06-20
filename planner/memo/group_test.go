@@ -18,6 +18,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/infoschema"
@@ -26,7 +27,6 @@ import (
 	plannercore "github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/planner/property"
 	"github.com/twotigers93/tidb/sessionctx/variable"
-	"github.com/stretchr/testify/require"
 )
 
 func TestNewGroup(t *testing.T) {

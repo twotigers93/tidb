@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/restore/split"
 	"github.com/twotigers93/tidb/br/pkg/utils"
-	"github.com/stretchr/testify/require"
 )
 
 func TestScanRegionBackOfferWithSuccess(t *testing.T) {

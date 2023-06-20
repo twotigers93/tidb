@@ -28,6 +28,8 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/expression"
@@ -48,8 +50,6 @@ import (
 	"github.com/twotigers93/tidb/util/sem"
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/versioninfo"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 )
 
 func Test19654(t *testing.T) {

@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
-	"github.com/stretchr/testify/require"
 )
 
 type testCase struct {

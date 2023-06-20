@@ -16,11 +16,11 @@ package mockstore
 
 import (
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/testutils"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/store/mockstore/mockcopr"
 	"github.com/twotigers93/tidb/store/mockstore/mockstorage"
-	"github.com/tikv/client-go/v2/testutils"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 // newMockTikvStore creates a mocked tikv store, the path is the file path to store the data.

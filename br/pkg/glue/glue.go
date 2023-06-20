@@ -5,12 +5,12 @@ package glue
 import (
 	"context"
 
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/sessionctx"
-	pd "github.com/tikv/pd/client"
 )
 
 // Glue is an abstraction of TiDB function calls used in BR.

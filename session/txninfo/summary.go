@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/twotigers93/tidb/types"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/types"
 )
 
 func digest(digests []string) uint64 {

@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/twotigers93/tidb/config"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

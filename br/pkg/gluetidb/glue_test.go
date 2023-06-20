@@ -20,6 +20,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/glue"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/kv"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/types"
-	"github.com/stretchr/testify/require"
 )
 
 // batch create table with table id reused

@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -33,7 +34,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/ranger"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTableRange(t *testing.T) {

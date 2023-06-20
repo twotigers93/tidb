@@ -21,6 +21,8 @@ import (
 	"testing"
 	"time"
 
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/expression"
@@ -31,8 +33,6 @@ import (
 	"github.com/twotigers93/tidb/server"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/testkit"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
 )
 
 func TestPrepared(t *testing.T) {

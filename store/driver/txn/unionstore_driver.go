@@ -17,10 +17,10 @@ package txn
 import (
 	"context"
 
-	"github.com/twotigers93/tidb/kv"
-	derr "github.com/twotigers93/tidb/store/driver/error"
 	tikvstore "github.com/tikv/client-go/v2/kv"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/kv"
+	derr "github.com/twotigers93/tidb/store/driver/error"
 )
 
 // memBuffer wraps tikv.MemDB as kv.MemBuffer.

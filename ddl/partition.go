@@ -27,6 +27,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/config"
 	sess "github.com/twotigers93/tidb/ddl/internal/session"
 	"github.com/twotigers93/tidb/ddl/label"
@@ -63,7 +64,6 @@ import (
 	"github.com/twotigers93/tidb/util/slice"
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/stringutil"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/zap"
 )
 

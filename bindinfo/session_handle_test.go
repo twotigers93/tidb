@@ -20,6 +20,8 @@ import (
 	"testing"
 	"time"
 
+	dto "github.com/prometheus/client_model/go"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/bindinfo"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/metrics"
@@ -28,8 +30,6 @@ import (
 	"github.com/twotigers93/tidb/server"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/stmtsummary"
-	dto "github.com/prometheus/client_model/go"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGlobalAndSessionBindingBothExist(t *testing.T) {

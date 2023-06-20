@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/twotigers93/tidb/parser/terror"
-	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/util"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 )

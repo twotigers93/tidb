@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/parser/ast"
-	"github.com/stretchr/testify/require"
 )
 
 func TestParameterize(t *testing.T) {

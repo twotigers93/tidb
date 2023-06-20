@@ -23,13 +23,13 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/session/txninfo"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/util/disk"
 	"github.com/twotigers93/tidb/util/execdetails"
 	"github.com/twotigers93/tidb/util/memory"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 // OOMAlarmVariablesInfo is a struct for OOM alarm variables.

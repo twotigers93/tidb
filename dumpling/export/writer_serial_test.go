@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/storage"
 	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"github.com/twotigers93/tidb/util/promutil"
-	"github.com/stretchr/testify/require"
 )
 
 func TestWriteMeta(t *testing.T) {

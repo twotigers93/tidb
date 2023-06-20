@@ -17,8 +17,8 @@ package codec
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/types"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/types"
 )
 
 func TestDecimalCodec(t *testing.T) {

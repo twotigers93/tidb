@@ -17,8 +17,8 @@ package keyspace
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/config"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
 )
 
 func TestSetKeyspaceNameInConf(t *testing.T) {

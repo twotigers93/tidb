@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

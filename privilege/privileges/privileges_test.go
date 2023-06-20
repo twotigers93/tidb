@@ -29,6 +29,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/kv"
@@ -48,7 +49,6 @@ import (
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 	"github.com/twotigers93/tidb/util/sem"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCheckDBPrivilege(t *testing.T) {

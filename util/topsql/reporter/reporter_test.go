@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/util/topsql/collector"
-	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
-	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/topsql/collector"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
+	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 )
 
 const (

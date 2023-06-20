@@ -20,6 +20,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/tikv/client-go/v2/txnkv/txnsnapshot"
 	"github.com/twotigers93/tidb/distsql"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/infoschema"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/util/execdetails"
 	"github.com/twotigers93/tidb/util/logutil/consistency"
 	"github.com/twotigers93/tidb/util/rowcodec"
-	"github.com/tikv/client-go/v2/txnkv/txnsnapshot"
 )
 
 func (b *executorBuilder) buildPointGet(p *plannercore.PointGetPlan) Executor {

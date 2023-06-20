@@ -12,6 +12,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/kvproto/pkg/encryptionpb"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/br/pkg/backup"
 	"github.com/twotigers93/tidb/br/pkg/gluetidb"
 	"github.com/twotigers93/tidb/br/pkg/metautil"
@@ -24,9 +27,6 @@ import (
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/types"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 type testRestoreSchemaSuite struct {

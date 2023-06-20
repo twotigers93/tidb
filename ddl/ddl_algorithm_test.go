@@ -17,10 +17,10 @@ package ddl_test
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/util/dbterror"
-	"github.com/stretchr/testify/require"
 )
 
 var (

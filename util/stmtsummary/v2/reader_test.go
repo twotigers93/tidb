@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/set"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTimeRangeOverlap(t *testing.T) {

@@ -24,12 +24,12 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pingcap/errors"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/metautil"
 	"github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/twotigers93/tidb/br/pkg/stream"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 func TestShiftTS(t *testing.T) {

@@ -24,6 +24,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/schematracker"
 	ddltestutil "github.com/twotigers93/tidb/ddl/testutil"
 	ddlutil "github.com/twotigers93/tidb/ddl/util"
@@ -49,7 +50,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTruncateTable(t *testing.T) {

@@ -26,6 +26,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twmb/murmur3"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/planner/util/debugtrace"
 	"github.com/twotigers93/tidb/sessionctx"
@@ -37,8 +39,6 @@ import (
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/hack"
 	"github.com/twotigers93/tidb/util/mathutil"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/twmb/murmur3"
 	"golang.org/x/exp/slices"
 )
 

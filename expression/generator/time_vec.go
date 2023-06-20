@@ -24,8 +24,6 @@ import (
 	"os"
 	"path/filepath"
 	"text/template"
-
-	. "github.com/twotigers93/tidb/expression/generator/helper"
 )
 
 var addOrSubTime = template.Must(template.New("").Parse(`

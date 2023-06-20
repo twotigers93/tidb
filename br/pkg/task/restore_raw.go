@@ -7,6 +7,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
+	"github.com/spf13/cobra"
+	"github.com/spf13/pflag"
 	"github.com/twotigers93/tidb/br/pkg/conn"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/glue"
@@ -14,8 +16,6 @@ import (
 	"github.com/twotigers93/tidb/br/pkg/metautil"
 	"github.com/twotigers93/tidb/br/pkg/restore"
 	"github.com/twotigers93/tidb/br/pkg/summary"
-	"github.com/spf13/cobra"
-	"github.com/spf13/pflag"
 )
 
 // RestoreRawConfig is the configuration specific for raw kv restore tasks.

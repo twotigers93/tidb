@@ -24,6 +24,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/infoschema"
@@ -41,7 +42,6 @@ import (
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 	"github.com/twotigers93/tidb/util/memory"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 )
 
 var foreignKeyTestCase1 = []struct {

@@ -23,6 +23,7 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor/aggfuncs"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
@@ -35,7 +36,6 @@ import (
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/ranger"
 	"github.com/twotigers93/tidb/util/tableutil"
-	"github.com/stretchr/testify/require"
 )
 
 // Note: it's a tricky way to export the `inspectionSummaryRules` and `inspectionRules` for unit test but invisible for normal code

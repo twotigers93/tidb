@@ -17,11 +17,11 @@ package aggregation
 import (
 	"strings"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/sessionctx"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // WindowFuncDesc describes a window function signature, only used in planner.

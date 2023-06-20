@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/meta/autoid"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.opencensus.io/stats/view"
 	"go.uber.org/goleak"
 )

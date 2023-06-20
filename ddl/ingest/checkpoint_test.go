@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	"github.com/ngaut/pools"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/ingest"
 	"github.com/twotigers93/tidb/ddl/internal/session"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCheckpointManager(t *testing.T) {

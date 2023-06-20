@@ -18,11 +18,11 @@ import (
 	"hash"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twmb/murmur3"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/pingcap/tipb/go-tipb"
-	"github.com/twmb/murmur3"
 )
 
 // FMSketch is used to count the number of distinct elements in a set.

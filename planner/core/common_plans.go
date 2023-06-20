@@ -22,6 +22,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -40,7 +41,6 @@ import (
 	"github.com/twotigers93/tidb/util/plancodec"
 	"github.com/twotigers93/tidb/util/size"
 	"github.com/twotigers93/tidb/util/texttree"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // ShowDDL is for showing DDL information.

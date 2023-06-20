@@ -17,9 +17,9 @@ package backoff
 import (
 	"context"
 
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/kv"
 	derr "github.com/twotigers93/tidb/store/driver/error"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 // Backoffer wraps tikv.Backoffer and converts the error which returns by the functions of tikv.Backoffer to tidb error.

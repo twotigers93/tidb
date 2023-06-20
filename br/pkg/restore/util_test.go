@@ -13,13 +13,13 @@ import (
 	"github.com/pingcap/kvproto/pkg/import_sstpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	recover_data "github.com/pingcap/kvproto/pkg/recoverdatapb"
+	"github.com/stretchr/testify/require"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 	"github.com/twotigers93/tidb/br/pkg/restore"
 	"github.com/twotigers93/tidb/br/pkg/restore/split"
 	"github.com/twotigers93/tidb/store/pdtypes"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
 )
 
 func TestParseQuoteName(t *testing.T) {

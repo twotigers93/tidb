@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/tikv/client-go/v2/testutils"
 	us "github.com/twotigers93/tidb/store/mockstore/unistore/tikv"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/tikv/client-go/v2/testutils"
 )
 
 type delayKey struct {

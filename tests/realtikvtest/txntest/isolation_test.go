@@ -17,11 +17,11 @@ package txntest
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/store/driver"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/tests/realtikvtest"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )
 

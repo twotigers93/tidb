@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor"
 	"github.com/twotigers93/tidb/store/helper"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/benchdaily"
-	"github.com/stretchr/testify/require"
 )
 
 func TestDirtyTransaction(t *testing.T) {

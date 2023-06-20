@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	filter "github.com/twotigers93/tidb/util/table-filter"
 	"github.com/stretchr/testify/require"
+	filter "github.com/twotigers93/tidb/util/table-filter"
 )
 
 func TestMatchColumns(t *testing.T) {

@@ -4,8 +4,8 @@ package split_test
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/br/pkg/restore/split"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/restore/split"
 )
 
 func v(s, e string, val split.Value) split.Valued {

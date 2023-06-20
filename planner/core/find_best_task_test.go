@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/planner/property"
 	"github.com/twotigers93/tidb/sessionctx"
-	"github.com/stretchr/testify/require"
 )
 
 type mockDataSource struct {

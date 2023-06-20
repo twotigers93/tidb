@@ -21,6 +21,9 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
+	tikvutil "github.com/tikv/client-go/v2/util"
 	ddlutil "github.com/twotigers93/tidb/ddl/util"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/infoschema"
@@ -29,9 +32,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/gcutil"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
-	tikvutil "github.com/tikv/client-go/v2/util"
 )
 
 func TestRecoverTable(t *testing.T) {

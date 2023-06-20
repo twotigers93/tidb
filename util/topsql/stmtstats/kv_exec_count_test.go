@@ -17,9 +17,9 @@ package stmtstats
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/util/topsql/state"
 	"github.com/stretchr/testify/assert"
 	"github.com/tikv/client-go/v2/tikvrpc"
+	"github.com/twotigers93/tidb/util/topsql/state"
 )
 
 func TestKvExecCounter(t *testing.T) {

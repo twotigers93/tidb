@@ -18,13 +18,13 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/planner/util"
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/util/hint"
-	"github.com/stretchr/testify/require"
 )
 
 func getIndexMergePathDigest(paths []*util.AccessPath, startIndex int) string {

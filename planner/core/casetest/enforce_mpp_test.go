@@ -18,6 +18,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/planner/core/internal"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/twotigers93/tidb/util/collate"
-	"github.com/stretchr/testify/require"
 )
 
 func TestEnforceMPP(t *testing.T) {

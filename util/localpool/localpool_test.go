@@ -21,8 +21,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util"
 )
 
 type Obj struct {

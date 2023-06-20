@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/statistics"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/statistics/handle/internal"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 )
 
 func requireTableEqual(t *testing.T, a *statistics.Table, b *statistics.Table) {

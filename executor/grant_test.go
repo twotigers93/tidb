@@ -19,6 +19,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/auth"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGrantGlobal(t *testing.T) {

@@ -26,6 +26,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
+	kvconfig "github.com/tikv/client-go/v2/config"
 	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	litlog "github.com/twotigers93/tidb/br/pkg/lightning/log"
@@ -48,7 +49,6 @@ import (
 	"github.com/twotigers93/tidb/util/intest"
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/stringutil"
-	kvconfig "github.com/tikv/client-go/v2/config"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 )

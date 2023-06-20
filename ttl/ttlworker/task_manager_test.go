@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/ttl/cache"
 	"github.com/twotigers93/tidb/ttl/session"
-	"github.com/stretchr/testify/assert"
 )
 
 // NewTaskManager is an exported version of newTaskManager for test

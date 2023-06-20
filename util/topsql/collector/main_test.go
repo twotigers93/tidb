@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit/testsetup"
 	"github.com/twotigers93/tidb/util/cpuprofile"
 	"github.com/twotigers93/tidb/util/cpuprofile/testutil"
 	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 )
 

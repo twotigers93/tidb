@@ -19,9 +19,9 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/hack"
-	"github.com/stretchr/testify/require"
 )
 
 // TestConcurrentMap first inserts 1000 entries, then checks them

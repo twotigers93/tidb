@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/kv"
-	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/stretchr/testify/require"
 	kv2 "github.com/tikv/client-go/v2/kv"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/mockstore"
 )
 
 const (

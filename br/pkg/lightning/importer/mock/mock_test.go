@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/importer"
 	"github.com/twotigers93/tidb/parser/model"
-	"github.com/stretchr/testify/require"
 )
 
 func TestMockImportSourceBasic(t *testing.T) {

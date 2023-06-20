@@ -17,8 +17,8 @@ package label
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/ast"
 )
 
 func TestApplyAttributesSpec(t *testing.T) {

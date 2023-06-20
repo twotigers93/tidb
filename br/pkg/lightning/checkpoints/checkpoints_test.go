@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints/checkpointspb"
 	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
 	"github.com/twotigers93/tidb/br/pkg/lightning/verification"
-	"github.com/stretchr/testify/require"
 )
 
 func TestMergeStatusCheckpoint(t *testing.T) {

@@ -19,10 +19,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/twotigers93/tidb/executor/asyncloaddata"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/stretchr/testify/require"
 )
 
 func checkEqualIgnoreTimes(t *testing.T, expected, got *JobInfo) {

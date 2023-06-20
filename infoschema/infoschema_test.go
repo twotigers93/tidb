@@ -21,6 +21,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/placement"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/infoschema"
@@ -36,7 +37,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/testutil"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/require"
 )
 
 func TestBasic(t *testing.T) {

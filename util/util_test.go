@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/sessionctx/stmtctx"
-	"github.com/twotigers93/tidb/util/memory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 func TestLogFormat(t *testing.T) {

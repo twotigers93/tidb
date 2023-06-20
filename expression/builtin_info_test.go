@@ -18,6 +18,7 @@ import (
 	"math"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/parser/charset"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/printer"
-	"github.com/stretchr/testify/require"
 )
 
 func TestDatabase(t *testing.T) {

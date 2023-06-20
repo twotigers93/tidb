@@ -17,8 +17,8 @@ package memtest
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestInsertUpdateTrackerOnCleanUp(t *testing.T) {

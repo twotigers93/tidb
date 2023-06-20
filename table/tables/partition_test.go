@@ -24,6 +24,7 @@ import (
 	gotime "time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/domain"
 	mysql "github.com/twotigers93/tidb/errno"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

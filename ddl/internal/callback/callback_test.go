@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/twotigers93/tidb/ddl"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/ddl"
 )
 
 func TestCallback(t *testing.T) {

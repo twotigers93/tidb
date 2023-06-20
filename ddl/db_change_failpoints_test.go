@@ -22,6 +22,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl"
 	ddlutil "github.com/twotigers93/tidb/ddl/util"
 	"github.com/twotigers93/tidb/domain"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/testkit/external"
 	"github.com/twotigers93/tidb/util"
 	"github.com/twotigers93/tidb/util/gcutil"
-	"github.com/stretchr/testify/require"
 )
 
 // TestModifyColumnTypeArgs test job raw args won't be updated when error occurs in `updateVersionAndTableInfo`.

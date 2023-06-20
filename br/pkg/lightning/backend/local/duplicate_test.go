@@ -18,6 +18,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
 	lkv "github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/local"
@@ -30,7 +31,6 @@ import (
 	"github.com/twotigers93/tidb/table/tables"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestBuildDupTask(t *testing.T) {

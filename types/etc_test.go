@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/charset"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/parser/terror"
-	"github.com/stretchr/testify/require"
 )
 
 func testIsTypeBlob(t *testing.T, tp byte, expect bool) {

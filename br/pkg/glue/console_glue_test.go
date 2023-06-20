@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/fatih/color"
-	"github.com/twotigers93/tidb/br/pkg/glue"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/glue"
 )
 
 func TestColorfulTUIFunctions(t *testing.T) {

@@ -24,6 +24,7 @@ import (
 	"time"
 
 	"github.com/pingcap/kvproto/pkg/coprocessor"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/kv"
@@ -39,7 +40,6 @@ import (
 	"github.com/twotigers93/tidb/util/rowcodec"
 	"github.com/twotigers93/tidb/util/set"
 	"github.com/twotigers93/tidb/util/stringutil"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 )

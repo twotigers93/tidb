@@ -25,6 +25,8 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
@@ -39,8 +41,6 @@ import (
 	"github.com/twotigers93/tidb/util/israce"
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/ranger"
-	"github.com/stretchr/testify/require"
-	"github.com/tikv/client-go/v2/oracle"
 )
 
 func TestStatsCache(t *testing.T) {

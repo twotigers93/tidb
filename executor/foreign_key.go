@@ -22,6 +22,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/txnkv/txnsnapshot"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/twotigers93/tidb/parser/model"
@@ -36,7 +37,6 @@ import (
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/execdetails"
 	"github.com/twotigers93/tidb/util/set"
-	"github.com/tikv/client-go/v2/txnkv/txnsnapshot"
 )
 
 // WithForeignKeyTrigger indicates the executor has foreign key check or cascade.

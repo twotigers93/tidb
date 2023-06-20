@@ -17,11 +17,11 @@ package expression
 import (
 	"strings"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/kv"
 	fd "github.com/twotigers93/tidb/planner/funcdep"
 	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/twotigers93/tidb/util/size"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 // GroupingSets indicates the grouping sets definition.

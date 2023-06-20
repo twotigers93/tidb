@@ -21,13 +21,13 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/store/driver/txn"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func incLastByte(key kv.Key) kv.Key {

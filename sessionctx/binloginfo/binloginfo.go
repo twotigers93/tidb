@@ -21,6 +21,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-binlog"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/metrics"
@@ -31,7 +32,6 @@ import (
 	"github.com/twotigers93/tidb/tidb-binlog/node"
 	pumpcli "github.com/twotigers93/tidb/tidb-binlog/pump_client"
 	"github.com/twotigers93/tidb/util/logutil"
-	"github.com/pingcap/tipb/go-binlog"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

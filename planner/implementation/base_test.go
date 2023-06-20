@@ -17,9 +17,9 @@ package implementation
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	plannercore "github.com/twotigers93/tidb/planner/core"
 	"github.com/twotigers93/tidb/planner/memo"
-	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )
 

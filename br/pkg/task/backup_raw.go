@@ -10,6 +10,8 @@ import (
 	"github.com/pingcap/errors"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/log"
+	"github.com/spf13/cobra"
+	"github.com/spf13/pflag"
 	"github.com/twotigers93/tidb/br/pkg/backup"
 	"github.com/twotigers93/tidb/br/pkg/conn"
 	berrors "github.com/twotigers93/tidb/br/pkg/errors"
@@ -19,8 +21,6 @@ import (
 	"github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/twotigers93/tidb/br/pkg/summary"
 	"github.com/twotigers93/tidb/br/pkg/utils"
-	"github.com/spf13/cobra"
-	"github.com/spf13/pflag"
 	"go.uber.org/zap"
 )
 

@@ -30,6 +30,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/sessionctx"
@@ -38,7 +39,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/encrypt"
 	pwdValidator "github.com/twotigers93/tidb/util/password-validation"
-	"github.com/pingcap/tipb/go-tipb"
 )
 
 var (

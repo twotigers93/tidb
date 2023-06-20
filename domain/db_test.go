@@ -20,6 +20,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl"
 	"github.com/twotigers93/tidb/domain/infosync"
@@ -27,7 +28,6 @@ import (
 	"github.com/twotigers93/tidb/server"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/store/mockstore"
-	"github.com/stretchr/testify/require"
 )
 
 func TestDomainSession(t *testing.T) {

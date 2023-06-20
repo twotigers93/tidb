@@ -36,6 +36,8 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
+	"github.com/stretchr/testify/suite"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
@@ -68,8 +70,6 @@ import (
 	tmock "github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/promutil"
 	filter "github.com/twotigers93/tidb/util/table-filter"
-	"github.com/stretchr/testify/require"
-	"github.com/stretchr/testify/suite"
 )
 
 const (

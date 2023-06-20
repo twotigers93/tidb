@@ -31,6 +31,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/tikv/client-go/v2/oracle"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl/label"
 	"github.com/twotigers93/tidb/ddl/resourcegroup"
@@ -69,7 +70,6 @@ import (
 	"github.com/twotigers93/tidb/util/set"
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/stringutil"
-	"github.com/tikv/client-go/v2/oracle"
 	"go.uber.org/zap"
 )
 

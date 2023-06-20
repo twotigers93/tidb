@@ -11,10 +11,10 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/version"
 	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"github.com/twotigers93/tidb/util/promutil"
-	"github.com/stretchr/testify/require"
 )
 
 func TestWriteDatabaseMeta(t *testing.T) {

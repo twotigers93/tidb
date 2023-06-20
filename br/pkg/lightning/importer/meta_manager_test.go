@@ -11,6 +11,7 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/backend/local"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
 	"github.com/twotigers93/tidb/br/pkg/lightning/common"
@@ -25,7 +26,6 @@ import (
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/store/mockstore"
 	tmock "github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

@@ -17,9 +17,9 @@ package generatedexpr
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/parser/ast"
 	_ "github.com/twotigers93/tidb/types/parser_driver"
-	"github.com/stretchr/testify/require"
 )
 
 func TestParseExpression(t *testing.T) {

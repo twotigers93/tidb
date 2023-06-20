@@ -20,6 +20,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/failpoint"
+	"github.com/twmb/murmur3"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/parser/mysql"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/ranger"
-	"github.com/twmb/murmur3"
 	"golang.org/x/exp/slices"
 )
 

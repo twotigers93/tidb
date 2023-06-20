@@ -17,8 +17,8 @@ package infoschema_test
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/infoschema"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/infoschema"
 )
 
 func TestNewCache(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/store/pdtypes"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
 )
 
 func TestScheduler(t *testing.T) {

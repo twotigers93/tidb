@@ -17,12 +17,12 @@ package casetest
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/parser/model"
 	"github.com/twotigers93/tidb/planner/core/internal"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testdata"
-	"github.com/stretchr/testify/require"
 )
 
 func setTiFlashReplica(t *testing.T, dom *domain.Domain, dbName, tableName string) {

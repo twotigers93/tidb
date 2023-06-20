@@ -19,10 +19,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/twotigers93/tidb/dumpling/log"
-	"github.com/twotigers93/tidb/util/promutil"
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/dumpling/log"
+	"github.com/twotigers93/tidb/util/promutil"
 	"go.uber.org/goleak"
 )
 

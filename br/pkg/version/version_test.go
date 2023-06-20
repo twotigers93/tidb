@@ -12,9 +12,9 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/coreos/go-semver/semver"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/twotigers93/tidb/br/pkg/version/build"
 	"github.com/stretchr/testify/require"
 	pd "github.com/tikv/pd/client"
+	"github.com/twotigers93/tidb/br/pkg/version/build"
 )
 
 type mockPDClient struct {

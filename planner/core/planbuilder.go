@@ -26,6 +26,7 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/bindinfo"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/domain"
@@ -66,7 +67,6 @@ import (
 	"github.com/twotigers93/tidb/util/set"
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/stmtsummary"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/zap"
 )
 

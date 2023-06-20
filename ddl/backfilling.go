@@ -25,6 +25,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
+	"github.com/prometheus/client_golang/prometheus"
+	"github.com/tikv/client-go/v2/tikv"
 	sess "github.com/twotigers93/tidb/ddl/internal/session"
 	ddlutil "github.com/twotigers93/tidb/ddl/util"
 	"github.com/twotigers93/tidb/expression"
@@ -44,8 +46,6 @@ import (
 	decoder "github.com/twotigers93/tidb/util/rowDecoder"
 	"github.com/twotigers93/tidb/util/timeutil"
 	"github.com/twotigers93/tidb/util/topsql"
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/zap"
 )
 

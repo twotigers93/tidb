@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 )
 
 func TestNormalPushPop(t *testing.T) {

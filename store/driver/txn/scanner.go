@@ -15,8 +15,8 @@
 package txn
 
 import (
-	"github.com/twotigers93/tidb/kv"
 	"github.com/tikv/client-go/v2/txnkv/txnsnapshot"
+	"github.com/twotigers93/tidb/kv"
 )
 
 type tikvScanner struct {

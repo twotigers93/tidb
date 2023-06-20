@@ -23,6 +23,7 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
 	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/twotigers93/tidb/br/pkg/lightning/config"
@@ -37,7 +38,6 @@ import (
 	"github.com/twotigers93/tidb/types"
 	tmock "github.com/twotigers93/tidb/util/mock"
 	router "github.com/twotigers93/tidb/util/table-router"
-	"github.com/stretchr/testify/require"
 )
 
 func TestNewTableRestore(t *testing.T) {

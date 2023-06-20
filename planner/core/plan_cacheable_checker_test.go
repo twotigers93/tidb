@@ -17,6 +17,7 @@ package core_test
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	driver "github.com/twotigers93/tidb/types/parser_driver"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestCacheable(t *testing.T) {

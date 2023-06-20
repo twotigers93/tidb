@@ -21,6 +21,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/ddl/placement"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/meta"
@@ -28,7 +29,6 @@ import (
 	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/twotigers93/tidb/tablecodec"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
 )
 
 type metaBundleSuite struct {

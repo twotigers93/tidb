@@ -20,10 +20,10 @@ import (
 
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/sysutil"
+	"github.com/shirou/gopsutil/v3/mem"
 	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/twotigers93/tidb/util/cgroup"
 	"github.com/twotigers93/tidb/util/mathutil"
-	"github.com/shirou/gopsutil/v3/mem"
 )
 
 // MemTotal returns the total amount of RAM on this system

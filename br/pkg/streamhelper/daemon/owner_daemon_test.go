@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/pingcap/log"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/streamhelper/daemon"
 	"github.com/twotigers93/tidb/owner"
-	"github.com/stretchr/testify/require"
 )
 
 type anApp struct {

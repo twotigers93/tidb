@@ -18,6 +18,7 @@ import (
 	"context"
 	"strconv"
 
+	"github.com/pingcap/tipb/go-tipb"
 	"github.com/twotigers93/tidb/distsql"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/parser/model"
@@ -26,7 +27,6 @@ import (
 	"github.com/twotigers93/tidb/util/chunk"
 	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/twotigers93/tidb/util/ranger"
-	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 )
 

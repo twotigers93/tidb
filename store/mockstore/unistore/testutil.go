@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/twotigers93/tidb/tablecodec"
 	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
-	"github.com/tikv/client-go/v2/tikvrpc"
 )
 
 func checkResourceTagForTopSQL(req *tikvrpc.Request) error {

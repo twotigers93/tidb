@@ -22,6 +22,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/domain"
 	"github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/expression"
@@ -32,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/testkit/testfork"
 	"github.com/twotigers93/tidb/testkit/testsetup"
-	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 )
 

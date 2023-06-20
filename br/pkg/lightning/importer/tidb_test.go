@@ -23,6 +23,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
 	"github.com/twotigers93/tidb/br/pkg/lightning/metric"
 	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
@@ -34,7 +35,6 @@ import (
 	tmysql "github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/util/mock"
 	"github.com/twotigers93/tidb/util/promutil"
-	"github.com/stretchr/testify/require"
 )
 
 type tidbSuite struct {

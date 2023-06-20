@@ -10,9 +10,9 @@ import (
 
 	"github.com/cznic/mathutil"
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	tmysql "github.com/twotigers93/tidb/errno"
 	"github.com/twotigers93/tidb/parser/terror"
-	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/multierr"
 )
 

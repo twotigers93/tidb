@@ -18,9 +18,9 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/infoschema"
 	"github.com/twotigers93/tidb/parser/model"
-	"github.com/stretchr/testify/require"
 )
 
 func TestInfoStoreLowerCaseTableNames(t *testing.T) {

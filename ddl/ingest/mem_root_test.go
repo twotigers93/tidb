@@ -17,8 +17,8 @@ package ingest_test
 import (
 	"testing"
 
-	"github.com/twotigers93/tidb/ddl/ingest"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/ddl/ingest"
 )
 
 func TestMemoryRoot(t *testing.T) {

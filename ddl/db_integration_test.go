@@ -26,6 +26,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/stretchr/testify/require"
 	_ "github.com/twotigers93/tidb/autoid_service"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/ddl/internal/callback"
@@ -53,7 +54,6 @@ import (
 	"github.com/twotigers93/tidb/util/collate"
 	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestNoZeroDateMode(t *testing.T) {

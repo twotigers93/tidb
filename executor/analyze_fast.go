@@ -26,6 +26,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	"github.com/tikv/client-go/v2/tikv"
 	"github.com/twotigers93/tidb/domain"
 	executor_metrics "github.com/twotigers93/tidb/executor/metrics"
 	"github.com/twotigers93/tidb/kv"
@@ -43,7 +44,6 @@ import (
 	"github.com/twotigers93/tidb/util/codec"
 	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/twotigers93/tidb/util/sqlexec"
-	"github.com/tikv/client-go/v2/tikv"
 )
 
 func analyzeFastExec(exec *AnalyzeFastExec) *statistics.AnalyzeResults {

@@ -19,13 +19,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/kv"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/testkit"
 	"github.com/twotigers93/tidb/ttl/cache"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/codec"
-	"github.com/stretchr/testify/require"
 )
 
 type taskGetter struct {

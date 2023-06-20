@@ -17,9 +17,9 @@ package util_test
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/twotigers93/tidb/config"
 	"github.com/twotigers93/tidb/util"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestGlobalConnID(t *testing.T) {

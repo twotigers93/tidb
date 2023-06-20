@@ -19,11 +19,11 @@ import (
 	"time"
 
 	"github.com/fsouza/fake-gcs-server/fakestorage"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/executor/asyncloaddata"
 	"github.com/twotigers93/tidb/executor/importer"
 	"github.com/twotigers93/tidb/parser/auth"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 type detachedCase struct {

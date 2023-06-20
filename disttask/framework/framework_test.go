@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/disttask/framework/dispatcher"
 	"github.com/twotigers93/tidb/disttask/framework/proto"
 	"github.com/twotigers93/tidb/disttask/framework/scheduler"
 	"github.com/twotigers93/tidb/disttask/framework/storage"
 	"github.com/twotigers93/tidb/testkit"
-	"github.com/stretchr/testify/require"
 )
 
 type testFlowHandle struct {

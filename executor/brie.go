@@ -26,6 +26,8 @@ import (
 	"github.com/pingcap/errors"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/kvproto/pkg/encryptionpb"
+	"github.com/tikv/client-go/v2/oracle"
+	pd "github.com/tikv/pd/client"
 	"github.com/twotigers93/tidb/br/pkg/glue"
 	"github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/twotigers93/tidb/br/pkg/task"
@@ -50,8 +52,6 @@ import (
 	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/twotigers93/tidb/util/syncutil"
 	filter "github.com/twotigers93/tidb/util/table-filter"
-	"github.com/tikv/client-go/v2/oracle"
-	pd "github.com/tikv/pd/client"
 )
 
 const clearInterval = 10 * time.Minute

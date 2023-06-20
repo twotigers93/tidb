@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"hash/crc64"
 
-	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"go.uber.org/zap/zapcore"
 )
 

@@ -14,10 +14,10 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/br/pkg/conn/util"
 	"github.com/twotigers93/tidb/br/pkg/pdutil"
 	"github.com/twotigers93/tidb/br/pkg/utils"
-	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -17,6 +17,7 @@ package casetest
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	"github.com/twotigers93/tidb/expression"
 	"github.com/twotigers93/tidb/expression/aggregation"
 	"github.com/twotigers93/tidb/parser/ast"
@@ -24,7 +25,6 @@ import (
 	"github.com/twotigers93/tidb/planner/core/internal"
 	"github.com/twotigers93/tidb/types"
 	"github.com/twotigers93/tidb/util/mock"
-	"github.com/stretchr/testify/require"
 )
 
 func TestWrapCastForAggFuncs(t *testing.T) {
