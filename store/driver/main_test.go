@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/copr"
-	"github.com/pingcap/tidb/store/mockstore/unistore"
-	"github.com/pingcap/tidb/testkit/testsetup"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/store/copr"
+	"github.com/twotigers93/tidb/store/mockstore/unistore"
+	"github.com/twotigers93/tidb/testkit/testsetup"
 	"go.uber.org/goleak"
 )
 

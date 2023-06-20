@@ -19,12 +19,12 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // IndexAdviseExec represents a index advise executor.

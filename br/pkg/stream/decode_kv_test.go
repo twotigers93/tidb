@@ -5,7 +5,7 @@ package stream_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/stream"
+	"github.com/twotigers93/tidb/br/pkg/stream"
 	"github.com/stretchr/testify/require"
 )
 

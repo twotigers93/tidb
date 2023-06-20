@@ -26,14 +26,14 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/parser/terror"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/parser/terror"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/util/sqlexec"
 	"github.com/stretchr/testify/require"
 )
 

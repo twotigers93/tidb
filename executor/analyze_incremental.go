@@ -18,14 +18,14 @@ import (
 	"math"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/ranger"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/ranger"
 )
 
 type analyzeIndexIncrementalExec struct {

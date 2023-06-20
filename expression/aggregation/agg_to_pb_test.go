@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/mock"
 )
 
 func genColumn(tp byte, id int64) *expression.Column {

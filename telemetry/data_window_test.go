@@ -19,12 +19,12 @@ import (
 	"testing"
 
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/store/mockstore/unistore"
-	"github.com/pingcap/tidb/telemetry"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/store/mockstore/unistore"
+	"github.com/twotigers93/tidb/telemetry"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/testutils"
 )

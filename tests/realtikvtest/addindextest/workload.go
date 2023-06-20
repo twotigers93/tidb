@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

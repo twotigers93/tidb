@@ -5,11 +5,11 @@ package glue
 import (
 	"context"
 
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
 	pd "github.com/tikv/pd/client"
 )
 

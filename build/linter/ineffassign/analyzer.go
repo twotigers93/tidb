@@ -16,7 +16,7 @@ package ineffassign
 
 import (
 	"github.com/gordonklaus/ineffassign/pkg/ineffassign"
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 )
 
 // Analyzer is the analyzer struct of ineffassign.

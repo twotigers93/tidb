@@ -15,12 +15,12 @@
 package privilege
 
 import (
-	"github.com/pingcap/tidb/parser/auth"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/privilege/conn"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/parser/auth"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/privilege/conn"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/types"
 )
 
 type keyType int

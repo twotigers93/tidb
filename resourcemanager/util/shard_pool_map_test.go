@@ -19,7 +19,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/pingcap/tidb/util/intest"
+	"github.com/twotigers93/tidb/util/intest"
 	"github.com/stretchr/testify/require"
 )
 

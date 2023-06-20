@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/parser/auth"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/set"
+	"github.com/twotigers93/tidb/parser/auth"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/set"
 	"github.com/stretchr/testify/require"
 )
 

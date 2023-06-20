@@ -19,11 +19,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/dbterror/exeerrors"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 	"github.com/stretchr/testify/require"
 )
 

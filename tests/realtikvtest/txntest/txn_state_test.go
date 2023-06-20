@@ -21,12 +21,12 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/session/txninfo"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/session/txninfo"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 )
 
 func TestBasicTxnState(t *testing.T) {

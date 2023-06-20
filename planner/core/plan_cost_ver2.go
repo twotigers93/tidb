@@ -19,14 +19,14 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/planner/util"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/paging"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/expression/aggregation"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/planner/util"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util/paging"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

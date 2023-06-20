@@ -24,7 +24,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
+	"github.com/twotigers93/tidb/config"
 )
 
 // PlanReplayerTaskKey indicates key of a plan replayer task

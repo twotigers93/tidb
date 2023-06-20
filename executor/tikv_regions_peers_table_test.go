@@ -25,10 +25,10 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/pingcap/fn"
-	"github.com/pingcap/tidb/store/helper"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/pdapi"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/store/helper"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/pdapi"
 )
 
 var regionsInfo = map[uint64]helper.RegionInfo{

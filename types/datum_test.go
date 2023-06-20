@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/hack"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

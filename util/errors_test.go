@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
 )
 

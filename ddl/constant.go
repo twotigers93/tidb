@@ -15,7 +15,7 @@
 package ddl
 
 import (
-	"github.com/pingcap/tidb/meta"
+	"github.com/twotigers93/tidb/meta"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/disttask/framework/proto"
-	"github.com/pingcap/tidb/resourcemanager/pool/spool"
-	"github.com/pingcap/tidb/resourcemanager/util"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/resourcemanager/pool/spool"
+	"github.com/twotigers93/tidb/resourcemanager/util"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

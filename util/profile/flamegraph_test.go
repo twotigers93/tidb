@@ -19,8 +19,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/collate"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/collate"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"

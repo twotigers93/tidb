@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 )
 
 func startMockServer(t *testing.T, statusCode int, content string) (*httptest.Server, string, int) {

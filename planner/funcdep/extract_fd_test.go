@@ -19,14 +19,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/hint"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/hint"
 	"github.com/stretchr/testify/require"
 )
 

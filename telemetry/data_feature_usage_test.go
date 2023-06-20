@@ -23,13 +23,13 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	_ "github.com/pingcap/tidb/autoid_service"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/telemetry"
-	"github.com/pingcap/tidb/testkit"
+	_ "github.com/twotigers93/tidb/autoid_service"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/telemetry"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

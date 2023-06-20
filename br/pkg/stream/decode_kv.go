@@ -18,7 +18,7 @@ import (
 	"encoding/binary"
 
 	"github.com/pingcap/errors"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 )
 
 // Iterator specifies a read iterator Interface.

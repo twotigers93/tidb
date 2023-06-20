@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/hack"
 )
 
 func reserveBuffer(buf []byte, appendSize int) []byte {

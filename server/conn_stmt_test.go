@@ -20,12 +20,12 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/types"
 	"github.com/stretchr/testify/require"
 )
 

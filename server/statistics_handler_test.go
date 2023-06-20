@@ -25,10 +25,10 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/statistics/handle"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/statistics/handle"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

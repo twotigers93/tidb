@@ -19,9 +19,9 @@ import (
 	"sync"
 
 	"github.com/pingcap/errors"
-	lcom "github.com/pingcap/tidb/br/pkg/lightning/common"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/logutil"
+	lcom "github.com/twotigers93/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

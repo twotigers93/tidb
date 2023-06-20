@@ -19,8 +19,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
 	"go.uber.org/zap"
 )
 

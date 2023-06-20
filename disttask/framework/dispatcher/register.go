@@ -17,8 +17,8 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/pingcap/tidb/disttask/framework/proto"
-	"github.com/pingcap/tidb/util/syncutil"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/util/syncutil"
 	"golang.org/x/exp/maps"
 )
 

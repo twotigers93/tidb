@@ -22,13 +22,13 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	_ "github.com/pingcap/tidb/autoid_service"
-	ddltestutil "github.com/pingcap/tidb/ddl/testutil"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testutil"
+	_ "github.com/twotigers93/tidb/autoid_service"
+	ddltestutil "github.com/twotigers93/tidb/ddl/testutil"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testutil"
 	"github.com/stretchr/testify/require"
 )
 

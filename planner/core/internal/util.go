@@ -15,8 +15,8 @@
 package internal
 
 import (
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/expression/aggregation"
+	"github.com/twotigers93/tidb/sessionctx"
 )
 
 // WrapCastForAggFuncs wraps the args of an aggregate function with a cast function.

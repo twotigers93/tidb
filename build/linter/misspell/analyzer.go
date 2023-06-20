@@ -19,7 +19,7 @@ import (
 	"go/token"
 
 	"github.com/golangci/misspell"
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 	"golang.org/x/tools/go/analysis"
 )
 

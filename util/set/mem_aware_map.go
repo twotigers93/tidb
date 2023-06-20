@@ -17,7 +17,7 @@ package set
 import (
 	"math"
 
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/hack"
 )
 
 // MemAwareMap is a map which is aware of its memory usage. It's adapted from SetWithMemoryUsage.

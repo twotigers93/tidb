@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/pingcap/tidb/errno"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/errno"
 )
 
 func TestIsRetryableError(t *testing.T) {

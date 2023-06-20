@@ -19,9 +19,9 @@ import (
 	"crypto/tls"
 
 	deadlockpb "github.com/pingcap/kvproto/pkg/deadlock"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/copr"
-	driver "github.com/pingcap/tidb/store/driver/txn"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/copr"
+	driver "github.com/twotigers93/tidb/store/driver/txn"
 	"github.com/tikv/client-go/v2/config"
 	"github.com/tikv/client-go/v2/tikv"
 )

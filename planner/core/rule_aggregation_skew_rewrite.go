@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/parser/ast"
-	fd "github.com/pingcap/tidb/planner/funcdep"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/expression/aggregation"
+	"github.com/twotigers93/tidb/parser/ast"
+	fd "github.com/twotigers93/tidb/planner/funcdep"
 )
 
 type skewDistinctAggRewriter struct {

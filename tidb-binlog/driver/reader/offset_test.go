@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	pb "github.com/pingcap/tidb/tidb-binlog/proto/go-binlog"
 	"github.com/stretchr/testify/require"
+	pb "github.com/twotigers93/tidb/tidb-binlog/proto/go-binlog"
 )
 
 type testOffset struct {

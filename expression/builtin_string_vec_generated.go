@@ -17,7 +17,7 @@
 package expression
 
 import (
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // vecEvalInt evals FIELD(str,str1,str2,str3,...).

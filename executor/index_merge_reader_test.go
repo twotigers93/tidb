@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testutil"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testutil"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/memory"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 )

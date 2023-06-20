@@ -17,8 +17,8 @@ package core
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/tracing"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/tracing"
 )
 
 const (

@@ -17,7 +17,7 @@ package common_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/stretchr/testify/require"
 )
 

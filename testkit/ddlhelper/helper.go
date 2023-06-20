@@ -15,9 +15,9 @@
 package ddlhelper
 
 import (
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 // BuildTableInfoFromAST builds model.TableInfo from a SQL statement.

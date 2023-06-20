@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/util/hint"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/util/hint"
 )
 
 func TestSingleRuleTraceStep(t *testing.T) {

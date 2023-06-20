@@ -16,7 +16,7 @@ package restore
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/logutil"
+	"github.com/twotigers93/tidb/br/pkg/logutil"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

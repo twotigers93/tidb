@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/execdetails"
-	"github.com/pingcap/tidb/util/plancodec"
-	"github.com/pingcap/tidb/util/stmtsummary"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/execdetails"
+	"github.com/twotigers93/tidb/util/plancodec"
+	"github.com/twotigers93/tidb/util/stmtsummary"
 	"github.com/tikv/client-go/v2/util"
 )
 

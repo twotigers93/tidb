@@ -17,11 +17,11 @@ package casetest
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/testkit/testmain"
-	"github.com/pingcap/tidb/testkit/testsetup"
-	"github.com/pingcap/tidb/util/timeutil"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/testkit/testmain"
+	"github.com/twotigers93/tidb/testkit/testsetup"
+	"github.com/twotigers93/tidb/util/timeutil"
 	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/goleak"
 )

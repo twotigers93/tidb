@@ -17,10 +17,10 @@ package kv_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/encode"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/kv"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/stretchr/testify/require"
 )
 

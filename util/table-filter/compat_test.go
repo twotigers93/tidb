@@ -17,8 +17,8 @@ package filter_test
 import (
 	"testing"
 
-	filter "github.com/pingcap/tidb/util/table-filter"
 	"github.com/stretchr/testify/require"
+	filter "github.com/twotigers93/tidb/util/table-filter"
 )
 
 func TestSchemaFilter(t *testing.T) {

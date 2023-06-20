@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 )

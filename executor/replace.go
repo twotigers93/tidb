@@ -20,14 +20,14 @@ import (
 	"runtime/trace"
 	"time"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 // ReplaceExec represents a replace executor.

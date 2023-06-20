@@ -18,9 +18,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	. "github.com/pingcap/tidb/util/schemacmp"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 // eqBytes is a sample type used for testing EqualitySingleton.

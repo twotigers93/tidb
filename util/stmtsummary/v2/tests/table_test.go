@@ -21,14 +21,14 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/auth"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/testkit"
-	stmtsummaryv2 "github.com/pingcap/tidb/util/stmtsummary/v2"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/auth"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/testkit"
+	stmtsummaryv2 "github.com/twotigers93/tidb/util/stmtsummary/v2"
 )
 
 func TestStmtSummaryTable(t *testing.T) {

@@ -22,14 +22,14 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/ddl/placement"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/sessiontxn/staleread"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/types"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/oracle"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/ddl/placement"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/sessiontxn/staleread"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/types"
 )
 
 func TestExactStalenessTransaction(t *testing.T) {

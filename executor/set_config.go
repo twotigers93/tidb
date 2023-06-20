@@ -24,17 +24,17 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/pdapi"
-	"github.com/pingcap/tidb/util/set"
-	"github.com/pingcap/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/pdapi"
+	"github.com/twotigers93/tidb/util/set"
+	"github.com/twotigers93/tidb/util/stringutil"
 )
 
 // SetConfigExec executes 'SET CONFIG' statement.

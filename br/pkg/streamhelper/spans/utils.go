@@ -8,7 +8,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/pingcap/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/br/pkg/utils"
 )
 
 // Overlaps checks whether two spans have overlapped part.

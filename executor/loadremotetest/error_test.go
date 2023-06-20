@@ -20,8 +20,8 @@ import (
 
 	"github.com/fsouza/fake-gcs-server/fakestorage"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

@@ -15,8 +15,8 @@
 package loaddata
 
 import (
-	"github.com/pingcap/tidb/br/pkg/lightning/checkpoints"
-	"github.com/pingcap/tidb/br/pkg/lightning/mydump"
+	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
+	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
 )
 
 func toChunkCheckpoint(chunk Chunk) checkpoints.ChunkCheckpoint {

@@ -23,8 +23,8 @@ import (
 	"github.com/pingcap/errors"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/br/pkg/storage"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/parser/model"
 	"go.uber.org/zap"
 )
 

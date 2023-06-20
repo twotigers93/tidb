@@ -18,14 +18,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/planner/core/internal"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/external"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/util/collate"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/planner/core/internal"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/external"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/util/collate"
 	"github.com/stretchr/testify/require"
 )
 

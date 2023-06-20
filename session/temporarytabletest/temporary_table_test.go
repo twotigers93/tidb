@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestLocalTemporaryTableInsert(t *testing.T) {

@@ -20,13 +20,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/auth"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/server"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/auth"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/server"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
 )
 

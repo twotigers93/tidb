@@ -16,7 +16,7 @@ package linux_test
 import (
 	"testing"
 
-	. "github.com/pingcap/tidb/util/sys/linux"
+	. "github.com/twotigers93/tidb/util/sys/linux"
 	"github.com/stretchr/testify/require"
 )
 

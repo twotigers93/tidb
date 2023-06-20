@@ -18,12 +18,12 @@ import (
 	"path/filepath"
 	"sync/atomic"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/backend"
-	"github.com/pingcap/tidb/br/pkg/lightning/checkpoints"
-	lightning "github.com/pingcap/tidb/br/pkg/lightning/config"
-	tidb "github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/size"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
+	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
+	lightning "github.com/twotigers93/tidb/br/pkg/lightning/config"
+	tidb "github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/size"
 	"go.uber.org/zap"
 )
 

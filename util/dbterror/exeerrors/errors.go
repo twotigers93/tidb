@@ -15,9 +15,9 @@
 package exeerrors
 
 import (
-	mysql "github.com/pingcap/tidb/errno"
-	parser_mysql "github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/util/dbterror"
+	mysql "github.com/twotigers93/tidb/errno"
+	parser_mysql "github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 // Error instances.

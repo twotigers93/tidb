@@ -19,8 +19,8 @@ package expression
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/types"
 )
 
 var vecGeneratedBuiltinStringCases = map[string][]vecExprBenchCase{

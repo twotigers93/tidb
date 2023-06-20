@@ -20,8 +20,8 @@ import (
 
 	"github.com/opentracing/basictracer-go"
 	"github.com/opentracing/opentracing-go"
-	"github.com/pingcap/tidb/util/tracing"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/tracing"
 )
 
 func TestSpanFromContext(t *testing.T) {

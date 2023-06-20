@@ -21,13 +21,13 @@ import (
 	"sync/atomic"
 
 	"github.com/google/uuid"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/kv"
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	tidbkv "github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/generic"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	tidbkv "github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/generic"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

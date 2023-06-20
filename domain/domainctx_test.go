@@ -17,7 +17,7 @@ package domain
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/util/mock"
+	"github.com/twotigers93/tidb/util/mock"
 	"github.com/stretchr/testify/require"
 )
 

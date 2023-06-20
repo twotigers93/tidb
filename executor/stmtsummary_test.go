@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/mock"
-	stmtsummaryv2 "github.com/pingcap/tidb/util/stmtsummary/v2"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/mock"
+	stmtsummaryv2 "github.com/twotigers93/tidb/util/stmtsummary/v2"
 	"github.com/stretchr/testify/require"
 )
 

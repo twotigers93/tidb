@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestWindowFunctions(t *testing.T) {

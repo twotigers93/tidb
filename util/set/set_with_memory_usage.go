@@ -15,8 +15,8 @@
 package set
 
 import (
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 // StringSetWithMemoryUsage is a string set with memory usage.

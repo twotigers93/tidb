@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/statistics/handle"
-	"github.com/pingcap/tidb/statistics/handle/internal"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/statistics/handle"
+	"github.com/twotigers93/tidb/statistics/handle/internal"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
 )
 

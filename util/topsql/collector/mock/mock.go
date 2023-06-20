@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/topsql/collector"
-	"github.com/pingcap/tidb/util/topsql/stmtstats"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/topsql/collector"
+	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

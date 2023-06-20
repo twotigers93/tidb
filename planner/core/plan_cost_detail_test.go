@@ -18,14 +18,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/hint"
-	"github.com/pingcap/tidb/util/plancodec"
-	"github.com/pingcap/tidb/util/tracing"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/hint"
+	"github.com/twotigers93/tidb/util/plancodec"
+	"github.com/twotigers93/tidb/util/tracing"
 	"github.com/stretchr/testify/require"
 )
 

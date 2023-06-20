@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pingcap/tidb/types"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/types"
 )
 
 // getChk generate a chunk of data, isLast3ColTheSame means the last three columns are the same.

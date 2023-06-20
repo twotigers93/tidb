@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pingcap/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/sessionctx/variable"
 	"github.com/stretchr/testify/require"
 )
 

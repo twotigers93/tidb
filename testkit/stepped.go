@@ -20,9 +20,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/breakpoint"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/breakpoint"
 )
 
 var errCommandRunFailed = errors.New("command run failed")

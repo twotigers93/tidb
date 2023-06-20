@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/util/hint"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/util/hint"
 )
 
 func TestGroupNDVs(t *testing.T) {

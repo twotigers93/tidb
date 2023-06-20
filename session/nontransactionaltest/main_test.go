@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/testkit/testmain"
-	"github.com/pingcap/tidb/testkit/testsetup"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/testkit/testmain"
+	"github.com/twotigers93/tidb/testkit/testsetup"
 	"go.uber.org/goleak"
 )
 

@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/btree"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/br/pkg/rtree"
+	"github.com/twotigers93/tidb/br/pkg/rtree"
 	"go.uber.org/zap"
 )
 

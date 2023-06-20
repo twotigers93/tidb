@@ -22,9 +22,9 @@ import (
 
 	deadlockPb "github.com/pingcap/kvproto/pkg/deadlock"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/store/mockstore/unistore/pd"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/kverrors"
-	"github.com/pingcap/tidb/store/mockstore/unistore/util/lockwaiter"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/pd"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/kverrors"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/util/lockwaiter"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

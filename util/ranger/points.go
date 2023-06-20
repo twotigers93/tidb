@@ -20,15 +20,15 @@ import (
 	"sort"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 // Error instances.

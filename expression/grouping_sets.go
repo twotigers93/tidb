@@ -17,10 +17,10 @@ package expression
 import (
 	"strings"
 
-	"github.com/pingcap/tidb/kv"
-	fd "github.com/pingcap/tidb/planner/funcdep"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/size"
+	"github.com/twotigers93/tidb/kv"
+	fd "github.com/twotigers93/tidb/planner/funcdep"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/util/size"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

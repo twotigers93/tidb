@@ -17,8 +17,8 @@ package schemacmp
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/types"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/types"
 )
 
 // IncompatibleError is the error type for incompatible schema.

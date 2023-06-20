@@ -22,8 +22,8 @@ import (
 	"net/http/httptest"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/httputil"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/br/pkg/httputil"
+	"github.com/twotigers93/tidb/util"
 	"github.com/tikv/client-go/v2/config"
 	pd "github.com/tikv/pd/client"
 	"google.golang.org/grpc"

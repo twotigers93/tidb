@@ -11,9 +11,9 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 	uuid "github.com/google/uuid"
-	backend "github.com/pingcap/tidb/br/pkg/lightning/backend"
-	encode "github.com/pingcap/tidb/br/pkg/lightning/backend/encode"
-	model "github.com/pingcap/tidb/parser/model"
+	backend "github.com/twotigers93/tidb/br/pkg/lightning/backend"
+	encode "github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
+	model "github.com/twotigers93/tidb/parser/model"
 )
 
 // MockBackend is a mock of Backend interface.

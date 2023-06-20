@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/expression"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/ranger"
+	"github.com/twotigers93/tidb/expression"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/ranger"
 	"github.com/stretchr/testify/require"
 )
 

@@ -18,11 +18,11 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/extension"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/extension"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/sqlexec"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

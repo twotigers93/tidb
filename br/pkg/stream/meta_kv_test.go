@@ -6,10 +6,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 func encodeTxnMetaKey(key []byte, field []byte, ts uint64) []byte {

@@ -11,7 +11,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	storage "github.com/pingcap/tidb/br/pkg/storage"
+	storage "github.com/twotigers93/tidb/br/pkg/storage"
 )
 
 // MockExternalStorage is a mock of ExternalStorage interface.

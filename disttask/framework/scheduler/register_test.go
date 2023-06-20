@@ -17,8 +17,8 @@ package scheduler
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/disttask/framework/proto"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
 )
 
 func mockSchedulerOptionFunc(op *schedulerRegisterOptions) {}

@@ -17,11 +17,11 @@ package handle_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/mock"
 )
 
 func TestDDLAfterLoad(t *testing.T) {

@@ -23,9 +23,9 @@ import (
 	"time"
 
 	pingcapErrors "github.com/pingcap/errors"
-	"github.com/pingcap/tidb/domain/infosync"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/util/logutil"
 	pmodel "github.com/prometheus/common/model"
 	"go.uber.org/zap"
 )

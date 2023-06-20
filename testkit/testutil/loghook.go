@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

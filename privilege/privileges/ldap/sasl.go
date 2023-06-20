@@ -19,7 +19,7 @@ import (
 
 	"github.com/go-ldap/ldap/v3"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/privilege/conn"
+	"github.com/twotigers93/tidb/privilege/conn"
 )
 
 type ldapSASLAuthImpl struct {

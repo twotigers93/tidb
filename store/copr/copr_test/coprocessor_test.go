@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/copr"
-	"github.com/pingcap/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/copr"
+	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/testutils"
 )

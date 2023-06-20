@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	"github.com/golang/snappy"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/stretchr/testify/require"
 )

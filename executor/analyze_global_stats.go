@@ -18,12 +18,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/statistics/handle"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/statistics/handle"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

@@ -17,9 +17,9 @@ package sqlexec
 import (
 	"context"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // SimpleRecordSet is a simple implementation of RecordSet. All values are known when creating SimpleRecordSet.

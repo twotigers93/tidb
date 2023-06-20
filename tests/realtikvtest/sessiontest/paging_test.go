@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 )
 
 func TestPagingActRowsAndProcessKeys(t *testing.T) {

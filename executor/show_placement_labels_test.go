@@ -18,8 +18,8 @@ import (
 	gjson "encoding/json"
 	"testing"
 
-	"github.com/pingcap/tidb/store/helper"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/store/helper"
+	"github.com/twotigers93/tidb/types"
 	"github.com/stretchr/testify/require"
 )
 

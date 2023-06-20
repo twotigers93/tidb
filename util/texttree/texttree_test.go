@@ -17,7 +17,7 @@ package texttree_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/util/texttree"
+	"github.com/twotigers93/tidb/util/texttree"
 	"github.com/stretchr/testify/require"
 )
 

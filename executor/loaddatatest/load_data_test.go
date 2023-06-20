@@ -18,11 +18,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/mydump"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/dbterror/exeerrors"
+	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 	"github.com/stretchr/testify/require"
 )
 

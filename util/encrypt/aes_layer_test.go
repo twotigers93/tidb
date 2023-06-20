@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pingcap/tidb/util/checksum"
+	"github.com/twotigers93/tidb/util/checksum"
 	"github.com/stretchr/testify/require"
 )
 

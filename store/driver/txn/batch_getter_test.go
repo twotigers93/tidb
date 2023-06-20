@@ -17,8 +17,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
 )
 
 func TestBufferBatchGetter(t *testing.T) {

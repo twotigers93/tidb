@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/testkit/testmain"
-	"github.com/pingcap/tidb/testkit/testsetup"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/testkit/testmain"
+	"github.com/twotigers93/tidb/testkit/testsetup"
 	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/goleak"
 )

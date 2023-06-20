@@ -20,13 +20,13 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/domain/infosync"
-	"github.com/pingcap/tidb/keyspace"
-	"github.com/pingcap/tidb/server"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/keyspace"
+	"github.com/twotigers93/tidb/server"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/store/mockstore"
 	"github.com/stretchr/testify/require"
 )
 

@@ -17,8 +17,8 @@ package brietest
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/testkit/testsetup"
-	"github.com/pingcap/tidb/tests/realtikvtest"
+	"github.com/twotigers93/tidb/testkit/testsetup"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 	"go.uber.org/goleak"
 )
 

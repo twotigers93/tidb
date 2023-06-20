@@ -17,11 +17,11 @@ package workerpool
 import (
 	"time"
 
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/resourcemanager"
-	"github.com/pingcap/tidb/resourcemanager/util"
-	tidbutil "github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/syncutil"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/resourcemanager"
+	"github.com/twotigers93/tidb/resourcemanager/util"
+	tidbutil "github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/syncutil"
 	atomicutil "go.uber.org/atomic"
 )
 

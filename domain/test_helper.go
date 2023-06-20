@@ -17,9 +17,9 @@ package domain
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/model"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 // This file contains utilities for easier testing.

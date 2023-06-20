@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"hash/crc64"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/tikv/client-go/v2/tikv"
 	"go.uber.org/zap/zapcore"
 )

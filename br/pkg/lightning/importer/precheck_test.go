@@ -16,9 +16,9 @@ package importer
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/importer/mock"
-	"github.com/pingcap/tidb/br/pkg/lightning/precheck"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/importer/mock"
+	"github.com/twotigers93/tidb/br/pkg/lightning/precheck"
 	"github.com/stretchr/testify/require"
 )
 

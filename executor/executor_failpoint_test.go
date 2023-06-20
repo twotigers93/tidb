@@ -25,15 +25,15 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/copr"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/dbterror/exeerrors"
-	"github.com/pingcap/tidb/util/deadlockhistory"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/store/copr"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
+	"github.com/twotigers93/tidb/util/deadlockhistory"
 )
 
 func TestTiDBLastTxnInfoCommitMode(t *testing.T) {

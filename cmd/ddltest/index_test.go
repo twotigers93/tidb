@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/store/gcworker"
-	"github.com/pingcap/tidb/table"
+	"github.com/twotigers93/tidb/store/gcworker"
+	"github.com/twotigers93/tidb/table"
 	"github.com/stretchr/testify/require"
 )
 

@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/pingcap/tidb/br/pkg/version"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
-	"github.com/pingcap/tidb/util/promutil"
+	"github.com/twotigers93/tidb/br/pkg/version"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/util/promutil"
 	"github.com/stretchr/testify/require"
 )
 

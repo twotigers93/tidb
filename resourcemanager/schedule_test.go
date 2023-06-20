@@ -17,9 +17,9 @@ package resourcemanager
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/resourcemanager/scheduler"
-	"github.com/pingcap/tidb/resourcemanager/util"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/resourcemanager/scheduler"
+	"github.com/twotigers93/tidb/resourcemanager/util"
 )
 
 func TestSchedulerOverloadTooMuch(t *testing.T) {

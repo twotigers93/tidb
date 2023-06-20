@@ -17,10 +17,10 @@ package schemacmp
 import (
 	"strings"
 
-	"github.com/pingcap/tidb/parser/format"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/types"
+	"github.com/twotigers93/tidb/parser/format"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/types"
 	"golang.org/x/exp/slices"
 )
 

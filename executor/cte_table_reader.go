@@ -18,8 +18,8 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/cteutil"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/cteutil"
 )
 
 // CTETableReaderExec scans data in iterInTbl, which is filled by corresponding CTEExec.

@@ -17,9 +17,9 @@ package ddl
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
 	"github.com/stretchr/testify/assert"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 func Test_getTTLInfoInOptions(t *testing.T) {

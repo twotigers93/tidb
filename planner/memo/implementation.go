@@ -15,7 +15,7 @@
 package memo
 
 import (
-	plannercore "github.com/pingcap/tidb/planner/core"
+	plannercore "github.com/twotigers93/tidb/planner/core"
 )
 
 // Implementation defines the interface for cost of physical plan.

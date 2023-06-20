@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/metrics"
+	"github.com/twotigers93/tidb/metrics"
 )
 
 // TxnWriteThroughputSLI uses to report transaction write throughput metrics for SLI.

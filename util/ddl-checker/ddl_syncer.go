@@ -19,7 +19,7 @@ import (
 	"database/sql"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/dbutil"
+	"github.com/twotigers93/tidb/util/dbutil"
 )
 
 // DDLSyncer can sync the table structure from upstream(usually MySQL) to ExecutableChecker

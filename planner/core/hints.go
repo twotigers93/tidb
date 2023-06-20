@@ -15,11 +15,11 @@
 package core
 
 import (
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	utilhint "github.com/pingcap/tidb/util/hint"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	utilhint "github.com/twotigers93/tidb/util/hint"
 )
 
 // GenHintsFromFlatPlan generates hints from a FlatPhysicalPlan.

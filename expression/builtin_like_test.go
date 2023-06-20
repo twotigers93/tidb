@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/testkit/testutil"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/collate"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/testkit/testutil"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/collate"
 	"github.com/stretchr/testify/require"
 )
 

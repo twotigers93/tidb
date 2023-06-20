@@ -6,9 +6,9 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/owner"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/owner"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
-	"github.com/pingcap/tidb/br/pkg/rtree"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/rtree"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

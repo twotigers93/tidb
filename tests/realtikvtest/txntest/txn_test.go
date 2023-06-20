@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 	"github.com/stretchr/testify/require"
 )
 

@@ -21,12 +21,12 @@ import (
 	"github.com/fsouza/fake-gcs-server/fakestorage"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 )
 
 type mockGCSSuite struct {

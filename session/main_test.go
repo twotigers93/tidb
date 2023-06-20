@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/testkit/testmain"
-	"github.com/pingcap/tidb/testkit/testsetup"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/sqlexec"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/testkit/testmain"
+	"github.com/twotigers93/tidb/testkit/testsetup"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/sqlexec"
 	"go.uber.org/goleak"
 )
 

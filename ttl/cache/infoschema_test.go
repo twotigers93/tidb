@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/server"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/ttl/cache"
-	"github.com/pingcap/tidb/ttl/session"
+	"github.com/twotigers93/tidb/server"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/ttl/cache"
+	"github.com/twotigers93/tidb/ttl/session"
 	"github.com/stretchr/testify/assert"
 )
 

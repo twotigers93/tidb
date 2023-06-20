@@ -17,10 +17,10 @@ package dbutil
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/schemacmp"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/schemacmp"
 	"github.com/stretchr/testify/require"
 )
 

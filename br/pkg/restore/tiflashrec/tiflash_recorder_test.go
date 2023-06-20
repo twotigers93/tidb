@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/restore/tiflashrec"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/model"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/restore/tiflashrec"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 type op func(*tiflashrec.TiFlashRecorder)

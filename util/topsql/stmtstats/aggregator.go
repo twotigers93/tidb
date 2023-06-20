@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/util/topsql/state"
+	"github.com/twotigers93/tidb/util/topsql/state"
 	"go.uber.org/atomic"
 )
 

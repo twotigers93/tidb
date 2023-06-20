@@ -17,10 +17,10 @@ package txntest
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/store/driver"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/store/driver"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
+	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )

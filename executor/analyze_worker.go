@@ -19,11 +19,11 @@ import (
 	"sync/atomic"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/statistics/handle"
-	"github.com/pingcap/tidb/util/dbterror/exeerrors"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/statistics/handle"
+	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

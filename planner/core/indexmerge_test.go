@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/planner/util"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/util/hint"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/planner/util"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/util/hint"
 	"github.com/stretchr/testify/require"
 )
 

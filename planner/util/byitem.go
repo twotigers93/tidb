@@ -17,9 +17,9 @@ package util
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/size"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/size"
 )
 
 // ByItems wraps a "by" item.

@@ -15,7 +15,7 @@
 package expression
 
 import (
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 func (b *builtinLikeSig) vectorized() bool {

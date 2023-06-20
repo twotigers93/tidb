@@ -17,14 +17,14 @@ package kv
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/encode"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/encode"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/types"
 )
 
 // TableKVDecoder is a KVDecoder that decodes the key-value pairs of a table.

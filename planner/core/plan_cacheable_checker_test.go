@@ -17,17 +17,17 @@ package core_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/testkit"
-	driver "github.com/pingcap/tidb/types/parser_driver"
-	"github.com/pingcap/tidb/util/mock"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/testkit"
+	driver "github.com/twotigers93/tidb/types/parser_driver"
+	"github.com/twotigers93/tidb/util/mock"
 	"github.com/stretchr/testify/require"
 )
 

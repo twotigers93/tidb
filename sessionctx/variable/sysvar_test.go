@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/util/gctuner"
-	"github.com/pingcap/tidb/util/memory"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/util/gctuner"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 func TestSQLSelectLimit(t *testing.T) {

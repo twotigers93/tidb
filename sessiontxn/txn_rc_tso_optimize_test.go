@@ -20,12 +20,12 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/sessiontxn/isolation"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/sessiontxn/isolation"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestRcTSOCmdCountForPrepareExecuteNormal(t *testing.T) {

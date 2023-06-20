@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/pingcap/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/ast"
 )
 
 // ExplainAggFunc generates explain information for a aggregation function.

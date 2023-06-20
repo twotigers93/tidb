@@ -18,9 +18,9 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 var _ Executor = &LockStatsExec{}

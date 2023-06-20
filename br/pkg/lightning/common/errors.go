@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
 )
 
 // error definitions

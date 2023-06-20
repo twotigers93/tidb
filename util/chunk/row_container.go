@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/disk"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/disk"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/memory"
 	"go.uber.org/zap"
 	"golang.org/x/sys/cpu"
 )

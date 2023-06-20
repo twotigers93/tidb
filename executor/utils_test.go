@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/types"
 	"github.com/stretchr/testify/require"
 )
 

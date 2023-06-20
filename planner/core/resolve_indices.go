@@ -16,9 +16,9 @@ package core
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/planner/util"
-	"github.com/pingcap/tidb/util/disjointset"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/planner/util"
+	"github.com/twotigers93/tidb/util/disjointset"
 )
 
 // ResolveIndicesItself resolve indices for PhysicalPlan itself

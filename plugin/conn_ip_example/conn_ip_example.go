@@ -20,8 +20,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/pingcap/tidb/plugin"
-	"github.com/pingcap/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/plugin"
+	"github.com/twotigers93/tidb/sessionctx/variable"
 )
 
 // Accumulator of connection

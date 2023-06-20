@@ -19,11 +19,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/plancodec"
-	"github.com/pingcap/tidb/util/tracing"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/plancodec"
+	"github.com/twotigers93/tidb/util/tracing"
 	"golang.org/x/exp/slices"
 )
 

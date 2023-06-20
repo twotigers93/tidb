@@ -17,8 +17,8 @@ package tablecodec
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/benchdaily"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/benchdaily"
 )
 
 func BenchmarkEncodeRowKeyWithHandle(b *testing.B) {

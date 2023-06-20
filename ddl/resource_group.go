@@ -20,13 +20,13 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/ddl/resourcegroup"
-	"github.com/pingcap/tidb/domain/infosync"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/util/dbterror"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/ddl/resourcegroup"
+	"github.com/twotigers93/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

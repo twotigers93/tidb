@@ -6,8 +6,8 @@ import (
 	"database/sql"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"go.uber.org/zap"
 )
 

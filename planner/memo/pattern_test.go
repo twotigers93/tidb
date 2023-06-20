@@ -17,7 +17,7 @@ package memo
 import (
 	"testing"
 
-	plannercore "github.com/pingcap/tidb/planner/core"
+	plannercore "github.com/twotigers93/tidb/planner/core"
 	"github.com/stretchr/testify/require"
 )
 

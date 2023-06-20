@@ -17,10 +17,10 @@ package parser_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	_ "github.com/pingcap/tidb/types/parser_driver"
-	utilparser "github.com/pingcap/tidb/util/parser"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
+	_ "github.com/twotigers93/tidb/types/parser_driver"
+	utilparser "github.com/twotigers93/tidb/util/parser"
 )
 
 func TestSimpleCases(t *testing.T) {

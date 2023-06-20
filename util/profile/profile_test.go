@@ -18,12 +18,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/profile"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/profile"
 	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )

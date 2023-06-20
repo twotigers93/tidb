@@ -19,12 +19,12 @@ import (
 	"strconv"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/mysql"
-	ast "github.com/pingcap/tidb/parser/types"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/dbterror"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/mysql"
+	ast "github.com/twotigers93/tidb/parser/types"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 // UnspecifiedLength is unspecified length.

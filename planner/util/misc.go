@@ -15,9 +15,9 @@
 package util
 
 import (
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/util/ranger"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/util/ranger"
 )
 
 // CloneExprs uses Expression.Clone to clone a slice of Expression.

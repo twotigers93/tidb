@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	backend "github.com/pingcap/tidb/br/pkg/lightning/backend"
+	backend "github.com/twotigers93/tidb/br/pkg/lightning/backend"
 )
 
 // MockDiskUsage is a mock of DiskUsage interface.

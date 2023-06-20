@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/pdapi"
+	"github.com/twotigers93/tidb/util/pdapi"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

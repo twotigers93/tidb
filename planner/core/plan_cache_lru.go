@@ -17,14 +17,14 @@ import (
 	"container/list"
 
 	"github.com/pingcap/errors"
-	core_metrics "github.com/pingcap/tidb/planner/core/metrics"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/kvcache"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/memory"
-	utilpc "github.com/pingcap/tidb/util/plancache"
-	"github.com/pingcap/tidb/util/syncutil"
+	core_metrics "github.com/twotigers93/tidb/planner/core/metrics"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/kvcache"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/memory"
+	utilpc "github.com/twotigers93/tidb/util/plancache"
+	"github.com/twotigers93/tidb/util/syncutil"
 )
 
 // planCacheEntry wraps Key and Value. It's the value of list.Element.

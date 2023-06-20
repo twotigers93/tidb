@@ -19,8 +19,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/pingcap/tidb/statistics"
-	handle_metrics "github.com/pingcap/tidb/statistics/handle/metrics"
+	"github.com/twotigers93/tidb/statistics"
+	handle_metrics "github.com/twotigers93/tidb/statistics/handle/metrics"
 )
 
 type statsInnerCache struct {

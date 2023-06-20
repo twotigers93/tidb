@@ -10,7 +10,7 @@ import (
 
 	"github.com/docker/go-units"
 	"github.com/pingcap/failpoint"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"go.uber.org/zap"
 )
 

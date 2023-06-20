@@ -21,9 +21,9 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/resourcemanager/scheduler"
-	"github.com/pingcap/tidb/resourcemanager/util"
-	"github.com/pingcap/tidb/util/cpu"
+	"github.com/twotigers93/tidb/resourcemanager/scheduler"
+	"github.com/twotigers93/tidb/resourcemanager/util"
+	"github.com/twotigers93/tidb/util/cpu"
 	"github.com/stretchr/testify/require"
 )
 

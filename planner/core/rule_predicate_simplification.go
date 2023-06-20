@@ -18,9 +18,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/sessionctx"
 	"golang.org/x/exp/slices"
 )
 

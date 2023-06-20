@@ -14,7 +14,7 @@
 
 package collate
 
-import "github.com/pingcap/tidb/parser/charset"
+import "github.com/twotigers93/tidb/parser/charset"
 
 // switchDefaultCollation switch the default collation for charset according to the new collation config.
 func switchDefaultCollation(flag bool) {

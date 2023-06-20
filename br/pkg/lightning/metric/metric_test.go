@@ -19,11 +19,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/metric"
-	"github.com/pingcap/tidb/util/promutil"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/metric"
+	"github.com/twotigers93/tidb/util/promutil"
 )
 
 func TestReadCounter(t *testing.T) {

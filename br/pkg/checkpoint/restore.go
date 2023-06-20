@@ -21,8 +21,8 @@ import (
 	"time"
 
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
-	"github.com/pingcap/tidb/br/pkg/pdutil"
-	"github.com/pingcap/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/br/pkg/pdutil"
+	"github.com/twotigers93/tidb/br/pkg/storage"
 )
 
 type RestoreKeyType = int64

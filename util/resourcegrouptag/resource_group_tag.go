@@ -18,8 +18,8 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/coprocessor"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/tablecodec/rowindexcodec"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/tablecodec/rowindexcodec"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/tikv/client-go/v2/tikvrpc"
 )

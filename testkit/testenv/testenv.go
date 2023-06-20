@@ -17,7 +17,7 @@ package testenv
 import (
 	"runtime"
 
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/util/mathutil"
 )
 
 // SetGOMAXPROCSForTest sets GOMAXPROCS to 8 if it is greater than 8.

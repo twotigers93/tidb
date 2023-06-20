@@ -13,11 +13,11 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/br/pkg/storage"
-	"github.com/pingcap/tidb/br/pkg/summary"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
-	"github.com/pingcap/tidb/dumpling/log"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/twotigers93/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/br/pkg/summary"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/dumpling/log"
 	"go.uber.org/zap"
 )
 

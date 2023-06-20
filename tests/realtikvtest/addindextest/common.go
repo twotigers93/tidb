@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/logutil"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

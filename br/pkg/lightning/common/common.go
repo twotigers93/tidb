@@ -18,9 +18,9 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 const (

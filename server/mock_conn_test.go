@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestMockConn(t *testing.T) {

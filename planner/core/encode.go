@@ -22,9 +22,9 @@ import (
 	"sync"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/util/plancodec"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/util/plancodec"
 )
 
 // EncodeFlatPlan encodes a FlatPhysicalPlan with compression.

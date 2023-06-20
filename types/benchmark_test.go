@@ -18,7 +18,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 func BenchmarkDefaultTypeForValue(b *testing.B) {

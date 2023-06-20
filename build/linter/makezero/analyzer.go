@@ -16,7 +16,7 @@ package makezero
 
 import (
 	"github.com/ashanbrown/makezero/pkg/analyzer"
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 )
 
 // Analyzer is the analyzer struct of ineffassign.

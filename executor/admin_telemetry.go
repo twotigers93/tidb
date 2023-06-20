@@ -17,9 +17,9 @@ package executor
 import (
 	"context"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/telemetry"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/telemetry"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // AdminShowTelemetryExec is an executor for ADMIN SHOW TELEMETRY.

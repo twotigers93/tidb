@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/kvcache"
-	utilpc "github.com/pingcap/tidb/util/plancache"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/kvcache"
+	utilpc "github.com/twotigers93/tidb/util/plancache"
 	"github.com/stretchr/testify/require"
 )
 

@@ -17,8 +17,8 @@ package executor_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestExportRowID(t *testing.T) {

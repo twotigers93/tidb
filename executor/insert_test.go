@@ -23,14 +23,14 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/execdetails"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/execdetails"
 )
 
 func TestInsertOnDuplicateKey(t *testing.T) {

@@ -17,8 +17,8 @@ package executor_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
 )
 
 func TestNaturalJoin(t *testing.T) {

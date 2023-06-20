@@ -16,10 +16,10 @@ package expression
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/stringutil"
 )
 
 // LowerAlphaASCII only lowers alpha ascii

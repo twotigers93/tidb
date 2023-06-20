@@ -18,10 +18,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/ranger"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/ranger"
 	"github.com/stretchr/testify/require"
 )
 

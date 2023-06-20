@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/ddl"
+	"github.com/twotigers93/tidb/ddl"
 	"github.com/stretchr/testify/require"
 )
 

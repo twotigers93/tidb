@@ -11,9 +11,9 @@ import (
 	"github.com/opentracing/opentracing-go"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/br/pkg/glue"
-	"github.com/pingcap/tidb/br/pkg/rtree"
-	"github.com/pingcap/tidb/br/pkg/summary"
+	"github.com/twotigers93/tidb/br/pkg/glue"
+	"github.com/twotigers93/tidb/br/pkg/rtree"
+	"github.com/twotigers93/tidb/br/pkg/summary"
 	"go.uber.org/zap"
 )
 

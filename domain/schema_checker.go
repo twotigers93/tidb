@@ -17,9 +17,9 @@ package domain
 import (
 	"time"
 
-	"github.com/pingcap/tidb/metrics"
 	"github.com/tikv/client-go/v2/tikv"
 	"github.com/tikv/client-go/v2/txnkv/transaction"
+	"github.com/twotigers93/tidb/metrics"
 	atomicutil "go.uber.org/atomic"
 )
 

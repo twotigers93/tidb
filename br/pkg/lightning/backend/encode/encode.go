@@ -17,11 +17,11 @@ package encode
 import (
 	"context"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/lightning/verification"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/verification"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/types"
 )
 
 // EncodingConfig is the configuration for the encoding backend.

@@ -20,8 +20,8 @@ import (
 
 	"github.com/Masterminds/semver"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/metautil"
-	"github.com/pingcap/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/br/pkg/metautil"
+	"github.com/twotigers93/tidb/br/pkg/storage"
 	corev1 "k8s.io/api/core/v1"
 )
 

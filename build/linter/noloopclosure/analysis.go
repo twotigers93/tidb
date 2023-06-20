@@ -16,7 +16,7 @@ package noloopclosure
 
 import (
 	nlc "github.com/fatanugraha/noloopclosure"
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 )
 
 // Analyzer is the analyzer struct of misspell.

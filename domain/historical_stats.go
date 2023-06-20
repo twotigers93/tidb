@@ -17,11 +17,11 @@ package domain
 import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	domain_metrics "github.com/pingcap/tidb/domain/metrics"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/statistics/handle"
-	"github.com/pingcap/tidb/util/logutil"
+	domain_metrics "github.com/twotigers93/tidb/domain/metrics"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/statistics/handle"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

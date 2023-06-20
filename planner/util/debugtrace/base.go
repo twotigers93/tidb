@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"runtime"
 
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx"
 )
 
 // OptimizerDebugTraceRoot is for recording the optimizer debug trace.

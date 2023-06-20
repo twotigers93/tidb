@@ -17,8 +17,8 @@ package core
 import (
 	"sort"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/texttree"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/texttree"
 )
 
 // FlatPhysicalPlan provides an easier structure to traverse a plan and collect needed information.

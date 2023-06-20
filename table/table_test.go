@@ -17,8 +17,8 @@ package table
 import (
 	"testing"
 
-	mysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/terror"
+	mysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/terror"
 	"github.com/stretchr/testify/require"
 )
 

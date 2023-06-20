@@ -15,11 +15,11 @@
 package sessionstates
 
 import (
-	"github.com/pingcap/tidb/errno"
-	ptypes "github.com/pingcap/tidb/parser/types"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/errno"
+	ptypes "github.com/twotigers93/tidb/parser/types"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 // SessionStateType is the type of session states.

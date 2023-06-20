@@ -17,7 +17,7 @@ package stmtstats
 import (
 	"sync"
 
-	topsqlstate "github.com/pingcap/tidb/util/topsql/state"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
 	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/tikv/client-go/v2/tikvrpc/interceptor"
 )

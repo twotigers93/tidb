@@ -24,7 +24,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/tidb-binlog/node"
+	"github.com/twotigers93/tidb/tidb-binlog/node"
 	pb "github.com/pingcap/tipb/go-binlog"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

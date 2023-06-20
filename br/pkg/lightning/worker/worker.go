@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/metric"
+	"github.com/twotigers93/tidb/br/pkg/lightning/metric"
 )
 
 // Pool is the worker pool.

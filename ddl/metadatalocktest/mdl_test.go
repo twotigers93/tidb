@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	mysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/server"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	mysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/server"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestMDLBasicSelect(t *testing.T) {

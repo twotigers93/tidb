@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/mockstore"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/mockstore"
 )
 
 func TestSnapshotWithoutInterceptor(t *testing.T) {

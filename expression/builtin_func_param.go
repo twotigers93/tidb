@@ -15,7 +15,7 @@
 package expression
 
 import (
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // Parameters may be const or ignored by the user, so different situations should be considered

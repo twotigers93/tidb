@@ -23,13 +23,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/parser"
-	"github.com/pingcap/tidb/planner"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser"
+	"github.com/twotigers93/tidb/planner"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func testCostQueries(t *testing.T, tk *testkit.TestKit, queries []string) {

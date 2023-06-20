@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/local"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/util/generic"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/local"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/util/generic"
+	"github.com/twotigers93/tidb/util/logutil"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.uber.org/zap"
 )

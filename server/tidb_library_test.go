@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	"github.com/docker/go-units"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/util/syncutil"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/util/syncutil"
 	"github.com/stretchr/testify/require"
 )
 

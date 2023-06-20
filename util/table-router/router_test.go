@@ -17,7 +17,7 @@ package router
 import (
 	"testing"
 
-	selector "github.com/pingcap/tidb/util/table-rule-selector"
+	selector "github.com/twotigers93/tidb/util/table-rule-selector"
 	"github.com/stretchr/testify/require"
 )
 

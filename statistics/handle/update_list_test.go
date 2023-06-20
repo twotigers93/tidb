@@ -17,8 +17,8 @@ package handle
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/statistics"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/statistics"
 )
 
 func TestInsertAndDelete(t *testing.T) {

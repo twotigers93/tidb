@@ -20,14 +20,14 @@ import (
 	"math"
 	"time"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/variable/featuretag/disttask"
-	"github.com/pingcap/tidb/util/memory"
-	"github.com/pingcap/tidb/util/paging"
-	"github.com/pingcap/tidb/util/size"
-	"github.com/pingcap/tidb/util/tiflashcompute"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/sessionctx/variable/featuretag/disttask"
+	"github.com/twotigers93/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/paging"
+	"github.com/twotigers93/tidb/util/size"
+	"github.com/twotigers93/tidb/util/tiflashcompute"
 	"go.uber.org/atomic"
 )
 

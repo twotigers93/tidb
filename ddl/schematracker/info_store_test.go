@@ -18,8 +18,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/model"
 	"github.com/stretchr/testify/require"
 )
 

@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pingcap/tidb/util/memory"
-	"github.com/pingcap/tidb/util/texttree"
+	"github.com/twotigers93/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/texttree"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

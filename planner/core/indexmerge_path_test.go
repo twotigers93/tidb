@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/stretchr/testify/require"
 )
 

@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	filter "github.com/pingcap/tidb/util/table-filter"
+	filter "github.com/twotigers93/tidb/util/table-filter"
 	"github.com/stretchr/testify/require"
 )
 

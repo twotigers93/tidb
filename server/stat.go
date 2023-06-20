@@ -18,9 +18,9 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/pingcap/tidb/domain/infosync"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

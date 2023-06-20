@@ -22,8 +22,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 )
 
 func randBytes(n int) []byte {

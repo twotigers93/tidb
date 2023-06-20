@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/codec"
 	"gopkg.in/yaml.v2"
 )
 

@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/auth"
-	"github.com/pingcap/tidb/testkit"
-	stmtsummaryv2 "github.com/pingcap/tidb/util/stmtsummary/v2"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/auth"
+	"github.com/twotigers93/tidb/testkit"
+	stmtsummaryv2 "github.com/twotigers93/tidb/util/stmtsummary/v2"
 )
 
 func TestExtractPlanWithoutHistoryView(t *testing.T) {

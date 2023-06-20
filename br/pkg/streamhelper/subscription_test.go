@@ -8,9 +8,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/streamhelper"
-	"github.com/pingcap/tidb/br/pkg/streamhelper/spans"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/streamhelper"
+	"github.com/twotigers93/tidb/br/pkg/streamhelper/spans"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

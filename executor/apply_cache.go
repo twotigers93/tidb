@@ -15,12 +15,12 @@
 package executor
 
 import (
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/kvcache"
-	"github.com/pingcap/tidb/util/mathutil"
-	"github.com/pingcap/tidb/util/memory"
-	"github.com/pingcap/tidb/util/syncutil"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/kvcache"
+	"github.com/twotigers93/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/syncutil"
 )
 
 // applyCache is used in the apply executor. When we get the same value of the outer row.

@@ -19,15 +19,15 @@ import (
 	"strings"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/planner/util"
-	"github.com/pingcap/tidb/planner/util/debugtrace"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/util/hint"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/planner/util"
+	"github.com/twotigers93/tidb/planner/util/debugtrace"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/statistics"
+	"github.com/twotigers93/tidb/util/hint"
 )
 
 /*

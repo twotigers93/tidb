@@ -17,9 +17,9 @@ package lightning
 import (
 	"database/sql"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/storage"
-	"github.com/pingcap/tidb/util/promutil"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/util/promutil"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

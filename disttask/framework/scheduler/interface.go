@@ -17,7 +17,7 @@ package scheduler
 import (
 	"context"
 
-	"github.com/pingcap/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
 )
 
 // TaskTable defines the interface to access task table.

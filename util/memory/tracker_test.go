@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/util/mathutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -17,8 +17,8 @@ package unstabletest
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/meta/autoid"
 	"github.com/tikv/client-go/v2/tikv"
 	"go.opencensus.io/stats/view"
 	"go.uber.org/goleak"

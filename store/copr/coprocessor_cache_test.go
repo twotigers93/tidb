@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/pingcap/kvproto/pkg/coprocessor"
-	"github.com/pingcap/tidb/kv"
+	"github.com/twotigers93/tidb/kv"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/config"
 )

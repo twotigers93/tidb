@@ -21,8 +21,8 @@ import (
 	"path"
 	"sync"
 
-	"github.com/pingcap/tidb/ddl/label"
-	"github.com/pingcap/tidb/util/pdapi"
+	"github.com/twotigers93/tidb/ddl/label"
+	"github.com/twotigers93/tidb/util/pdapi"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

@@ -27,13 +27,13 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
-	"github.com/pingcap/tidb/util/arena"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/replayer"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/util/arena"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/replayer"
 )
 
 func TestDumpOptimizeTraceAPI(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"github.com/pingcap/kvproto/pkg/errorpb"
 	sst "github.com/pingcap/kvproto/pkg/import_sstpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/br/pkg/restore/split"
+	"github.com/twotigers93/tidb/br/pkg/restore/split"
 	"github.com/stretchr/testify/require"
 )
 

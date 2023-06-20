@@ -21,13 +21,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/plugin"
-	"github.com/pingcap/tidb/server"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/plugin"
+	"github.com/twotigers93/tidb/server"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

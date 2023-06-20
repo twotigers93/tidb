@@ -18,7 +18,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/pingcap/tidb/util/size"
+	"github.com/twotigers93/tidb/util/size"
 )
 
 // KeyInfo stores the columns of one unique key or primary key.

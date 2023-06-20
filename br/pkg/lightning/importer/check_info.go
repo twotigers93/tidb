@@ -20,9 +20,9 @@ import (
 
 	"github.com/docker/go-units"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/precheck"
-	"github.com/pingcap/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/precheck"
+	"github.com/twotigers93/tidb/br/pkg/storage"
 )
 
 const (

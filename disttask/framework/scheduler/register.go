@@ -15,7 +15,7 @@
 package scheduler
 
 import (
-	"github.com/pingcap/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
 )
 
 type schedulerRegisterOptions struct{}

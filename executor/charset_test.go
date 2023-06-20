@@ -17,9 +17,9 @@ package executor_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestCharsetFeature(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

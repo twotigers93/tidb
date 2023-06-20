@@ -24,11 +24,11 @@ import (
 
 	"github.com/golang/snappy"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/texttree"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/texttree"
 	"go.uber.org/zap"
 )
 

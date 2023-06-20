@@ -20,8 +20,8 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/store/pdtypes"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/twotigers93/tidb/store/pdtypes"
+	"github.com/twotigers93/tidb/util/codec"
 	"github.com/stretchr/testify/require"
 )
 

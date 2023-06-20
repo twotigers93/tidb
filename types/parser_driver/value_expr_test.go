@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/parser/format"
-	"github.com/pingcap/tidb/types"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/format"
+	"github.com/twotigers93/tidb/types"
 )
 
 func TestValueExprRestore(t *testing.T) {

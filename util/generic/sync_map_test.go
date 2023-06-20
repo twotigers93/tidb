@@ -18,7 +18,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/pingcap/tidb/util/generic"
+	"github.com/twotigers93/tidb/util/generic"
 	"github.com/stretchr/testify/require"
 )
 

@@ -16,9 +16,9 @@ package mockstore
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/mockstore/mockcopr"
-	"github.com/pingcap/tidb/store/mockstore/mockstorage"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/mockstore/mockcopr"
+	"github.com/twotigers93/tidb/store/mockstore/mockstorage"
 	"github.com/tikv/client-go/v2/testutils"
 	"github.com/tikv/client-go/v2/tikv"
 )

@@ -6,7 +6,7 @@ import (
 	"bytes"
 
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/br/pkg/logutil"
+	"github.com/twotigers93/tidb/br/pkg/logutil"
 	"go.uber.org/zap"
 )
 

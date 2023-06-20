@@ -18,8 +18,8 @@ import (
 	"os"
 
 	"github.com/pingcap/errors"
-	usconf "github.com/pingcap/tidb/store/mockstore/unistore/config"
-	ussvr "github.com/pingcap/tidb/store/mockstore/unistore/server"
+	usconf "github.com/twotigers93/tidb/store/mockstore/unistore/config"
+	ussvr "github.com/twotigers93/tidb/store/mockstore/unistore/server"
 	pd "github.com/tikv/pd/client"
 )
 

@@ -17,8 +17,8 @@ package aggfuncs_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/mysql"
 )
 
 func TestMergePartialResult4Stddevsamp(t *testing.T) {

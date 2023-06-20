@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/cznic/mathutil"
-	"github.com/pingcap/tidb/util/globalconn"
+	"github.com/twotigers93/tidb/util/globalconn"
 	"github.com/stretchr/testify/assert"
 )
 

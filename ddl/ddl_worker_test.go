@@ -22,13 +22,13 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/ddl/internal/callback"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/ddl/internal/callback"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util"
 	"github.com/stretchr/testify/require"
 )
 

@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser"
+	"github.com/twotigers93/tidb/parser"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

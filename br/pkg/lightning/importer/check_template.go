@@ -19,7 +19,7 @@ import (
 
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/jedib0t/go-pretty/v6/text"
-	"github.com/pingcap/tidb/br/pkg/lightning/precheck"
+	"github.com/twotigers93/tidb/br/pkg/lightning/precheck"
 )
 
 // Template is the interface for lightning check.

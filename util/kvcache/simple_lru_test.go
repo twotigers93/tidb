@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/memory"
 	"github.com/stretchr/testify/require"
 )
 

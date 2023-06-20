@@ -17,7 +17,7 @@ package keyspace
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/config"
+	"github.com/twotigers93/tidb/config"
 	"github.com/stretchr/testify/require"
 )
 

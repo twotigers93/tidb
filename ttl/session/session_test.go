@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/ttl/session"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/ttl/session"
 	"github.com/stretchr/testify/require"
 )
 

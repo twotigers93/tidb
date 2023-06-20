@@ -36,8 +36,8 @@ import (
 	"github.com/pingcap/badger/y"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/kverrors"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/mvcc"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/kverrors"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/mvcc"
 )
 
 // NewDBReader returns a new *DBReader.

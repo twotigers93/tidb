@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/util/filter"
-	router "github.com/pingcap/tidb/util/table-router"
+	"github.com/twotigers93/tidb/util/filter"
+	router "github.com/twotigers93/tidb/util/table-router"
 	"github.com/stretchr/testify/require"
 )
 

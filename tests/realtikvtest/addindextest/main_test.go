@@ -18,8 +18,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/tests/realtikvtest"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 )
 
 // FullMode is a flag identify it should be run in full mode.

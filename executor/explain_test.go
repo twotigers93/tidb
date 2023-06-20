@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/auth"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/auth"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/types"
 	"github.com/stretchr/testify/require"
 )
 

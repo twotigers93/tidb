@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/ddl/util"
+	"github.com/twotigers93/tidb/ddl/util"
 )
 
 var _ Manager = &mockManager{}

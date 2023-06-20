@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/parser/model"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 func testTableInfo(name string) *model.TableInfo {

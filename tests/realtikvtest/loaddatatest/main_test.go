@@ -17,8 +17,8 @@ package loaddatatest
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/tests/realtikvtest"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 )
 
 func init() {

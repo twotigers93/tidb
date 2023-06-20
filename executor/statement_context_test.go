@@ -19,9 +19,9 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

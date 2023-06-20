@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/ddl/placement"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/twotigers93/tidb/ddl/placement"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/util/codec"
 	"github.com/stretchr/testify/require"
 )
 

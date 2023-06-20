@@ -21,13 +21,13 @@ import (
 	"sort"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/disttask/framework/dispatcher"
-	"github.com/pingcap/tidb/disttask/framework/proto"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/store/helper"
-	"github.com/pingcap/tidb/table"
+	"github.com/twotigers93/tidb/disttask/framework/dispatcher"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/store/helper"
+	"github.com/twotigers93/tidb/table"
 	"github.com/tikv/client-go/v2/tikv"
 )
 

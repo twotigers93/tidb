@@ -19,16 +19,16 @@ import (
 	"testing"
 	"time"
 
-	mysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/auth"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/external"
-	"github.com/pingcap/tidb/util/dbterror"
 	"github.com/stretchr/testify/require"
+	mysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/auth"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/external"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 func TestCreateSequence(t *testing.T) {

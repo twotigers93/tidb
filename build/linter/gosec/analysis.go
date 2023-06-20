@@ -25,7 +25,7 @@ import (
 	"github.com/golangci/golangci-lint/pkg/result"
 	"github.com/golangci/gosec"
 	"github.com/golangci/gosec/rules"
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/loader"
 )

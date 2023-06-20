@@ -22,12 +22,12 @@ import (
 	"io"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/parser/opcode"
-	"github.com/pingcap/tidb/parser/terror"
-	ast "github.com/pingcap/tidb/parser/types"
-	"github.com/pingcap/tidb/util/collate"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/parser/opcode"
+	"github.com/twotigers93/tidb/parser/terror"
+	ast "github.com/twotigers93/tidb/parser/types"
+	"github.com/twotigers93/tidb/util/collate"
 )
 
 // IsTypeBlob returns a boolean indicating whether the tp is a blob type.

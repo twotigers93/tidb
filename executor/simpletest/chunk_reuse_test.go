@@ -17,8 +17,8 @@ package simpletest
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestLongBlobReuse(t *testing.T) {

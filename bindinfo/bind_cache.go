@@ -18,11 +18,11 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/kvcache"
-	"github.com/pingcap/tidb/util/mathutil"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/kvcache"
+	"github.com/twotigers93/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 // bindCache uses the LRU cache to store the bindRecord.

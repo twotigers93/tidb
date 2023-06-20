@@ -17,7 +17,7 @@ package ddl
 import (
 	"github.com/ngaut/pools"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/atomic"
 )
 

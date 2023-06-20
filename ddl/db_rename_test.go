@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestRenameIndex(t *testing.T) {

@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"unicode/utf8"
 
-	mysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/util/dbterror"
+	mysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 // JSONTypeCode indicates JSON type.

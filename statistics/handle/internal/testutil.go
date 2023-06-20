@@ -17,7 +17,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/statistics"
+	"github.com/twotigers93/tidb/statistics"
 	"github.com/stretchr/testify/require"
 )
 

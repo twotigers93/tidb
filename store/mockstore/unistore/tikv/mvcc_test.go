@@ -28,12 +28,12 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/store/mockstore/unistore/config"
-	"github.com/pingcap/tidb/store/mockstore/unistore/lockstore"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/kverrors"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/mvcc"
-	"github.com/pingcap/tidb/store/mockstore/unistore/util/lockwaiter"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/config"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/lockstore"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/kverrors"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/mvcc"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/util/lockwaiter"
 )
 
 var maxTs = uint64(math.MaxUint64)

@@ -17,9 +17,9 @@ package cascades
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/planner/memo"
-	"github.com/pingcap/tidb/planner/property"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/planner/memo"
+	"github.com/twotigers93/tidb/planner/property"
 	"github.com/stretchr/testify/require"
 )
 

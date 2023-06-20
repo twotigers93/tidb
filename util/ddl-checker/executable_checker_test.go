@@ -18,8 +18,8 @@ import (
 	"container/list"
 	"testing"
 
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 type parseTestData struct {

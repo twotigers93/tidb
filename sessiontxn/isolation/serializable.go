@@ -17,11 +17,11 @@ package isolation
 import (
 	"context"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/sessiontxn"
 )
 
 // PessimisticSerializableTxnContextProvider provides txn context for isolation level oracle-like serializable

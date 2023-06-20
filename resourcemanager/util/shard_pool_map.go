@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/intest"
+	"github.com/twotigers93/tidb/util/intest"
 )
 
 const shard = 8

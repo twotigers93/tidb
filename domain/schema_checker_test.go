@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/parser/terror"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/txnkv/transaction"
+	"github.com/twotigers93/tidb/parser/terror"
 )
 
 func TestSchemaCheckerSimple(t *testing.T) {

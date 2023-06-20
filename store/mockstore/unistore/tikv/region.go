@@ -32,10 +32,10 @@ import (
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/kvproto/pkg/pdpb"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/store/mockstore/unistore/metrics"
-	"github.com/pingcap/tidb/store/mockstore/unistore/pd"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/mvcc"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/metrics"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/pd"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/mvcc"
+	"github.com/twotigers93/tidb/util/codec"
 	"go.uber.org/zap"
 )
 

@@ -15,9 +15,9 @@
 package loaddata
 
 import (
-	"github.com/pingcap/tidb/br/pkg/lightning/backend"
-	"github.com/pingcap/tidb/br/pkg/lightning/mydump"
-	"github.com/pingcap/tidb/executor/importer"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
+	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
+	"github.com/twotigers93/tidb/executor/importer"
 )
 
 // TaskStep of LoadData.

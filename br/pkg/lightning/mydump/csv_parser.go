@@ -22,13 +22,13 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/lightning/metric"
-	"github.com/pingcap/tidb/br/pkg/lightning/worker"
-	tidbconfig "github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/metric"
+	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
+	tidbconfig "github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/mathutil"
 	"golang.org/x/exp/slices"
 )
 

@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/util"
 )
 
 var (

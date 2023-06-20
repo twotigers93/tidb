@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	"github.com/pingcap/errors"
-	tfilter "github.com/pingcap/tidb/util/table-filter"
-	selector "github.com/pingcap/tidb/util/table-rule-selector"
+	tfilter "github.com/twotigers93/tidb/util/table-filter"
+	selector "github.com/twotigers93/tidb/util/table-rule-selector"
 )
 
 // ActionType is do or ignore something

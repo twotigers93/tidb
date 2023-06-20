@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
 	"github.com/stretchr/testify/require"
 )
 

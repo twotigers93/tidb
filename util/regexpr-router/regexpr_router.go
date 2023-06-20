@@ -19,8 +19,8 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/util/filter"
-	router "github.com/pingcap/tidb/util/table-router"
+	"github.com/twotigers93/tidb/util/filter"
+	router "github.com/twotigers93/tidb/util/table-router"
 )
 
 // FilterType is the type of filter

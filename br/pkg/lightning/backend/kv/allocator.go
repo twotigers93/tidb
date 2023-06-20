@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/pingcap/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/meta/autoid"
 )
 
 // panickingAllocator is an ID allocator which panics on all operations except Rebase

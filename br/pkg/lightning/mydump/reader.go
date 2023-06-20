@@ -23,10 +23,10 @@ import (
 	"unicode/utf8"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/lightning/worker"
-	"github.com/pingcap/tidb/br/pkg/storage"
 	"github.com/spkg/bom"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
+	"github.com/twotigers93/tidb/br/pkg/storage"
 	"go.uber.org/zap"
 	"golang.org/x/text/encoding/simplifiedchinese"
 )

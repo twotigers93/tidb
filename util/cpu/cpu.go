@@ -21,9 +21,9 @@ import (
 
 	"github.com/cloudfoundry/gosigar"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/util/cgroup"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/util/cgroup"
+	"github.com/twotigers93/tidb/util/mathutil"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

@@ -17,8 +17,8 @@ package implementation
 import (
 	"testing"
 
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/planner/memo"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/planner/memo"
 	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 )

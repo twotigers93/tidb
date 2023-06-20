@@ -18,9 +18,9 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/extension"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/extension"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 // IDriver opens IContext.

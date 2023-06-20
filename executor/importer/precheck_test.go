@@ -17,8 +17,8 @@ package importer
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/precheck"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/precheck"
 )
 
 func TestPreCheckCollector(t *testing.T) {

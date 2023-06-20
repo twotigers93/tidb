@@ -15,8 +15,8 @@
 package metrics
 
 import (
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/metrics"
+	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

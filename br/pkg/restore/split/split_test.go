@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
-	"github.com/pingcap/tidb/br/pkg/restore/split"
-	"github.com/pingcap/tidb/br/pkg/utils"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
+	"github.com/twotigers93/tidb/br/pkg/restore/split"
+	"github.com/twotigers93/tidb/br/pkg/utils"
 	"github.com/stretchr/testify/require"
 )
 

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/planner/property"
+	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/stretchr/testify/require"
 )
 

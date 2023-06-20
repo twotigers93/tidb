@@ -5,8 +5,8 @@ package utils
 import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	berrors "github.com/pingcap/tidb/br/pkg/errors"
-	"github.com/pingcap/tidb/br/pkg/logutil"
+	berrors "github.com/twotigers93/tidb/br/pkg/errors"
+	"github.com/twotigers93/tidb/br/pkg/logutil"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 )

@@ -19,14 +19,14 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
 )
 
 func TestAddIndexFetchRowsFromCoprocessor(t *testing.T) {

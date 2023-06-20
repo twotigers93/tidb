@@ -15,9 +15,9 @@
 package structure
 
 import (
-	mysql "github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/dbterror"
+	mysql "github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/util/dbterror"
 )
 
 var (

@@ -17,7 +17,7 @@ package stmtstats
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/util/topsql/state"
+	"github.com/twotigers93/tidb/util/topsql/state"
 	"github.com/stretchr/testify/assert"
 	"github.com/tikv/client-go/v2/tikvrpc"
 )

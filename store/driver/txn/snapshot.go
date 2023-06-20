@@ -20,9 +20,9 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/kv"
-	derr "github.com/pingcap/tidb/store/driver/error"
-	"github.com/pingcap/tidb/store/driver/options"
+	"github.com/twotigers93/tidb/kv"
+	derr "github.com/twotigers93/tidb/store/driver/error"
+	"github.com/twotigers93/tidb/store/driver/options"
 	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/tikv/client-go/v2/tikvrpc/interceptor"
 	"github.com/tikv/client-go/v2/txnkv"

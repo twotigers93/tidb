@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/checkpoints"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	ropts "github.com/pingcap/tidb/br/pkg/lightning/importer/opts"
-	"github.com/pingcap/tidb/br/pkg/lightning/mydump"
-	"github.com/pingcap/tidb/br/pkg/lightning/precheck"
+	"github.com/twotigers93/tidb/br/pkg/lightning/checkpoints"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	ropts "github.com/twotigers93/tidb/br/pkg/lightning/importer/opts"
+	"github.com/twotigers93/tidb/br/pkg/lightning/mydump"
+	"github.com/twotigers93/tidb/br/pkg/lightning/precheck"
 )
 
 type precheckContextKey string

@@ -5,8 +5,8 @@ package operator
 import (
 	"time"
 
-	"github.com/pingcap/tidb/br/pkg/task"
 	"github.com/spf13/pflag"
+	"github.com/twotigers93/tidb/br/pkg/task"
 )
 
 type PauseGcConfig struct {

@@ -24,7 +24,7 @@ import (
 	"github.com/mgechev/revive/lint"
 	"github.com/mgechev/revive/rule"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 	"go.uber.org/zap"
 	"golang.org/x/tools/go/analysis"
 )

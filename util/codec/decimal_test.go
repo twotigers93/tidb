@@ -17,7 +17,7 @@ package codec
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/types"
 	"github.com/stretchr/testify/require"
 )
 

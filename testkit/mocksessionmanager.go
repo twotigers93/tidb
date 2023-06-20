@@ -18,13 +18,13 @@ import (
 	"crypto/tls"
 	"sync"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/session/txninfo"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/session/txninfo"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/util"
 )
 
 // MockSessionManager is a mocked session manager which is used for test.

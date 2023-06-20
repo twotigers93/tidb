@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/google/pprof/profile"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/cpuprofile"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/logutil"
-	topsqlstate "github.com/pingcap/tidb/util/topsql/state"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/cpuprofile"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/logutil"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
 	"go.uber.org/zap"
 )
 

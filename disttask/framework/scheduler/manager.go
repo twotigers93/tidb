@@ -20,10 +20,10 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/disttask/framework/proto"
-	"github.com/pingcap/tidb/resourcemanager/pool/spool"
-	"github.com/pingcap/tidb/resourcemanager/util"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/resourcemanager/pool/spool"
+	"github.com/twotigers93/tidb/resourcemanager/util"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

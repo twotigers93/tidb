@@ -18,14 +18,14 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/backend"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/kv"
-	"github.com/pingcap/tidb/disttask/framework/proto"
-	"github.com/pingcap/tidb/disttask/framework/scheduler"
-	"github.com/pingcap/tidb/executor/asyncloaddata"
-	"github.com/pingcap/tidb/executor/importer"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/kv"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/disttask/framework/scheduler"
+	"github.com/twotigers93/tidb/executor/asyncloaddata"
+	"github.com/twotigers93/tidb/executor/importer"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

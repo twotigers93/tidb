@@ -17,7 +17,7 @@ package issuetest
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 // It's a case for index merge's order prop push down.

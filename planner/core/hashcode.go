@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/pingcap/tidb/util/plancodec"
+	"github.com/twotigers93/tidb/util/plancodec"
 	"golang.org/x/exp/slices"
 )
 

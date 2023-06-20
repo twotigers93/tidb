@@ -18,9 +18,9 @@ import (
 	"fmt"
 
 	"github.com/fsouza/fake-gcs-server/fakestorage"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/dbterror/exeerrors"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/dbterror/exeerrors"
 )
 
 func (s *mockGCSSuite) TestPreCheckTableNotEmpty() {

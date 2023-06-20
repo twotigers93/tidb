@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/store/helper"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/benchdaily"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/store/helper"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/benchdaily"
 	"github.com/stretchr/testify/require"
 )
 

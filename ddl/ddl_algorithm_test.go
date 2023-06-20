@@ -17,9 +17,9 @@ package ddl_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/util/dbterror"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/util/dbterror"
 	"github.com/stretchr/testify/require"
 )
 

@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/restore/ingestrec"
-	"github.com/pingcap/tidb/parser/model"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/restore/ingestrec"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 const (

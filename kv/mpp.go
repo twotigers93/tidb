@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/pingcap/kvproto/pkg/mpp"
-	"github.com/pingcap/tidb/util/memory"
-	"github.com/pingcap/tidb/util/tiflashcompute"
+	"github.com/twotigers93/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/tiflashcompute"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

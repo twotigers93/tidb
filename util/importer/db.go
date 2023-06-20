@@ -23,8 +23,8 @@ import (
 	_ "github.com/go-sql-driver/mysql" // for mysql driver
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/util/dbutil"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/util/dbutil"
 	"go.uber.org/zap"
 )
 

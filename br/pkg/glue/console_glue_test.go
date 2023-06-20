@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/fatih/color"
-	"github.com/pingcap/tidb/br/pkg/glue"
+	"github.com/twotigers93/tidb/br/pkg/glue"
 	"github.com/stretchr/testify/require"
 )
 

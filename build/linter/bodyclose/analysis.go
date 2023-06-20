@@ -15,7 +15,7 @@
 package bodyclose
 
 import (
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 	"github.com/timakin/bodyclose/passes/bodyclose"
 )
 

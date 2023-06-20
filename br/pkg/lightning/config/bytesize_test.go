@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/BurntSushi/toml"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
 	"github.com/stretchr/testify/require"
 )
 

@@ -18,10 +18,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 	"github.com/stretchr/testify/require"
 )
 

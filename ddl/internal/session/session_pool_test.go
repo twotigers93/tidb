@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	"github.com/ngaut/pools"
-	"github.com/pingcap/tidb/ddl/internal/session"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/ddl/internal/session"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

@@ -24,12 +24,12 @@ import (
 	"time"
 
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store"
-	"github.com/pingcap/tidb/store/driver"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/store"
+	"github.com/twotigers93/tidb/store/driver"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

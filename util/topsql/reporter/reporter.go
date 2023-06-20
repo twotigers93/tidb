@@ -19,12 +19,12 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/topsql/collector"
-	reporter_metrics "github.com/pingcap/tidb/util/topsql/reporter/metrics"
-	topsqlstate "github.com/pingcap/tidb/util/topsql/state"
-	"github.com/pingcap/tidb/util/topsql/stmtstats"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/topsql/collector"
+	reporter_metrics "github.com/twotigers93/tidb/util/topsql/reporter/metrics"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
+	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 	"go.uber.org/zap"
 )
 

@@ -4,7 +4,7 @@ package split_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/restore/split"
+	"github.com/twotigers93/tidb/br/pkg/restore/split"
 	"github.com/stretchr/testify/require"
 )
 

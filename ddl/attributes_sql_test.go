@@ -22,14 +22,14 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/ddl/util"
-	"github.com/pingcap/tidb/domain/infosync"
-	"github.com/pingcap/tidb/keyspace"
-	"github.com/pingcap/tidb/store/gcworker"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/util/gcutil"
 	"github.com/stretchr/testify/require"
 	tikvutil "github.com/tikv/client-go/v2/util"
+	"github.com/twotigers93/tidb/ddl/util"
+	"github.com/twotigers93/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/keyspace"
+	"github.com/twotigers93/tidb/store/gcworker"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/util/gcutil"
 )
 
 // MockGC is used to make GC work in the test environment.

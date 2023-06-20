@@ -23,18 +23,18 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend/local"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/ddl/ingest"
-	"github.com/pingcap/tidb/ddl/testutil"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend/local"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/ddl/ingest"
+	"github.com/twotigers93/tidb/ddl/testutil"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 )
 
 func TestAddIndexIngestMemoryUsage(t *testing.T) {

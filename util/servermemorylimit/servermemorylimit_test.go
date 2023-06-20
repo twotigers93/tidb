@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util"
 )
 
 func TestMemoryUsageOpsHistory(t *testing.T) {

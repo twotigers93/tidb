@@ -20,7 +20,7 @@ import (
 	"strconv"
 
 	"github.com/fsouza/fake-gcs-server/fakestorage"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func (s *mockGCSSuite) TestFilenameAsterisk() {

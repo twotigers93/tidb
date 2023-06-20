@@ -17,7 +17,7 @@ package expression
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/ast"
 	"github.com/stretchr/testify/require"
 )
 

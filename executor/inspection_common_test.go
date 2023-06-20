@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestInspectionRules(t *testing.T) {

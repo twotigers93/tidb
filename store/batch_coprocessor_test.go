@@ -22,13 +22,13 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/store/mockstore/unistore"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/external"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/testutils"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/store/mockstore"
+	"github.com/twotigers93/tidb/store/mockstore/unistore"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/external"
 )
 
 func createMockTiKVStoreOptions(tiflashNum int) []mockstore.MockTiKVStoreOption {

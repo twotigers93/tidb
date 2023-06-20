@@ -22,12 +22,12 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/storage"
-	regexprrouter "github.com/pingcap/tidb/util/regexpr-router"
-	filter "github.com/pingcap/tidb/util/table-filter"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/storage"
+	regexprrouter "github.com/twotigers93/tidb/util/regexpr-router"
+	filter "github.com/twotigers93/tidb/util/table-filter"
 	"go.uber.org/zap"
 )
 

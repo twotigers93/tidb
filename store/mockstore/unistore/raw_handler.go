@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/store/mockstore/unistore/lockstore"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/lockstore"
 )
 
 type rawHandler struct {

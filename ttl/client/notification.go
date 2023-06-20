@@ -17,7 +17,7 @@ package client
 import (
 	"context"
 
-	"github.com/pingcap/tidb/ddl/util"
+	"github.com/twotigers93/tidb/ddl/util"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

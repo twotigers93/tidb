@@ -5,7 +5,7 @@ package mock_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/mock"
+	"github.com/twotigers93/tidb/br/pkg/mock"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 )

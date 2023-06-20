@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/intest"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/intest"
+	"github.com/twotigers93/tidb/util/memory"
 	atomicutil "go.uber.org/atomic"
 )
 

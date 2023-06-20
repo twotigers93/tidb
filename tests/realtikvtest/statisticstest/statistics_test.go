@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/statistics/handle"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/tests/realtikvtest"
+	"github.com/twotigers93/tidb/statistics/handle"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/tests/realtikvtest"
 	"github.com/stretchr/testify/require"
 )
 

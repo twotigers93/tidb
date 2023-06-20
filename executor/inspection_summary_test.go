@@ -19,12 +19,12 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/set"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/set"
 	"github.com/stretchr/testify/require"
 )
 

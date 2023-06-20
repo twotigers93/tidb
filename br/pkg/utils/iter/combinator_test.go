@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/br/pkg/utils/iter"
+	"github.com/twotigers93/tidb/br/pkg/utils/iter"
 	"github.com/stretchr/testify/require"
 )
 

@@ -18,7 +18,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/pingcap/tidb/util/channel"
+	"github.com/twotigers93/tidb/util/channel"
 )
 
 // Context is a interface that can be used to create a context.

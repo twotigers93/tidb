@@ -16,7 +16,7 @@ package resourcegroup
 
 import (
 	rmpb "github.com/pingcap/kvproto/pkg/resource_manager"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 // MaxGroupNameLength is max length of the name of a resource group

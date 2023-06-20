@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
 )
 
 func TestParseKey(t *testing.T) {

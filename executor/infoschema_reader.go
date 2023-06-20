@@ -30,47 +30,47 @@ import (
 	"github.com/pingcap/kvproto/pkg/deadlock"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	rmpb "github.com/pingcap/kvproto/pkg/resource_manager"
-	"github.com/pingcap/tidb/ddl/label"
-	"github.com/pingcap/tidb/ddl/placement"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/domain/infosync"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/parser/charset"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/privilege"
-	"github.com/pingcap/tidb/privilege/privileges"
-	"github.com/pingcap/tidb/session/txninfo"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/store/helper"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/collate"
-	"github.com/pingcap/tidb/util/deadlockhistory"
-	"github.com/pingcap/tidb/util/hint"
-	"github.com/pingcap/tidb/util/keydecoder"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/mathutil"
-	"github.com/pingcap/tidb/util/memory"
-	"github.com/pingcap/tidb/util/pdapi"
-	"github.com/pingcap/tidb/util/resourcegrouptag"
-	"github.com/pingcap/tidb/util/sem"
-	"github.com/pingcap/tidb/util/servermemorylimit"
-	"github.com/pingcap/tidb/util/set"
-	"github.com/pingcap/tidb/util/sqlexec"
-	"github.com/pingcap/tidb/util/stringutil"
-	"github.com/pingcap/tidb/util/syncutil"
+	"github.com/twotigers93/tidb/ddl/label"
+	"github.com/twotigers93/tidb/ddl/placement"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/domain/infosync"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/expression"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta/autoid"
+	"github.com/twotigers93/tidb/parser/charset"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/privilege"
+	"github.com/twotigers93/tidb/privilege/privileges"
+	"github.com/twotigers93/tidb/session/txninfo"
+	"github.com/twotigers93/tidb/sessionctx"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/store/helper"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/codec"
+	"github.com/twotigers93/tidb/util/collate"
+	"github.com/twotigers93/tidb/util/deadlockhistory"
+	"github.com/twotigers93/tidb/util/hint"
+	"github.com/twotigers93/tidb/util/keydecoder"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/pdapi"
+	"github.com/twotigers93/tidb/util/resourcegrouptag"
+	"github.com/twotigers93/tidb/util/sem"
+	"github.com/twotigers93/tidb/util/servermemorylimit"
+	"github.com/twotigers93/tidb/util/set"
+	"github.com/twotigers93/tidb/util/sqlexec"
+	"github.com/twotigers93/tidb/util/stringutil"
+	"github.com/twotigers93/tidb/util/syncutil"
 	"github.com/tikv/client-go/v2/tikv"
 	"github.com/tikv/client-go/v2/tikvrpc"
 	"github.com/tikv/client-go/v2/txnkv/txnlock"
@@ -995,27 +995,27 @@ ForColumnsTag:
 			}
 		}
 		record := types.MakeDatums(
-			infoschema.CatalogVal, // TABLE_CATALOG
-			schema.Name.O,         // TABLE_SCHEMA
-			tbl.Name.O,            // TABLE_NAME
-			col.Name.O,            // COLUMN_NAME
-			i,                     // ORDINAL_POSITION
-			columnDefault,         // COLUMN_DEFAULT
-			columnDesc.Null,       // IS_NULLABLE
-			types.TypeToStr(ft.GetType(), ft.GetCharset()), // DATA_TYPE
-			charMaxLen,           // CHARACTER_MAXIMUM_LENGTH
-			charOctLen,           // CHARACTER_OCTET_LENGTH
-			numericPrecision,     // NUMERIC_PRECISION
-			numericScale,         // NUMERIC_SCALE
-			datetimePrecision,    // DATETIME_PRECISION
-			columnDesc.Charset,   // CHARACTER_SET_NAME
-			columnDesc.Collation, // COLLATION_NAME
-			columnType,           // COLUMN_TYPE
-			columnDesc.Key,       // COLUMN_KEY
-			columnDesc.Extra,     // EXTRA
+			infoschema.CatalogVal,                                                                // TABLE_CATALOG
+			schema.Name.O,                                                                        // TABLE_SCHEMA
+			tbl.Name.O,                                                                           // TABLE_NAME
+			col.Name.O,                                                                           // COLUMN_NAME
+			i,                                                                                    // ORDINAL_POSITION
+			columnDefault,                                                                        // COLUMN_DEFAULT
+			columnDesc.Null,                                                                      // IS_NULLABLE
+			types.TypeToStr(ft.GetType(), ft.GetCharset()),                                       // DATA_TYPE
+			charMaxLen,                                                                           // CHARACTER_MAXIMUM_LENGTH
+			charOctLen,                                                                           // CHARACTER_OCTET_LENGTH
+			numericPrecision,                                                                     // NUMERIC_PRECISION
+			numericScale,                                                                         // NUMERIC_SCALE
+			datetimePrecision,                                                                    // DATETIME_PRECISION
+			columnDesc.Charset,                                                                   // CHARACTER_SET_NAME
+			columnDesc.Collation,                                                                 // COLLATION_NAME
+			columnType,                                                                           // COLUMN_TYPE
+			columnDesc.Key,                                                                       // COLUMN_KEY
+			columnDesc.Extra,                                                                     // EXTRA
 			strings.ToLower(privileges.PrivToString(priv, mysql.AllColumnPrivs, mysql.Priv2Str)), // PRIVILEGES
-			columnDesc.Comment,      // COLUMN_COMMENT
-			col.GeneratedExprString, // GENERATION_EXPRESSION
+			columnDesc.Comment,                                                                   // COLUMN_COMMENT
+			col.GeneratedExprString,                                                              // GENERATION_EXPRESSION
 		)
 		e.rows = append(e.rows, record)
 		i++
@@ -1460,12 +1460,12 @@ func (e *memtableRetriever) setDataFromEngines() {
 	var rows [][]types.Datum
 	rows = append(rows,
 		types.MakeDatums(
-			"InnoDB",  // Engine
-			"DEFAULT", // Support
+			"InnoDB",                                                     // Engine
+			"DEFAULT",                                                    // Support
 			"Supports transactions, row-level locking, and foreign keys", // Comment
-			"YES", // Transactions
-			"YES", // XA
-			"YES", // Savepoints
+			"YES",                                                        // Transactions
+			"YES",                                                        // XA
+			"YES",                                                        // Savepoints
 		),
 	)
 	e.rows = rows
@@ -2233,14 +2233,14 @@ func (e *memtableRetriever) setDataForServersInfo(ctx sessionctx.Context) error 
 	rows := make([][]types.Datum, 0, len(serversInfo))
 	for _, info := range serversInfo {
 		row := types.MakeDatums(
-			info.ID,              // DDL_ID
-			info.IP,              // IP
-			int(info.Port),       // PORT
-			int(info.StatusPort), // STATUS_PORT
-			info.Lease,           // LEASE
-			info.Version,         // VERSION
-			info.GitHash,         // GIT_HASH
-			info.BinlogStatus,    // BINLOG_STATUS
+			info.ID,                                       // DDL_ID
+			info.IP,                                       // IP
+			int(info.Port),                                // PORT
+			int(info.StatusPort),                          // STATUS_PORT
+			info.Lease,                                    // LEASE
+			info.Version,                                  // VERSION
+			info.GitHash,                                  // GIT_HASH
+			info.BinlogStatus,                             // BINLOG_STATUS
 			stringutil.BuildStringFromLabels(info.Labels), // LABELS
 		)
 		if sem.IsEnabled() {
@@ -2314,10 +2314,10 @@ func (e *memtableRetriever) dataForTableTiFlashReplica(ctx sessionctx.Context, s
 			progressString := types.TruncateFloatToString(progress, 2)
 			progress, _ = strconv.ParseFloat(progressString, 64)
 			record := types.MakeDatums(
-				schema.Name.O,                   // TABLE_SCHEMA
-				tbl.Name.O,                      // TABLE_NAME
-				tbl.ID,                          // TABLE_ID
-				int64(tbl.TiFlashReplica.Count), // REPLICA_COUNT
+				schema.Name.O,                                        // TABLE_SCHEMA
+				tbl.Name.O,                                           // TABLE_NAME
+				tbl.ID,                                               // TABLE_ID
+				int64(tbl.TiFlashReplica.Count),                      // REPLICA_COUNT
 				strings.Join(tbl.TiFlashReplica.LocationLabels, ","), // LOCATION_LABELS
 				tbl.TiFlashReplica.Available,                         // AVAILABLE
 				progress,                                             // PROGRESS

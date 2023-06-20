@@ -17,9 +17,9 @@ package extension_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/extension"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/extension"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestBootstrap(t *testing.T) {

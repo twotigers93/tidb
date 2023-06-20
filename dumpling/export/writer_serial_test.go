@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/storage"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
-	"github.com/pingcap/tidb/util/promutil"
+	"github.com/twotigers93/tidb/br/pkg/storage"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/util/promutil"
 	"github.com/stretchr/testify/require"
 )
 

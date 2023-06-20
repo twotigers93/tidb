@@ -14,7 +14,7 @@
 // Package opts contains all kinds of options definitions that can affect the behavior of restore & get infos.
 package opts
 
-import "github.com/pingcap/tidb/br/pkg/lightning/mydump"
+import "github.com/twotigers93/tidb/br/pkg/lightning/mydump"
 
 // PrecheckItemBuilderConfig defines the config used in a precheck builder,
 // which affects the behavior for executing precheck items.

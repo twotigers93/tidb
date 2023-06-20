@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/pingcap/tipb/go-tipb"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

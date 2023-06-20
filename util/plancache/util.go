@@ -15,7 +15,7 @@
 package util
 
 import (
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/types"
 )
 
 // PlanCacheMatchOpts store some property used to fetch plan from plan cache

@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/disttask/framework/dispatcher"
-	"github.com/pingcap/tidb/disttask/framework/proto"
-	"github.com/pingcap/tidb/disttask/framework/scheduler"
-	"github.com/pingcap/tidb/disttask/framework/storage"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/disttask/framework/dispatcher"
+	"github.com/twotigers93/tidb/disttask/framework/proto"
+	"github.com/twotigers93/tidb/disttask/framework/scheduler"
+	"github.com/twotigers93/tidb/disttask/framework/storage"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

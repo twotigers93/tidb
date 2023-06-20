@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/ttl/cache"
-	"github.com/pingcap/tidb/ttl/session"
+	"github.com/twotigers93/tidb/ttl/cache"
+	"github.com/twotigers93/tidb/ttl/session"
 	"github.com/stretchr/testify/assert"
 )
 

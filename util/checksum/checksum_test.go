@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	encrypt2 "github.com/pingcap/tidb/util/encrypt"
 	"github.com/stretchr/testify/require"
+	encrypt2 "github.com/twotigers93/tidb/util/encrypt"
 )
 
 func TestChecksumReadAt(t *testing.T) {

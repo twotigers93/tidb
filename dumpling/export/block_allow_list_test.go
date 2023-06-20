@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/version"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
-	"github.com/pingcap/tidb/util/filter"
-	tf "github.com/pingcap/tidb/util/table-filter"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/version"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/util/filter"
+	tf "github.com/twotigers93/tidb/util/table-filter"
 )
 
 func TestFilterTables(t *testing.T) {

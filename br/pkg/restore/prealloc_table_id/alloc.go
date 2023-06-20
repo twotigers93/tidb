@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/pingcap/tidb/br/pkg/metautil"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/br/pkg/metautil"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 const (

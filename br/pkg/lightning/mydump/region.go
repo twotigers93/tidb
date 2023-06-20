@@ -22,11 +22,11 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/lightning/config"
-	"github.com/pingcap/tidb/br/pkg/lightning/log"
-	"github.com/pingcap/tidb/br/pkg/lightning/worker"
-	"github.com/pingcap/tidb/br/pkg/storage"
-	"github.com/pingcap/tidb/util/mathutil"
+	"github.com/twotigers93/tidb/br/pkg/lightning/config"
+	"github.com/twotigers93/tidb/br/pkg/lightning/log"
+	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
+	"github.com/twotigers93/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/util/mathutil"
 	"go.uber.org/zap"
 )
 

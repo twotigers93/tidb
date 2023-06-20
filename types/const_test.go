@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 )
 

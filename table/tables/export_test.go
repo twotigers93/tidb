@@ -14,7 +14,7 @@
 
 package tables
 
-import "github.com/pingcap/tidb/table"
+import "github.com/twotigers93/tidb/table"
 
 func SwapReorgPartFields(src, dst table.Table) bool {
 	s, ok := src.(*partitionedTable)

@@ -18,8 +18,8 @@ import (
 	"sort"
 	"sync"
 
-	infoschema_metrics "github.com/pingcap/tidb/infoschema/metrics"
-	"github.com/pingcap/tidb/util/logutil"
+	infoschema_metrics "github.com/twotigers93/tidb/infoschema/metrics"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

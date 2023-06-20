@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/types"
+	"github.com/twotigers93/tidb/types"
 	"github.com/tikv/client-go/v2/oracle"
 )
 

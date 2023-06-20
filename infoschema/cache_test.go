@@ -17,7 +17,7 @@ package infoschema_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/infoschema"
+	"github.com/twotigers93/tidb/infoschema"
 	"github.com/stretchr/testify/require"
 )
 

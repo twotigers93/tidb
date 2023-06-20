@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/util/replayer"
+	"github.com/twotigers93/tidb/util/replayer"
 	"github.com/stretchr/testify/require"
 )
 

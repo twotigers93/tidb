@@ -17,11 +17,11 @@ package cascades
 import (
 	"math"
 
-	"github.com/pingcap/tidb/expression"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	impl "github.com/pingcap/tidb/planner/implementation"
-	"github.com/pingcap/tidb/planner/memo"
-	"github.com/pingcap/tidb/planner/property"
+	"github.com/twotigers93/tidb/expression"
+	plannercore "github.com/twotigers93/tidb/planner/core"
+	impl "github.com/twotigers93/tidb/planner/implementation"
+	"github.com/twotigers93/tidb/planner/memo"
+	"github.com/twotigers93/tidb/planner/property"
 )
 
 // ImplementationRule defines the interface for implementation rules.

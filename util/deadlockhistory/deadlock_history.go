@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/logutil"
-	"github.com/pingcap/tidb/util/resourcegrouptag"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/logutil"
+	"github.com/twotigers93/tidb/util/resourcegrouptag"
 	tikverr "github.com/tikv/client-go/v2/error"
 	"go.uber.org/zap"
 )

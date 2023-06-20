@@ -22,13 +22,13 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	tidb_config "github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/driver/backoff"
-	derr "github.com/pingcap/tidb/store/driver/error"
 	"github.com/tikv/client-go/v2/config"
 	"github.com/tikv/client-go/v2/tikv"
 	"github.com/tikv/client-go/v2/tikvrpc"
+	tidb_config "github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/driver/backoff"
+	derr "github.com/twotigers93/tidb/store/driver/error"
 )
 
 type kvStore struct {

@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/sessionctx/binloginfo"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/executor"
+	"github.com/twotigers93/tidb/sessionctx/binloginfo"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/pingcap/tipb/go-binlog"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"

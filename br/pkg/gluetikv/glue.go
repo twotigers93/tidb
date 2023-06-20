@@ -5,14 +5,14 @@ package gluetikv
 import (
 	"context"
 
-	"github.com/pingcap/tidb/br/pkg/glue"
-	"github.com/pingcap/tidb/br/pkg/summary"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/br/pkg/version/build"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/driver"
+	"github.com/twotigers93/tidb/br/pkg/glue"
+	"github.com/twotigers93/tidb/br/pkg/summary"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/br/pkg/version/build"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/driver"
 	pd "github.com/tikv/pd/client"
 )
 

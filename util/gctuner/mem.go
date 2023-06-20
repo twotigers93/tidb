@@ -15,7 +15,7 @@
 package gctuner
 
 import (
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 func readMemoryInuse() uint64 {

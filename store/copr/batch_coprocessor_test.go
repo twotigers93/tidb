@@ -23,12 +23,12 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/driver/backoff"
-	"github.com/pingcap/tidb/util/logutil"
 	"github.com/stathat/consistent"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/tikv"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/store/driver/backoff"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

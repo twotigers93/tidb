@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 // TestSelectBindingOnGlobalTempTableProhibited covers https://github.com/pingcap/tidb/issues/26377

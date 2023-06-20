@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/common"
+	"github.com/twotigers93/tidb/br/pkg/lightning/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

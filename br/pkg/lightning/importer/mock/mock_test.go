@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/importer"
-	"github.com/pingcap/tidb/parser/model"
+	"github.com/twotigers93/tidb/br/pkg/lightning/importer"
+	"github.com/twotigers93/tidb/parser/model"
 	"github.com/stretchr/testify/require"
 )
 

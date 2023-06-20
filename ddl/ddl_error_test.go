@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/infoschema"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 // This test file contains tests that test the expected or unexpected DDL error.

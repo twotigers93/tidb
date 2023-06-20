@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	topsqlstate "github.com/pingcap/tidb/util/topsql/state"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

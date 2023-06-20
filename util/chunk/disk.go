@@ -20,13 +20,13 @@ import (
 	"strconv"
 
 	errors2 "github.com/pingcap/errors"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/checksum"
-	"github.com/pingcap/tidb/util/disk"
-	"github.com/pingcap/tidb/util/encrypt"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/checksum"
+	"github.com/twotigers93/tidb/util/disk"
+	"github.com/twotigers93/tidb/util/encrypt"
+	"github.com/twotigers93/tidb/util/memory"
 )
 
 // ListInDisk represents a slice of chunks storing in temporary disk.

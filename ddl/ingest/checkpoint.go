@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/config"
-	sess "github.com/pingcap/tidb/ddl/internal/session"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/config"
+	sess "github.com/twotigers93/tidb/ddl/internal/session"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/metautil"
-	prealloctableid "github.com/pingcap/tidb/br/pkg/restore/prealloc_table_id"
-	"github.com/pingcap/tidb/parser/model"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/br/pkg/metautil"
+	prealloctableid "github.com/twotigers93/tidb/br/pkg/restore/prealloc_table_id"
+	"github.com/twotigers93/tidb/parser/model"
 )
 
 type testAllocator int64

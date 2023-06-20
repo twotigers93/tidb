@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/planner/core/internal"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/testkit/testdata"
+	"github.com/twotigers93/tidb/domain"
+	"github.com/twotigers93/tidb/planner/core/internal"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit/testdata"
 	"github.com/stretchr/testify/require"
 )
 

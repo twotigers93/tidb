@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/planner/core"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/util"
 )
 
 func TestDomapHandleNil(t *testing.T) {

@@ -23,13 +23,12 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/kvproto/pkg/coprocessor"
-	. "github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/testkit/testutil"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/sessionctx/stmtctx"
+	"github.com/twotigers93/tidb/testkit/testutil"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 func TestPartialNext(t *testing.T) {

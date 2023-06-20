@@ -19,16 +19,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/sessiontxn"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/sessiontxn"
+	"github.com/twotigers93/tidb/table"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/codec"
 )
 
 func TestMultiValuedIndexDDL(t *testing.T) {

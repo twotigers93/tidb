@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/tidb/br/pkg/lightning/worker"
+	"github.com/twotigers93/tidb/br/pkg/lightning/worker"
 	"github.com/stretchr/testify/require"
 )
 

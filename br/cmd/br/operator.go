@@ -4,10 +4,10 @@ package main
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/task"
-	"github.com/pingcap/tidb/br/pkg/task/operator"
-	"github.com/pingcap/tidb/br/pkg/utils"
-	"github.com/pingcap/tidb/br/pkg/version/build"
+	"github.com/twotigers93/tidb/br/pkg/task"
+	"github.com/twotigers93/tidb/br/pkg/task/operator"
+	"github.com/twotigers93/tidb/br/pkg/utils"
+	"github.com/twotigers93/tidb/br/pkg/version/build"
 	"github.com/spf13/cobra"
 )
 

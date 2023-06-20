@@ -22,8 +22,8 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/kvcache"
+	"github.com/twotigers93/tidb/util/hack"
+	"github.com/twotigers93/tidb/util/kvcache"
 )
 
 /*

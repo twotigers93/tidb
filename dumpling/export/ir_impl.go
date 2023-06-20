@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/br/pkg/version"
-	tcontext "github.com/pingcap/tidb/dumpling/context"
+	"github.com/twotigers93/tidb/br/pkg/version"
+	tcontext "github.com/twotigers93/tidb/dumpling/context"
 	"go.uber.org/zap"
 )
 

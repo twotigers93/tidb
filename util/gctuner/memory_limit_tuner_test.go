@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/twotigers93/tidb/util/memory"
 	"github.com/stretchr/testify/require"
 )
 

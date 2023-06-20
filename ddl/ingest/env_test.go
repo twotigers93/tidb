@@ -17,8 +17,8 @@ package ingest_test
 import (
 	"testing"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/ddl/ingest"
+	"github.com/twotigers93/tidb/config"
+	"github.com/twotigers93/tidb/ddl/ingest"
 	"github.com/stretchr/testify/require"
 )
 

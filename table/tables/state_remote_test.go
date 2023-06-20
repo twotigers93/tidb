@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/session"
+	"github.com/twotigers93/tidb/table/tables"
+	"github.com/twotigers93/tidb/testkit"
 	"github.com/stretchr/testify/require"
 	"github.com/tikv/client-go/v2/oracle"
 )

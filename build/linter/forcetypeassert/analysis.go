@@ -16,7 +16,7 @@ package forcetypeassert
 
 import (
 	"github.com/gostaticanalysis/forcetypeassert"
-	"github.com/pingcap/tidb/build/linter/util"
+	"github.com/twotigers93/tidb/build/linter/util"
 )
 
 // Analyzer is the analyzer struct of forcetypeassert.

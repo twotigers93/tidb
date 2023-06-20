@@ -16,7 +16,7 @@ package local
 
 import (
 	"github.com/google/uuid"
-	"github.com/pingcap/tidb/br/pkg/lightning/backend"
+	"github.com/twotigers93/tidb/br/pkg/lightning/backend"
 	"golang.org/x/exp/slices"
 )
 

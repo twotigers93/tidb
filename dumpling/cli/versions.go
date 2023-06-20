@@ -16,7 +16,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/dumpling/log"
+	"github.com/twotigers93/tidb/dumpling/log"
 	"go.uber.org/zap"
 )
 

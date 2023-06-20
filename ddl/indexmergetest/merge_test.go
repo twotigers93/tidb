@@ -20,17 +20,17 @@ import (
 	"time"
 
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/ddl/ingest"
-	"github.com/pingcap/tidb/ddl/internal/callback"
-	"github.com/pingcap/tidb/ddl/testutil"
-	"github.com/pingcap/tidb/errno"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/testkit"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/ddl"
+	"github.com/twotigers93/tidb/ddl/ingest"
+	"github.com/twotigers93/tidb/ddl/internal/callback"
+	"github.com/twotigers93/tidb/ddl/testutil"
+	"github.com/twotigers93/tidb/errno"
+	"github.com/twotigers93/tidb/kv"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/tablecodec"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestAddIndexMergeProcess(t *testing.T) {

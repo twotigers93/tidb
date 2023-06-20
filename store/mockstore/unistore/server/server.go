@@ -21,11 +21,11 @@ import (
 	"github.com/pingcap/badger"
 	"github.com/pingcap/badger/options"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/store/mockstore/unistore/config"
-	"github.com/pingcap/tidb/store/mockstore/unistore/lockstore"
-	"github.com/pingcap/tidb/store/mockstore/unistore/pd"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv"
-	"github.com/pingcap/tidb/store/mockstore/unistore/tikv/mvcc"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/config"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/lockstore"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/pd"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv"
+	"github.com/twotigers93/tidb/store/mockstore/unistore/tikv/mvcc"
 )
 
 const (

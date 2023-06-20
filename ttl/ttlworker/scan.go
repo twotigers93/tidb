@@ -22,14 +22,14 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/parser/terror"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/ttl/cache"
-	"github.com/pingcap/tidb/ttl/metrics"
-	"github.com/pingcap/tidb/ttl/sqlbuilder"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/twotigers93/tidb/parser/terror"
+	"github.com/twotigers93/tidb/sessionctx/variable"
+	"github.com/twotigers93/tidb/ttl/cache"
+	"github.com/twotigers93/tidb/ttl/metrics"
+	"github.com/twotigers93/tidb/ttl/sqlbuilder"
+	"github.com/twotigers93/tidb/types"
+	"github.com/twotigers93/tidb/util/chunk"
+	"github.com/twotigers93/tidb/util/logutil"
 	"go.uber.org/zap"
 )
 

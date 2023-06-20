@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	topsqlstate "github.com/pingcap/tidb/util/topsql/state"
-	"github.com/pingcap/tidb/util/topsql/stmtstats"
+	topsqlstate "github.com/twotigers93/tidb/util/topsql/state"
+	"github.com/twotigers93/tidb/util/topsql/stmtstats"
 	"github.com/pingcap/tipb/go-tipb"
 	"github.com/stretchr/testify/require"
 )

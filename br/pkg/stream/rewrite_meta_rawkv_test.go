@@ -7,12 +7,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/parser/ast"
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	filter "github.com/pingcap/tidb/util/table-filter"
+	"github.com/twotigers93/tidb/meta"
+	"github.com/twotigers93/tidb/parser/ast"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/parser/mysql"
+	"github.com/twotigers93/tidb/types"
+	filter "github.com/twotigers93/tidb/util/table-filter"
 	"github.com/stretchr/testify/require"
 )
 

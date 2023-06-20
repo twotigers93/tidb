@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/parser/model"
-	"github.com/pingcap/tidb/testkit"
-	"github.com/pingcap/tidb/ttl/cache"
-	"github.com/pingcap/tidb/ttl/session"
 	"github.com/stretchr/testify/require"
+	"github.com/twotigers93/tidb/parser/model"
+	"github.com/twotigers93/tidb/testkit"
+	"github.com/twotigers93/tidb/ttl/cache"
+	"github.com/twotigers93/tidb/ttl/session"
 )
 
 func TestNewTTLTable(t *testing.T) {

@@ -19,7 +19,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/pingcap/tidb/testkit"
+	"github.com/twotigers93/tidb/testkit"
 )
 
 func TestBatchInsertWithOnDuplicate(t *testing.T) {

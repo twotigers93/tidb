@@ -23,8 +23,8 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	backuppb "github.com/pingcap/kvproto/pkg/brpb"
-	"github.com/pingcap/tidb/br/pkg/mock"
-	. "github.com/pingcap/tidb/br/pkg/storage"
+	"github.com/twotigers93/tidb/br/pkg/mock"
+	. "github.com/twotigers93/tidb/br/pkg/storage"
 	"github.com/stretchr/testify/require"
 )
 
