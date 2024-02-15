@@ -140,12 +140,12 @@ var (
 
 	// Base
 	store            = flag.String(nmStore, "unistore", "registered store name, [tikv, mocktikv, unistore]")
-	storePath        = flag.String(nmStorePath, "/tmp/tidb", "tidb storage path")
+	storePath        = flag.String(nmStorePath, "./tidb_db", "tidb storage path")
 	host             = flag.String(nmHost, "0.0.0.0", "tidb server host")
 	advertiseAddress = flag.String(nmAdvertiseAddress, "", "tidb server advertise IP")
 	port             = flag.String(nmPort, "4000", "tidb server port")
 	cors             = flag.String(nmCors, "", "tidb server allow cors origin")
-	socket           = flag.String(nmSocket, "/tmp/tidb-{Port}.sock", "The socket file to use for connection.")
+	socket           = flag.String(nmSocket, "./tidb_db-{Port}.sock", "The socket file to use for connection.")
 	enableBinlog     = flagBoolean(nmEnableBinlog, false, "enable generate binlog")
 	runDDL           = flagBoolean(nmRunDDL, true, "run ddl worker on this tidb-server")
 	ddlLease         = flag.String(nmDdlLease, "45s", "schema lease duration, very dangerous to change only if you know what you do")

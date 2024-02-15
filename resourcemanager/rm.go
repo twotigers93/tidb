@@ -15,6 +15,7 @@
 package resourcemanager
 
 import (
+	"runtime"
 	"time"
 
 	"github.com/google/uuid"
@@ -44,7 +45,10 @@ type ResourceManager struct {
 // NewResourceManger is to create a new resource manager
 func NewResourceManger() *ResourceManager {
 	sc := make([]scheduler.Scheduler, 0, 1)
-	sc = append(sc, scheduler.NewCPUScheduler())
+	if runtime.GOOS == "darwin" {
+	} else {
+		sc = append(sc, scheduler.NewCPUScheduler())
+	}
 	return &ResourceManager{
 		cpuObserver: cpu.NewCPUObserver(),
 		exitCh:      make(chan struct{}),
@@ -55,7 +59,10 @@ func NewResourceManger() *ResourceManager {
 
 // Start is to start resource manager
 func (r *ResourceManager) Start() {
-	r.wg.Run(r.cpuObserver.Start)
+	if runtime.GOOS == "darwin" {
+	} else {
+		r.wg.Run(r.cpuObserver.Start)
+	}
 	r.wg.Run(func() {
 		tick := time.NewTicker(100 * time.Millisecond)
 		defer tick.Stop()

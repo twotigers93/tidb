@@ -15,17 +15,12 @@
 package cpu
 
 import (
-	"os"
+	"runtime"
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/gosigar"
-	"github.com/pingcap/log"
-	"github.com/twotigers93/tidb/metrics"
-	"github.com/twotigers93/tidb/util/cgroup"
 	"github.com/twotigers93/tidb/util/mathutil"
 	"go.uber.org/atomic"
-	"go.uber.org/zap"
 )
 
 var cpuUsage atomic.Float64
@@ -59,64 +54,13 @@ func NewCPUObserver() *Observer {
 
 // Start starts the cpu observer.
 func (c *Observer) Start() {
-	_, err := cgroup.GetCgroupCPU()
-	if err != nil {
-		unsupported.Store(true)
-		log.Error("GetCgroupCPU", zap.Error(err))
+	if runtime.GOOS == "darwin" {
 		return
 	}
-	c.wg.Add(1)
-	go func() {
-		ticker := time.NewTicker(100 * time.Millisecond)
-		defer func() {
-			ticker.Stop()
-			c.wg.Done()
-		}()
-		for {
-			select {
-			case <-ticker.C:
-				curr := c.observe()
-				c.cpu.Add(curr)
-				cpuUsage.Store(c.cpu.Get())
-				metrics.EMACPUUsageGauge.Set(c.cpu.Get())
-			case <-c.exit:
-				return
-			}
-		}
-	}()
 }
 
 // Stop stops the cpu observer.
 func (c *Observer) Stop() {
 	close(c.exit)
 	c.wg.Wait()
-}
-
-func (c *Observer) observe() float64 {
-	user, sys, err := getCPUTime()
-	if err != nil {
-		log.Error("getCPUTime", zap.Error(err))
-	}
-	cgroupCPU, _ := cgroup.GetCgroupCPU()
-	cpuShare := cgroupCPU.CPUShares()
-	now := time.Now().UnixNano()
-	dur := float64(now - c.now)
-	utime := user * 1e6
-	stime := sys * 1e6
-	urate := float64(utime-c.utime) / dur
-	srate := float64(stime-c.stime) / dur
-	c.now = now
-	c.utime = utime
-	c.stime = stime
-	return (srate + urate) / cpuShare
-}
-
-// getCPUTime returns the cumulative user/system time (in ms) since the process start.
-func getCPUTime() (userTimeMillis, sysTimeMillis int64, err error) {
-	pid := os.Getpid()
-	cpuTime := sigar.ProcTime{}
-	if err := cpuTime.Get(pid); err != nil {
-		return 0, 0, err
-	}
-	return int64(cpuTime.User), int64(cpuTime.Sys), nil
 }
