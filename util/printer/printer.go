@@ -179,5 +179,4 @@ func GetPrintResult(cols []string, datas [][]string) (string, bool) {
 	return string(value), true
 }
 
-//go:linkname buildVersion runtime.buildVersion
 var buildVersion string
