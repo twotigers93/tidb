@@ -33,7 +33,6 @@ import (
 	"github.com/twotigers93/tidb/parser/mysql"
 	"github.com/twotigers93/tidb/privilege"
 	"github.com/twotigers93/tidb/privilege/conn"
-	"github.com/twotigers93/tidb/privilege/privileges/ldap"
 	"github.com/twotigers93/tidb/sessionctx"
 	"github.com/twotigers93/tidb/sessionctx/sessionstates"
 	"github.com/twotigers93/tidb/sessionctx/variable"
@@ -238,8 +237,6 @@ func (p *UserPrivileges) isValidHash(record *UserRecord) bool {
 		return true
 	case mysql.AuthTiDBAuthToken:
 		return true
-	case mysql.AuthLDAPSimple, mysql.AuthLDAPSASL:
-		return true
 	}
 
 	logutil.BgLogger().Error("user password from the mysql.user table not like a known hash format", zap.String("user", record.User), zap.String("plugin", record.AuthPlugin), zap.Int("hash_length", len(pwd)))
@@ -273,7 +270,7 @@ func (p *UserPrivileges) GetAuthPluginForConnection(user, host string) (string, 
 		return "", errors.New("Failed to get user record")
 	}
 	switch record.AuthPlugin {
-	case mysql.AuthTiDBAuthToken, mysql.AuthLDAPSASL, mysql.AuthLDAPSimple:
+	case mysql.AuthTiDBAuthToken:
 		return record.AuthPlugin, nil
 	}
 
@@ -569,18 +566,6 @@ func (p *UserPrivileges) ConnectionVerification(user *auth.UserIdentity, authUse
 		}
 		if err = checkAuthTokenClaims(claims, record, defaultTokenLife); err != nil {
 			logutil.BgLogger().Error("check claims failed", zap.Error(err))
-			return info, ErrAccessDenied.FastGenByArgs(user.Username, user.Hostname, hasPassword)
-		}
-	} else if record.AuthPlugin == mysql.AuthLDAPSASL {
-		//if err = ldap.LDAPSASLAuthImpl.AuthLDAPSASL(authUser, pwd, authentication, authConn); err != nil {
-		//	// though the pwd stores only `dn` for LDAP SASL, it could be unsafe to print it out.
-		//	// for example, someone may alter the auth plugin name but forgot to change the password...
-		//	logutil.BgLogger().Warn("verify through LDAP SASL failed", zap.String("username", user.Username), zap.Error(err))
-		//	return info, ErrAccessDenied.FastGenByArgs(user.Username, user.Hostname, hasPassword)
-		//}
-	} else if record.AuthPlugin == mysql.AuthLDAPSimple {
-		if err = ldap.LDAPSimpleAuthImpl.AuthLDAPSimple(authUser, pwd, authentication); err != nil {
-			logutil.BgLogger().Warn("verify through LDAP Simple failed", zap.String("username", user.Username), zap.Error(err))
 			return info, ErrAccessDenied.FastGenByArgs(user.Username, user.Hostname, hasPassword)
 		}
 	} else if len(pwd) > 0 && len(authentication) > 0 {

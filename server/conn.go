@@ -75,7 +75,6 @@ import (
 	"github.com/twotigers93/tidb/plugin"
 	"github.com/twotigers93/tidb/privilege"
 	"github.com/twotigers93/tidb/privilege/conn"
-	"github.com/twotigers93/tidb/privilege/privileges/ldap"
 	server_metrics "github.com/twotigers93/tidb/server/metrics"
 	"github.com/twotigers93/tidb/session"
 	"github.com/twotigers93/tidb/sessionctx"
@@ -210,11 +209,6 @@ func (cc *clientConn) CompareAndSwapStatus(oldStatus, newStatus int32) bool {
 // https://bugs.mysql.com/bug.php?id=93044
 func (cc *clientConn) authSwitchRequest(ctx context.Context, plugin string) ([]byte, error) {
 	clientPlugin := plugin
-	if plugin == mysql.AuthLDAPSASL {
-		clientPlugin += "_client"
-	} else if plugin == mysql.AuthLDAPSimple {
-		clientPlugin = mysql.AuthMySQLClearPassword
-	}
 	failpoint.Inject("FakeAuthSwitch", func() {
 		failpoint.Return([]byte(clientPlugin), nil)
 	})
@@ -223,14 +217,8 @@ func (cc *clientConn) authSwitchRequest(ctx context.Context, plugin string) ([]b
 	data = append(data, mysql.AuthSwitchRequest) // switch request
 	data = append(data, []byte(clientPlugin)...)
 	data = append(data, byte(0x00)) // requires null
-	if plugin == mysql.AuthLDAPSASL {
-		// append sasl auth method name
-		data = append(data, []byte(ldap.LDAPSASLAuthImpl.GetSASLAuthMethod())...)
-		data = append(data, byte(0x00))
-	} else {
-		data = append(data, cc.salt...)
-		data = append(data, 0)
-	}
+	data = append(data, cc.salt...)
+	data = append(data, 0)
 	err := cc.writePacket(data)
 	if err != nil {
 		logutil.Logger(ctx).Debug("write response to client failed", zap.Error(err))
@@ -676,8 +664,6 @@ func (cc *clientConn) readOptionalSSLRequestAndHandshakeResponse(ctx context.Con
 	case mysql.AuthTiDBSessionToken:
 	case mysql.AuthTiDBAuthToken:
 	case mysql.AuthMySQLClearPassword:
-	case mysql.AuthLDAPSASL:
-	case mysql.AuthLDAPSimple:
 	default:
 		return errors.New("Unknown auth plugin")
 	}
